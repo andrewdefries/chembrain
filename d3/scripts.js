@@ -1,13 +1,15 @@
 $(function() {
+  initButtons()
+
   nodes = []
   links = []
   fill = d3.scale.category20()
 
   initArea('#main')
-
-  forceArea()
+  initForce()
 
   addAtom('H', 100, 100)
+
 })
 
 
@@ -17,44 +19,65 @@ function initArea(selector) {
                            .attr("height", '100%')
 }
 
-function forceArea() {
+function initForce() {
   force = d3.layout.force()
            .nodes(nodes)
            .links(links)
-           .charge(-1500)
-           .friction(0.8)
+           .charge(-500)
+           .friction(0.1)
            .gravity(0.5)
-           // .size([w,h])
+           .size([500,500])
            .start()
 }
 
 function addAtom(element, x, y) {
   var atomRepr = atom(element)
+  atomRepr.id = nodes.length + 1
   nodes.push(atomRepr)
-  forceArea()
 
-  node = vis.selectAll(".node")
-          .data(nodes)
-          .enter()
-          .append("g")
-          .attr("class", "node")
-          .call(force.drag);
+  var link = vis.selectAll("line.link")
+    .data(links, function(d) { return d.source.id + "-" + d.target.id; });
 
-  node.append("circle")
-      .attr("r", function(d) {
-        return Math.pow(40 * d.size, 1/3);
-      })
-      .attr("fill", function(d) {
-        return fill(d.size);
-      })
-      .attr("stroke", "black")
-      .attr("stroke-width",2);
+  link.enter().insert("line")
+      .attr("class", "link");
 
-  node.attr("transform", function(d) {
-    console.log(d)
-    // return "translate(" + d.x + "," + d.y + ")";
-    return "translate(" + x + "," + y + ")";
-  });
+  link.exit().remove();
+
+  var node = vis.selectAll("g.node")
+    .data(nodes, function(d) { console.log(d); return d.id;});
+
+  var nodeEnter = node.enter().append("g")
+                              .attr("class", "node")
+                              .call(force.drag);
+
+    node.append("circle")
+        .attr("r", function(d) {
+          return Math.pow(40 * d.size, 1/3);
+        })
+        .attr("fill", function(d) {
+          return fill(d.size);
+        })
+        .attr("stroke", "black")
+        .attr("stroke-width",2);
+
+    nodeEnter.append("text")
+              .attr("class", "nodetext")
+              .attr("dx", 12)
+              .attr("dy", ".35em")
+              .text(function(d) {return d.atom});
+
+    // node.exit().remove();
+
+    force.on("tick", function() {
+      link.attr("x1", function(d) { return d.source.x; })
+          .attr("y1", function(d) { return d.source.y; })
+          .attr("x2", function(d) { return d.target.x; })
+          .attr("y2", function(d) { return d.target.y; });
+
+      node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    });
+
+    force.start();
 
   // var node = vis.selectAll(".node")
   //           .data(nodes)
@@ -101,6 +124,17 @@ function atom(letter) {
       return {}; //Not sure what to do here...
   }
 }
+
+
+function initButtons() {
+  $('.add-atom').click(function(e) {
+    var element = $(this).attr('data-element')
+    console.log(element)
+    addAtom(element, 200, 300)
+  })
+}
+
+
 
 var molecule = function(atoms_in_molecule){
   // we expect a string e.g. 'CCCNHOOHHHHHH'
