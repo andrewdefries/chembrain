@@ -1,4 +1,92 @@
-var atom = function(letter){
+$(function() {
+  nodes = []
+  links = []
+  fill = d3.scale.category20()
+
+  initArea('#main')
+
+  forceArea()
+
+  addAtom('H', 100, 100)
+})
+
+
+function initArea(selector) {
+  vis = d3.select(selector).append("svg")
+                           .attr("width", '100%')
+                           .attr("height", '100%')
+}
+
+function forceArea() {
+  force = d3.layout.force()
+           .nodes(nodes)
+           .links(links)
+           .charge(-1500)
+           .friction(0.8)
+           .gravity(0.5)
+           // .size([w,h])
+           .start()
+}
+
+function addAtom(element, x, y) {
+  var atomRepr = atom(element)
+  nodes.push(atomRepr)
+  forceArea()
+
+  node = vis.selectAll(".node")
+          .data(nodes)
+          .enter()
+          .append("g")
+          .attr("class", "node")
+          .call(force.drag);
+
+  node.append("circle")
+      .attr("r", function(d) {
+        return Math.pow(40 * d.size, 1/3);
+      })
+      .attr("fill", function(d) {
+        return fill(d.size);
+      })
+      .attr("stroke", "black")
+      .attr("stroke-width",2);
+
+  node.attr("transform", function(d) {
+    console.log(d)
+    // return "translate(" + d.x + "," + d.y + ")";
+    return "translate(" + x + "," + y + ")";
+  });
+
+  // var node = vis.selectAll(".node")
+  //           .data(nodes)
+  //           .enter()
+  //           .append("g")
+  //           .attr("class", "node")
+  //           .call(force.drag);
+
+
+  // node.append("circle")
+  //     .attr("r", function(d) {
+  //       return Math.pow(40 * d.size, 1/3);
+  //     })
+  //     .attr("fill", function(d) {
+  //       return fill(d.size);
+  //     })
+  //     .attr("stroke", "black")
+  //     .attr("stroke-width",2);
+
+  // node.append("text")
+  //     .attr("dx", function(d) {
+  //       return Math.pow(40 * d.size, 1/3) + 1;
+  //     })
+  //     .attr("dy", ".35em")
+  //     .text(function(d) {return d.atom;});
+
+
+  // console.log(element)
+}
+
+
+function atom(letter) {
   switch(letter)
   {
     case "C":
@@ -38,31 +126,31 @@ var render_molecule = function(selector, molecule_repr, height, width){
   var m = molecule_repr["molecule"]; // e.g. "HHO"
   var p = molecule_repr["links"]; // e.g. [[0, 2], [1, 2]]
 
-  var w=width,
-  h=height,
-  fill = d3.scale.category20(),
+  var w=width
+  var h=height
+  fill = d3.scale.category20()
 
-  nodes = molecule(m),
-  links = pairs_to_links(p),
+  nodes = molecule(m)
+  links = pairs_to_links(p)
 
-  vis = d3.select(selector).append("svg")
-                           .attr("width", w)
-                           .attr("height", h),
+  // vis = d3.select(selector).append("svg")
+  //                          .attr("width", w)
+  //                          .attr("height", h),
 
-  force = d3.layout.force()
-                   .nodes(nodes)
-                   .links(links)
-                   .charge(-1500)
-                   .friction(0.8)
-                   .gravity(0.5)
-                   .size([w,h])
-                   .start(),
+  // force = d3.layout.force()
+  //                  .nodes(nodes)
+  //                  .links(links)
+  //                  .charge(-1500)
+  //                  .friction(0.8)
+  //                  .gravity(0.5)
+  //                  .size([w,h])
+  //                  .start(),
 
   link = vis.selectAll("line")
             .data(links)
             .enter()
             .append("line")
-            .attr("class","link"),
+            .attr("class","link")
 
   node = vis.selectAll(".node")
             .data(nodes)
