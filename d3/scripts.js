@@ -19,9 +19,13 @@ function myGraph(el) {
   this.loadFromLocal = function() {
     var get = window.localStorage["savedMolecule"]
     if (get) {
-      var ob = JSON.parse(get)
-      graph.updateToMolecule(ob.nodes, ob.linkPairs)
+      this.loadJSON(get)
     }
+  }
+
+  this.loadJSON= function(json) {
+    var ob = JSON.parse(json)
+    graph.updateToMolecule(ob.nodes, ob.linkPairs)
   }
 
   // {nodes: {atomicNumber: 6, id: 4}, linkPairs: [[4,5]]}
