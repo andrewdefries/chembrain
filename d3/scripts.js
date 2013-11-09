@@ -165,7 +165,10 @@ function myGraph(el) {
       .attr("perserveAspectRatio", "xMinYMid")
       .append('svg:g');
 
-  var force = d3.layout.force();
+  var force = d3.layout.force()
+       .linkDistance(120)
+       .charge(-1500)
+       .friction(0.3)
 
   var nodes = force.nodes();
   var links = force.links();
