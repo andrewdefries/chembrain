@@ -3,6 +3,7 @@ $(function() {
 
   nodes = []
   links = []
+  selectedNode = null
   fill = d3.scale.category20()
 
   vis = d3.select('#main').append("svg")
@@ -22,15 +23,19 @@ $(function() {
 
 })
 
-function addAtom(element, linkedAtomId) {
+function addAtom(element, linkedAtom) {
+  if (linkedAtom && linkedAtom.free == 0) {
+    return null
+  }
+
   var atomRepr = atom(element)
   atomRepr.id = nodes.length
   nodes.push(atomRepr)
 
-  if (typeof linkedAtomId !== 'undefined') {
-    console.log(linkedAtomId)
-    console.log({source: atomRepr.id, target: linkedAtomId})
-    links.push({source: atomRepr.id, target: linkedAtomId, value: 1})
+  if (typeof linkedAtom !== 'undefined') {
+    links.push({source: atomRepr.id, target: linkedAtom.id, value: 1})
+    atomRepr.free -= 1;
+    linkedAtom.free -= 1;
   }
 
   var link = vis.selectAll("line.link")
@@ -56,7 +61,16 @@ function addAtom(element, linkedAtomId) {
         return fill(d.size);
       })
       .attr("stroke", "black")
-      .attr("stroke-width",2);
+      .attr("stroke-width",2)
+      .on('click', function(d,i) {
+        // TODO -- make selected node visually different
+        // add css to new selectedNode
+        // remove css to new selectedNode
+        // if (selectedNode) {selectedNode.attr("stroke", "black")};
+        selectedNode = d;
+        // selectedNode.attr("stroke", "green")
+
+      })
 
   nodeEnter.append("text")
             .attr("class", "nodetext")
@@ -83,13 +97,13 @@ function atom(letter) {
   switch(letter)
   {
     case "C":
-      return {"atom":"C", "size":12};
+      return {"atom":"C", "size":12, free: 4};
     case "H":
-      return {"atom":"H", "size":1};
+      return {"atom":"H", "size":1, free: 1};
     case "N":
-      return {"atom":"N", "size":7};
+      return {"atom":"N", "size":7, free: 3};
     case "O":
-      return {"atom":"O", "size":16};
+      return {"atom":"O", "size":16, free: 2};
     default:
       return {}; //Not sure what to do here...
   }
@@ -98,8 +112,18 @@ function atom(letter) {
 function initButtons() {
   $('.add-atom').click(function(e) {
     var element = $(this).attr('data-element')
-    addAtom(element)
+    if (selectedNode) {
+      addAtom(element, selectedNode);
+    }
   })
+}
+
+var free_electrons = function(atomSize){
+  if (atomSize <= 2){
+    return 2 - atomSize;
+  } if (atomSize < 18){
+    return ((2 - atomSize) % 8) + 8;
+  }
 }
 
 // ============ SECTION ===============
