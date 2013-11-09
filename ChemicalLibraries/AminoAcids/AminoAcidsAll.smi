@@ -8,7 +8,7 @@ c1ccc(cc1)C[C@@H](C(=O)O)N
 N[C@@H](Cc1ccc(O)cc1)C(O)=O
 N[C@@H](Cc1ccc(O)cc1)C(O)=O
 CSCCC(C(=O)O)N
-c1cnc(=O)[nH]c1N
+C([C@@H](C(=O)O)N)S
 C([C@@H](C(=O)O)N)O
 C[C@H]([C@@H](C(=O)O)N)O
 O=C(O)CC(N)C(=O)O

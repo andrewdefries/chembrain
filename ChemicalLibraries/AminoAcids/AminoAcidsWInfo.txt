@@ -18,7 +18,7 @@ trptophan	https://en.wikipedia.org/wiki/Tyrosine	N[C@@H](Cc1ccc(O)cc1)C(O)=O
 
 methionine	https://en.wikipedia.org/wiki/Methionine	CSCCC(C(=O)O)N
 
-cytosine	https://en.wikipedia.org/wiki/Cytosine	c1cnc(=O)[nH]c1N
+cysteine	https://en.wikipedia.org/wiki/Cysteine	C([C@@H](C(=O)O)N)S
 
 serine	https://en.wikipedia.org/wiki/Serine	C([C@@H](C(=O)O)N)O
 
