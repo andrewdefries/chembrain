@@ -1,0 +1,39 @@
+glycine	https://en.wikipedia.org/wiki/Glycine	C(C(=O)O)N
+
+alanine	https://en.wikipedia.org/wiki/Alanine	O=C(O)C(N)C
+
+valine	https://en.wikipedia.org/wiki/Valine	CC(C)[C@@H](C(=O)O)N
+
+leucine	https://en.wikipedia.org/wiki/Leucine	CC(C)C[C@@H](C(=O)O)N
+
+isoleucine	https://en.wikipedia.org/wiki/Isoleucine	CC[C@H](C)[C@@H](C(=O)O)N	
+
+proline	https://en.wikipedia.org/wiki/Proline	OC(=O)C1CCCN1
+
+phenylalanine https://en.wikipedia.org/wiki/Phenylalanine	c1ccc(cc1)C[C@@H](C(=O)O)N
+
+tyrosine	https://en.wikipedia.org/wiki/Tyrosine	N[C@@H](Cc1ccc(O)cc1)C(O)=O
+
+trptophan	https://en.wikipedia.org/wiki/Tyrosine	N[C@@H](Cc1ccc(O)cc1)C(O)=O
+
+methionine	https://en.wikipedia.org/wiki/Methionine	CSCCC(C(=O)O)N
+
+cytosine	https://en.wikipedia.org/wiki/Cytosine	c1cnc(=O)[nH]c1N
+
+serine	https://en.wikipedia.org/wiki/Serine	C([C@@H](C(=O)O)N)O
+
+threonine	https://en.wikipedia.org/wiki/Threonine	C[C@H]([C@@H](C(=O)O)N)O
+
+aspartate	https://en.wikipedia.org/wiki/Aspartate	O=C(O)CC(N)C(=O)O
+
+glutamic acid	https://en.wikipedia.org/wiki/Glutamic_acid	C(CC(=O)O)C(C(=O)O)N
+
+histadine	https://en.wikipedia.org/wiki/Histidine	O=C(O)[C@@H](N)Cc1cncn1
+
+lysine	https://en.wikipedia.org/wiki/Lysine	C(CCN)CC(C(=O)O)N
+
+arganine	https://en.wikipedia.org/wiki/Arganine	NC(CCC[nH]:c(:[nH]):[nH2])c(:[o]):[oH]
+
+asparagine	https://en.wikipedia.org/wiki/Asparagine	O=C(N)C[C@H](N)C(=O)O
+
+glutamine	https://en.wikipedia.org/wiki/Glutamine	O=C(N)CCC(N)C(=O)O
