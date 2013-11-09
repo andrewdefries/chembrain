@@ -2,17 +2,45 @@ var graph;
 var selectedNode;
 
 function myGraph(el) {
-  this.updateToMolecule = function(nodes, links) {
+  this.saveToLocal = function() {
+    var ob = {
+      linkPairs: _.map(links, function(link) {
+        return [link.source.id, link.target.id]
+      }),
+      nodes: _.map(nodes, function(node) {
+        return {atomicNumber: node.atomicNumber, id: node.id}
+      })
+    }
+
+    var stringed = JSON.stringify(ob)
+    window.localStorage.setItem("savedMolecule", stringed)
+  }
+
+  this.loadFromLocal = function() {
+    var get = window.localStorage["savedMolecule"]
+    if (get) {
+      var ob = JSON.parse(get)
+      graph.updateToMolecule(ob.nodes, ob.linkPairs)
+    }
+  }
+
+  // {nodes: {atomicNumber: 6, id: 4}, linkPairs: [[4,5]]}
+  this.updateToMolecule = function(oldNodes, linkPairs) {
+    var that = this
     this.removeAllNodes()
-    _.each(nodes, function(node) {
-      this.addNode()
+    _.each(oldNodes, function(node) {
+      that.addNode(node.atomicNumber, node.id)
+    })
+
+    _.each(linkPairs, function(linkPair) {
+      that.addLink(linkPair[0], linkPair[1], 1)
     })
   }
 
   this.addLinkedNode = function(letter, linkedId) {
     if (selectedNode == null) {
-      console.log('WARNING: YOU MUST SELECT A NODE BITCH')
-      return null
+      console.log('WARNING: YOU MUST SELECT A NODE BITCH');
+      return null;
     }
 
     var linkedNode = findNode(linkedId)
@@ -25,9 +53,14 @@ function myGraph(el) {
     this.addLink(newNode.id, linkedId, 1)
   }
 
-  this.addNode = function(letter) {
-    var atomRepr = getAtom(letter)
-    atomRepr.id = nodes.length == 0 && 1 || _.max( nodes, function(node) {return node.id}).id + 1
+  this.addNode = function(atomicNumber, id) {
+    if (_.find(nodes, function(node) { node.id == id })) {
+      console.log("TRIED TO CREATE A NODE OF AN ID THAT ALREADY EXISTED");
+      return null
+    }
+
+    var atomRepr = getAtom(atomicNumber)
+    atomRepr.id = id || nodes.length == 0 && 1 || _.max( nodes, function(node) {return node.id}).id + 1
     nodes.push(atomRepr)
     update();
     if (nodes.length == 1) {
@@ -221,17 +254,17 @@ function myGraph(el) {
   update();
 }
 
-function getAtom(atomSize) {
-  switch(parseInt(atomSize))
+function getAtom(atomicNumber) {
+  switch(parseInt(atomicNumber))
   {
     case 6:
-      return {atom:"C", size:12, electrons: 4, free: 4};
+      return {atom:"C", size:22, electrons: 4, atomicNumber: atomicNumber, free: 4};
     case 1:
-      return {atom:"H", size:1, electrons: 1, free: 1};
+      return {atom:"H", size:10, electrons: 1, atomicNumber: atomicNumber, free: 1};
     case 7:
-      return {atom:"N", size:14, electrons: 3, free: 3};
+      return {atom:"N", size:24, electrons: 3, atomicNumber: atomicNumber, free: 3};
     case 8:
-      return {atom:"O", size:16, electrons: 2, free: 2};
+      return {atom:"O", size:26, electrons: 2, atomicNumber: atomicNumber, free: 2};
     default:
       console.log('WARNING: unknown element created')
       return {}; //Not sure what to do here...
@@ -257,11 +290,11 @@ function initButtons() {
   })
 
   $('.save-to-local').click(function(e) {
-    saveToLocal()
+    graph.saveToLocal()
   })
 
   $('.load-from-local').click(function(e) {
-    loadFromLocal()
+    graph.loadFromLocal()
   })
 }
 
@@ -303,39 +336,6 @@ $(function () {
 //     return ((2 - atomSize) % 8) + 8;
 //   }
 // }
-
-
-// ============ LOCAL STORAGE ===============
-
-function saveToLocal() {
-  var ob = {
-    links: graph._links,
-    nodes: graph._nodes
-  }
-  console.log(ob)
-
-  var stringed = JSON.stringify(ob)
-  window.localStorage.setItem("savedMolecule", stringed)
-}
-
-function loadFromLocal() {
-  var get = window.localStorage["savedMolecule"]
-  if (get) {
-    var ob = JSON.parse(get)
-    console.log(ob)
-  }
-}
-
-function updateToMolecule(atoms, links) {
-  //clear
-  //add atoms
-  //add links
-  //
-  //
-}
-
-
-// ============ END LOCAL STORAGE ===============
 
 
 // ============ SECTION ===============
