@@ -19,7 +19,7 @@ $(function() {
          .size([500,500])
          .start()
 
-  addAtom('H')
+  addAtom('C')
 
 })
 
