@@ -5,35 +5,33 @@ $(function() {
   links = []
   fill = d3.scale.category20()
 
-  initArea('#main')
-  initForce()
+  vis = d3.select('#main').append("svg")
+                           .attr("width", '100%')
+                           .attr("height", '100%')
 
-  addAtom('H', 100, 100)
+  force = d3.layout.force()
+         .nodes(nodes)
+         .links(links)
+         .charge(-500)
+         .friction(0.1)
+         .gravity(0.1)
+         .size([500,500])
+         .start()
+
+  addAtom('H')
 
 })
 
-
-function initArea(selector) {
-  vis = d3.select(selector).append("svg")
-                           .attr("width", '100%')
-                           .attr("height", '100%')
-}
-
-function initForce() {
-  force = d3.layout.force()
-           .nodes(nodes)
-           .links(links)
-           .charge(-500)
-           .friction(0.1)
-           .gravity(0.5)
-           .size([500,500])
-           .start()
-}
-
-function addAtom(element, x, y) {
+function addAtom(element, linkedAtomId) {
   var atomRepr = atom(element)
-  atomRepr.id = nodes.length + 1
+  atomRepr.id = nodes.length
   nodes.push(atomRepr)
+
+  if (typeof linkedAtomId !== 'undefined') {
+    console.log(linkedAtomId)
+    console.log({source: atomRepr.id, target: linkedAtomId})
+    links.push({source: atomRepr.id, target: linkedAtomId, value: 1})
+  }
 
   var link = vis.selectAll("line.link")
     .data(links, function(d) { return d.source.id + "-" + d.target.id; });
@@ -41,71 +39,43 @@ function addAtom(element, x, y) {
   link.enter().insert("line")
       .attr("class", "link");
 
-  link.exit().remove();
+  // link.exit().remove();
 
   var node = vis.selectAll("g.node")
-    .data(nodes, function(d) { console.log(d); return d.id;});
+    .data(nodes, function(d) { return d.id;});
 
   var nodeEnter = node.enter().append("g")
                               .attr("class", "node")
                               .call(force.drag);
 
-    node.append("circle")
-        .attr("r", function(d) {
-          return Math.pow(40 * d.size, 1/3);
-        })
-        .attr("fill", function(d) {
-          return fill(d.size);
-        })
-        .attr("stroke", "black")
-        .attr("stroke-width",2);
+  node.append("circle")
+      .attr("r", function(d) {
+        return Math.pow(40 * d.size, 1/3);
+      })
+      .attr("fill", function(d) {
+        return fill(d.size);
+      })
+      .attr("stroke", "black")
+      .attr("stroke-width",2);
 
-    nodeEnter.append("text")
-              .attr("class", "nodetext")
-              .attr("dx", 12)
-              .attr("dy", ".35em")
-              .text(function(d) {return d.atom});
+  nodeEnter.append("text")
+            .attr("class", "nodetext")
+            .attr("dx", 12)
+            .attr("dy", ".35em")
+            .text(function(d) {return d.atom});
 
-    // node.exit().remove();
+  // node.exit().remove();
 
-    force.on("tick", function() {
-      link.attr("x1", function(d) { return d.source.x; })
-          .attr("y1", function(d) { return d.source.y; })
-          .attr("x2", function(d) { return d.target.x; })
-          .attr("y2", function(d) { return d.target.y; });
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
 
-      node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-    });
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  });
 
-    force.start();
-
-  // var node = vis.selectAll(".node")
-  //           .data(nodes)
-  //           .enter()
-  //           .append("g")
-  //           .attr("class", "node")
-  //           .call(force.drag);
-
-
-  // node.append("circle")
-  //     .attr("r", function(d) {
-  //       return Math.pow(40 * d.size, 1/3);
-  //     })
-  //     .attr("fill", function(d) {
-  //       return fill(d.size);
-  //     })
-  //     .attr("stroke", "black")
-  //     .attr("stroke-width",2);
-
-  // node.append("text")
-  //     .attr("dx", function(d) {
-  //       return Math.pow(40 * d.size, 1/3) + 1;
-  //     })
-  //     .attr("dy", ".35em")
-  //     .text(function(d) {return d.atom;});
-
-
-  // console.log(element)
+  force.start();
 }
 
 
@@ -125,16 +95,14 @@ function atom(letter) {
   }
 }
 
-
 function initButtons() {
   $('.add-atom').click(function(e) {
     var element = $(this).attr('data-element')
-    console.log(element)
-    addAtom(element, 200, 300)
+    addAtom(element)
   })
 }
 
-
+// ============ SECTION ===============
 
 var molecule = function(atoms_in_molecule){
   // we expect a string e.g. 'CCCNHOOHHHHHH'
@@ -153,71 +121,77 @@ var pairs_to_links = function(tups){
   return links;
 }
 
-var render_molecule = function(selector, molecule_repr, height, width){
-  height = height || 200
-  width = width || 200
+// ================= END SECTION ===============
 
-  var m = molecule_repr["molecule"]; // e.g. "HHO"
-  var p = molecule_repr["links"]; // e.g. [[0, 2], [1, 2]]
 
-  var w=width
-  var h=height
-  fill = d3.scale.category20()
 
-  nodes = molecule(m)
-  links = pairs_to_links(p)
+// ================= OLD ===============
 
-  // vis = d3.select(selector).append("svg")
-  //                          .attr("width", w)
-  //                          .attr("height", h),
+// var render_molecule = function(selector, molecule_repr, height, width){
+//   height = height || 200
+//   width = width || 200
 
-  // force = d3.layout.force()
-  //                  .nodes(nodes)
-  //                  .links(links)
-  //                  .charge(-1500)
-  //                  .friction(0.8)
-  //                  .gravity(0.5)
-  //                  .size([w,h])
-  //                  .start(),
+//   var m = molecule_repr["molecule"]; // e.g. "HHO"
+//   var p = molecule_repr["links"]; // e.g. [[0, 2], [1, 2]]
 
-  link = vis.selectAll("line")
-            .data(links)
-            .enter()
-            .append("line")
-            .attr("class","link")
+//   var w=width
+//   var h=height
+//   fill = d3.scale.category20()
 
-  node = vis.selectAll(".node")
-            .data(nodes)
-            .enter()
-            .append("g")
-            .attr("class", "node")
-            .call(force.drag);
+//   nodes = molecule(m)
+//   links = pairs_to_links(p)
 
-  node.append("circle")
-      .attr("r", function(d) {
-        return Math.pow(40 * d.size, 1/3);
-      })
-      .attr("fill", function(d) {
-        return fill(d.size);
-      })
-      .attr("stroke", "black")
-      .attr("stroke-width",2);
+//   // vis = d3.select(selector).append("svg")
+//   //                          .attr("width", w)
+//   //                          .attr("height", h),
 
-  node.append("text")
-      .attr("dx", function(d) {
-        return Math.pow(40 * d.size, 1/3) + 1;
-      })
-      .attr("dy", ".35em")
-      .text(function(d) {return d.atom;});
+//   // force = d3.layout.force()
+//   //                  .nodes(nodes)
+//   //                  .links(links)
+//   //                  .charge(-1500)
+//   //                  .friction(0.8)
+//   //                  .gravity(0.5)
+//   //                  .size([w,h])
+//   //                  .start(),
 
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+//   link = vis.selectAll("line")
+//             .data(links)
+//             .enter()
+//             .append("line")
+//             .attr("class","link")
 
-    node.attr("transform", function(d) {
-      return "translate(" + d.x + "," + d.y + ")";
-    });
-  });
-}
+//   node = vis.selectAll(".node")
+//             .data(nodes)
+//             .enter()
+//             .append("g")
+//             .attr("class", "node")
+//             .call(force.drag);
+
+//   node.append("circle")
+//       .attr("r", function(d) {
+//         return Math.pow(40 * d.size, 1/3);
+//       })
+//       .attr("fill", function(d) {
+//         return fill(d.size);
+//       })
+//       .attr("stroke", "black")
+//       .attr("stroke-width",2);
+
+//   node.append("text")
+//       .attr("dx", function(d) {
+//         return Math.pow(40 * d.size, 1/3) + 1;
+//       })
+//       .attr("dy", ".35em")
+//       .text(function(d) {return d.atom;});
+
+//   force.on("tick", function() {
+//     link.attr("x1", function(d) { return d.source.x; })
+//         .attr("y1", function(d) { return d.source.y; })
+//         .attr("x2", function(d) { return d.target.x; })
+//         .attr("y2", function(d) { return d.target.y; });
+
+//     node.attr("transform", function(d) {
+//       return "translate(" + d.x + "," + d.y + ")";
+//     });
+//   });
+// }
