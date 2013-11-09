@@ -1,8 +1,8 @@
 $(function() {
   initButtons()
 
-  link = d3.selectAll('.link')
-  node = d3.selectAll('.node')
+  // link = d3.selectAll('.link')
+  // node = d3.selectAll('.node')
 
   var nodes = []
   var links = []
@@ -14,54 +14,36 @@ $(function() {
 
   initForce(nodes, links)
 
-  addAtom('C')
-  selectedNode = force.nodes()[0]
-  $('circle').attr('stroke', 'green');
+  initFirst()
 })
 
 function initForce(nodes, links) {
   force = d3.layout.force()
        .nodes(nodes)
        .links(links)
+       .linkDistance(120)
        .charge(-1500)
        .friction(0.3)
        .gravity(0.1)
        .size([500,500])
        .start()
+
+  force.on("tick", function() {
+    d3.selectAll('.link').attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+    d3.selectAll('.node').attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  })
 }
 
-// function start() {
-//   link = link.data(force.links(), function(d) { return d.source.id + "-" + d.target.id; });
-//   link.enter().insert("line", ".node").attr("class", "link");
-//   link.exit().remove();
+function initFirst() {
+  addAtom('C')
+  selectedNode = force.nodes()[0]
+  $('circle').attr('stroke', 'green');
+}
 
-//   node = node.data(force.nodes(), function(d) { return d.id;});
-//   node.enter().append("circle")
-//     .attr("class", function(d) { return "node " + d.id; }).attr("r", 8)
-//     .attr("r", function(d) {
-//         return Math.pow(40 * d.size, 1/3);
-//     })
-//     .attr("fill", function(d) {
-//       return fill(d.size);
-//     })
-//     .attr("stroke", "black")
-//     .attr("stroke-width",2)
-//     .on('click', function(d,i) {
-//       $('circle').attr('stroke', 'black');
-//       $(this).attr('stroke', 'green');
-//       selectedNode = d;
-//     });
-
-//   node.enter().append("text")
-//             .attr("class", "nodetext")
-//             .attr("dx", 12)
-//             .attr("dy", ".35em")
-//             .text(function(d) {return d.atom});
-
-//   node.exit().remove();
-
-//   force.start();
-// }
 
 function hasUnpaired(atom) {
   return _.filter(force.links(), function(link) {
@@ -121,18 +103,8 @@ function addAtom(element, linkedAtom) {
 
   node.exit().remove();
 
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-  });
-
-  force.start();
+  force.start()
 }
-
 
 function atom(letter) {
   switch(letter)
@@ -202,8 +174,10 @@ function initButtons() {
   $('.clear').click(function(e) {
     vis.selectAll('.node').remove()
     vis.selectAll('.link').remove()
-    nodes = []
-    links = []
+    var nodes = []
+    var links = []
+    initForce(nodes, links)
+    initFirst()
   })
 }
 
