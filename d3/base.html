@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<head>
+  <link rel="icon" type="image/png" href="{{ STATIC_URL }}<!-- favicon -->.ico"/>
+  <meta name="viewport" content="width=1050, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" charset="utf-8" lang="en" xmlns="http://www.w3.org/1999/html">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+
+  <!-- JS LIBS -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="underscore.js"></script>
+  <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script> -->
+  <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script> -->
+  <script type="text/javascript" src="d3.min.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+
+  <title>WHATEVER</title>
+</head>
+
+<body>
+  <div id='menu'>
+    <button class='add-atom' data-element='H'>Add Hydrogen</button>
+    <button class='add-atom' data-element='C'>Add Carbon</button>
+    <button class='kill-selected'>Kill Selected</button>
+    <button class='clear'>Clear</button>
+  </div>
+  <div id='main'></div>
+</body>
