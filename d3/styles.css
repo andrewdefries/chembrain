@@ -1,0 +1,20 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  fill: steelblue;
+  stroke: lightgray;
+  stroke-width: 2px;
+}
+
+.node circle {
+  stroke: solid black 1px;
+}
+
+.node text {
+  pointer-events: none;
+  font: 14px sans-serif;
+  color: blue;
+}
