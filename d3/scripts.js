@@ -13,8 +13,8 @@ $(function() {
   force = d3.layout.force()
          .nodes(nodes)
          .links(links)
-         .charge(-500)
-         .friction(0.1)
+         .charge(-1500)
+         .friction(0.3)
          .gravity(0.1)
          .size([500,500])
          .start()
@@ -53,7 +53,7 @@ function addAtom(element, linkedAtom) {
                               .attr("class", "node")
                               .call(force.drag);
 
-  node.append("circle")
+  nodeEnter.append("circle")
       .attr("r", function(d) {
         return Math.pow(40 * d.size, 1/3);
       })
@@ -63,13 +63,9 @@ function addAtom(element, linkedAtom) {
       .attr("stroke", "black")
       .attr("stroke-width",2)
       .on('click', function(d,i) {
-        // TODO -- make selected node visually different
-        // add css to new selectedNode
-        // remove css to new selectedNode
-        // if (selectedNode) {selectedNode.attr("stroke", "black")};
+        $('circle').attr('stroke', 'black');
+        $(this).attr('stroke', 'green');
         selectedNode = d;
-        // selectedNode.attr("stroke", "green")
-
       })
 
   nodeEnter.append("text")
