@@ -2,6 +2,13 @@ var graph;
 var selectedNode;
 
 function myGraph(el) {
+  this.updateToMolecule = function(nodes, links) {
+    this.removeAllNodes()
+    _.each(nodes, function(node) {
+      this.addNode()
+    })
+  }
+
   this.addLinkedNode = function(letter, linkedId) {
     if (selectedNode == null) {
       console.log('WARNING: YOU MUST SELECT A NODE BITCH')
@@ -214,18 +221,19 @@ function myGraph(el) {
   update();
 }
 
-function getAtom(letter) {
-  switch(letter)
+function getAtom(atomSize) {
+  switch(parseInt(atomSize))
   {
-    case "C":
+    case 6:
       return {atom:"C", size:12, electrons: 4, free: 4};
-    case "H":
+    case 1:
       return {atom:"H", size:1, electrons: 1, free: 1};
-    case "N":
-      return {atom:"N", size:7, electrons: 3, free: 3};
-    case "O":
+    case 7:
+      return {atom:"N", size:14, electrons: 3, free: 3};
+    case 8:
       return {atom:"O", size:16, electrons: 2, free: 2};
     default:
+      console.log('WARNING: unknown element created')
       return {}; //Not sure what to do here...
   }
 }
@@ -260,7 +268,7 @@ function initButtons() {
 
 $(function () {
   graph = new myGraph("#main");
-  graph.addNode('C');
+  graph.addNode('6');
 
   initButtons()
 });
