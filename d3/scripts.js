@@ -1,16 +1,13 @@
 $(function() {
   initButtons()
 
-  // link = d3.selectAll('.link')
-  // node = d3.selectAll('.node')
-
   var nodes = []
   var links = []
   fill = d3.scale.category20()
 
   vis = d3.select('#main').append("svg")
-                           .attr("width", '100%')
-                           .attr("height", '100%')
+                          .attr("width", '100%')
+                          .attr("height", '100%')
 
   initForce(nodes, links)
 
@@ -43,7 +40,6 @@ function initFirst() {
   selectedNode = force.nodes()[0]
   $('circle').attr('stroke', 'green');
 }
-
 
 function hasUnpaired(atom) {
   return _.filter(force.links(), function(link) {
