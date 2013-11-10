@@ -20,7 +20,8 @@ elementsData = {
     "name":"Hydrogen",
     "atomic_radius pm":79,
     "covalent_radius pm":32,
-    "atomic_volume cm3/mol":14.1
+    "atomic_volume cm3/mol":14.1,
+    "free_electrons": 1,
   },
   "2":{
     "specific_heat (@20\u00b0C J/g mol)":5.188,
@@ -43,7 +44,8 @@ elementsData = {
     "name":"Helium",
     "atomic_radius pm":0.0,
     "covalent_radius pm":"-",
-    "atomic_volume cm3/mol":31.8
+    "atomic_volume cm3/mol":31.8,
+    "free_electrons": 2
   },
   "3":{
     "specific_heat (@20\u00b0C J/g mol)":3.489,
@@ -66,7 +68,8 @@ elementsData = {
     "name":"Lithium",
     "atomic_radius pm":155,
     "covalent_radius pm":163,
-    "atomic_volume cm3/mol":13.1
+    "atomic_volume cm3/mol":13.1,
+    "free_electrons": 1,
   },
   "4":{
     "specific_heat (@20\u00b0C J/g mol)":1.824,
@@ -89,7 +92,8 @@ elementsData = {
     "name":"Beryllium",
     "atomic_radius pm":112,
     "covalent_radius pm":90,
-    "atomic_volume cm3/mol":5.0
+    "atomic_volume cm3/mol":5.0,
+    "free_electrons": 2
   },
   "5":{
     "specific_heat (@20\u00b0C J/g mol)":1.025,
@@ -112,7 +116,8 @@ elementsData = {
     "name":"Boron",
     "atomic_radius pm":98,
     "covalent_radius pm":82,
-    "atomic_volume cm3/mol":4.6
+    "atomic_volume cm3/mol":4.6,
+    "free_electrons": 3
   },
   "6":{
     "specific_heat (@20\u00b0C J/g mol)":0.711,
@@ -135,7 +140,8 @@ elementsData = {
     "name":"Carbon",
     "atomic_radius pm":91,
     "covalent_radius pm":77,
-    "atomic_volume cm3/mol":5.3
+    "atomic_volume cm3/mol":5.3,
+    "free_electrons": 4
   },
   "7":{
     "specific_heat (@20\u00b0C J/g mol)":"1.042 (N-N)",

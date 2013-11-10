@@ -6,6 +6,12 @@ $(function () {
   graph.addNode('6');
 
   initButtons()
+
+  goalFormula = {1: 4, 5: 6, 7: 3}
+  liveFormula = {}
+
+  $('#formula-goal').html(formulaString(goalFormula))
+  graph.updateLiveFormula()
 });
 
 function initButtons() {
@@ -28,8 +34,6 @@ function initButtons() {
       $('#canvas').animate({width: '90%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
     }
-
-    // $('#menu-expansion').toggle(500)
   })
 
   $('.kill-selected').click(function(e) {
@@ -49,7 +53,29 @@ function initButtons() {
   })
 }
 
+function formulaString(formulob) {
+  var output = ""
+  _.each(formulob, function(key, val) {
+    var symbol = elementsData[val].symbol
+    output += symbol + "<sub>" + key +"</sub>"
+  })
+  return output
+}
+
 function myGraph(el) {
+  this.updateLiveFormula = function() {
+    var formulob = {}
+    _.each(nodes, function(node) {
+      if (formulob[node.atomicNumber]) {
+        formulob[node.atomicNumber] += 1
+      } else {
+        formulob[node.atomicNumber] = 1
+      }
+    })
+    liveFormula = formulob
+    $('#formula-current').html(formulaString(liveFormula))
+  }
+
   this.saveToLocal = function() {
     var ob = {
       linkPairs: _.map(links, function(link) {
@@ -87,6 +113,8 @@ function myGraph(el) {
     _.each(linkPairs, function(linkPair) {
       that.addLink(linkPair[0], linkPair[1], 1)
     })
+
+    graph.updateLiveFormula()
   }
 
   this.addLinkedNode = function(letter, linkedId) {
@@ -103,6 +131,8 @@ function myGraph(el) {
 
     var newNode = this.addNode(letter)
     this.addLink(newNode.id, linkedId, 1)
+
+    graph.updateLiveFormula()
   }
 
   this.addNode = function(atomicNumber, id) {
@@ -120,6 +150,7 @@ function myGraph(el) {
       $('circle').attr('stroke', 'green');
     }
 
+    graph.updateLiveFormula()
     return atomRepr
   };
 
@@ -127,6 +158,7 @@ function myGraph(el) {
     nodes.splice(findNodeIndex(id), 1);
     this.removeLinksToId(id)
     update();
+    graph.updateLiveFormula()
   };
 
   this.removeLinksToId = function(id) {
@@ -164,6 +196,7 @@ function myGraph(el) {
     nodes.splice(0, nodes.length);
     update();
     selectedNode = null;
+    graph.updateLiveFormula()
   };
 
   this.addLink = function (sourceId, targetId, value) {
@@ -312,10 +345,18 @@ function myGraph(el) {
 function getAtom(atomicNumber) {
   var raw = elementsData[atomicNumber]
   return {
-    free: raw['free_electrons'] || 8,
+    free: raw['free_electrons'] || free_electrons(atomicNumber) || 8,
     atomicNumber: atomicNumber,
     symbol: raw['symbol'],
     size: atomicNumber / 20 + 10
+  }
+}
+
+var free_electrons = function(atomSize){
+  if (atomSize <= 2){
+    return 2 - atomSize;
+  } if (atomSize < 18){
+    return ((2 - atomSize) % 8) + 8;
   }
 }
 
