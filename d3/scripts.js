@@ -55,6 +55,14 @@ function initButtons() {
   $('.load-from-local').click(function(e) {
     graph.loadFromLocal()
   })
+  $('.stop-generation').click(function(e) {
+    graph.stopGenerate()
+  })
+
+  $('.start-generation').click(function(e) {
+    graph.startGenerate()
+  })
+
 }
 
 function formulaString(formulob) {
@@ -165,6 +173,62 @@ function myGraph(el) {
     }
     timer = setTimeout(next, 100);
   }
+
+  this.startGenerate = function(){
+    var that = this
+
+    var next = function() {
+      // TODO removal more likely when more atoms (and vice versa)
+
+      var molecule_pool = [1, 6, 8]
+
+      var nodes = that._nodes
+      var links = that._links
+
+      var free_nodes = _.filter(nodes, function(n){return n.free > 0;})
+
+      var choices = [];
+      if (nodes.length > 1) {choices.push("removeNode");}
+      if (free_nodes.length > 0) {choices.push("addLinkedNode");}
+      if (nodes.length == 0) {choices.push("addNode");}
+
+      var choice = choices[Math.floor(Math.random() * choices.length)];
+      var step = [choice]
+
+      switch(choice) {
+        case "addLinkedNode":
+          step.push(molecule_pool[Math.floor(Math.random() * molecule_pool.length)]);
+          step.push(free_nodes[Math.floor(Math.random() * free_nodes.length)].id);
+          break;
+        case "removeNode":
+          step.push(nodes[Math.floor(Math.random() * nodes.length)].id);
+          break;
+        case "addNode":
+          step.push(molecule_pool[Math.floor(Math.random() * molecule_pool.length)]);
+          break;
+        default:
+          console.log(choice);
+          console.log("ERROR unknown randomly chosen function");
+          return null
+      }
+
+      var f_name = step.shift();
+      // that[f_name](step); // need to unpack args
+      // that[f_name].apply(undefined, step);  // can't push undefined
+
+      // oh dear
+      args = JSON.stringify(step).slice(1, -1);
+
+      eval("that." + f_name +"(" + args + ")");
+      timer = setTimeout(next, 250);
+    }
+    timer = setTimeout(next, 250);
+  }
+
+  this.stopGenerate = function(){
+    clearTimeout(timer)
+  }
+
 
   this.updateToMolecule = function(oldNodes, linkPairs) {
     var that = this
