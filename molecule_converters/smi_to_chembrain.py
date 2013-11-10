@@ -79,16 +79,22 @@ smi_files = [
 ]
 
 def write_all_to_json():
-    output = []
+    output = {}
     for filename in smi_files:
-        for line in open(filename, 'r').readlines():
-            try:
-                smi, name = line.split('\t')
-                if name:
-                    output.append([name, smi])
-
+        try:
+            for line in open(filename, 'r').readlines():
+                try:
+                    smi, name = line.split('\t')
+                    cb_repr = smi_to_chembrain(smi)
+                    json.dumps(cb_repr)
+                    if name:
+                        output[name.strip()] = smi_to_chembrain(smi)
+                except:
+                    pass
+        except IOError:
+            pass
     with open('d3/molecules.json','w') as f:
-        f.write(json.dumps("molecules = " + json.dumps(output)))
+        f.write(json.dumps(output))
 
 
 def smi_to_chembrain(smi_repr, from_format='smi'):
