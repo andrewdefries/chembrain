@@ -7,4 +7,4 @@ def webprint():
     return render_template('base.html')
 
 if __name__ == '__main__':
-    app.run(port=8005, debug=True)
+    app.run(port=8005)
