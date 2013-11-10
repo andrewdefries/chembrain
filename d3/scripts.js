@@ -57,7 +57,8 @@ function myGraph(el) {
       }),
       nodes: _.map(nodes, function(node) {
         return {atomicNumber: node.atomicNumber, id: node.id}
-      })
+      }),
+      recording: this._recording
     }
 
     var stringed = JSON.stringify(ob)
@@ -67,14 +68,36 @@ function myGraph(el) {
   this.loadFromLocal = function() {
     var get = window.localStorage["savedMolecule"]
     if (get) {
-      this.loadJSON(get)
+      this.loadJSON(get);
     }
   }
 
   // {nodes: [{atomicNumber: 6, id: 4}], linkPairs: [[4,5]]}
-  this.loadJSON= function(json) {
+  this.loadJSON = function(json) {
     var ob = JSON.parse(json)
     graph.updateToMolecule(ob.nodes, ob.linkPairs)
+    if (ob.recording){
+      graph._recording = ob.recording;
+    }
+  }
+
+  this.fromRecording = function(recording){
+    var ob = JSON.parse(recording)
+    var that = this
+
+    this.removeAllNodes();
+
+    _.each(ob, function(step){
+      var f_name = step.shift();
+      // that[f_name](step); // need to unpack args
+      // that[f_name].apply(undefined, step);  // can't push undefined
+
+      // oh dear
+      args = JSON.stringify(step).slice(1, -1);
+
+      eval("that." + f_name +"(" + args + ")");
+    })
+
   }
 
   this.updateToMolecule = function(oldNodes, linkPairs) {
@@ -111,6 +134,9 @@ function myGraph(el) {
       return null
     }
 
+    // Awful HACK
+    this._recording.push(["addNode", atomicNumber, id]);
+
     var atomRepr = getAtom(atomicNumber)
     atomRepr.id = id || nodes.length == 0 && 1 || _.max( nodes, function(node) {return node.id}).id + 1
     nodes.push(atomRepr)
@@ -124,6 +150,9 @@ function myGraph(el) {
   };
 
   this.removeNode = function(id) {
+    // Awful HACK
+    this._recording.push(["removeNode", id]);
+
     nodes.splice(findNodeIndex(id), 1);
     this.removeLinksToId(id)
     update();
@@ -140,6 +169,9 @@ function myGraph(el) {
   }
 
   this.removeLink = function (id1, id2) {
+    // Awful HACK
+    this._recording.push(["removeLink", id1, id2]);
+
     var node1 = findNode(id1)
     var node2 = findNode(id2)
     for (var i = 0; i < links.length; i++) {
@@ -155,11 +187,17 @@ function myGraph(el) {
   };
 
   this.removeAllLinks = function () {
+      // Awful HACK
+      this._recording.push(["removeAllLinks"]);
+
       links.splice(0, links.length);
       update();
   };
 
   this.removeAllNodes = function () {
+    // Awful HACK
+    this._recording.push(["removeAllNodes"]);
+
     this.removeAllLinks()
     nodes.splice(0, nodes.length);
     update();
@@ -167,6 +205,9 @@ function myGraph(el) {
   };
 
   this.addLink = function (sourceId, targetId, value) {
+    // Awful HACK
+    this._recording.push(["addLink", sourceId, targetId, value]);
+
     var source = findNode(sourceId)
     var target = findNode(targetId)
 
@@ -222,6 +263,7 @@ function myGraph(el) {
   var links = force.links();
   this._nodes = force.nodes();
   this._links = force.links();
+  this._recording = [];
 
   var update = function () {
     var link = vis.selectAll("line")
