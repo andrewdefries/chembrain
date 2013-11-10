@@ -1,38 +1,70 @@
 O	water
 O1[C@H](CO)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O[C@@]2(O[C@@H]([C@@H](O)[C@@H]2O)CO)CO	sucrose
+O1[C@H](CO)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O[C@@]2(O[C@@H]([C@@H](O)[C@@H]2O)CO)CO	β-D-fructofuranosyl-(2→1)-α-D-glucopyranoside
 OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O	glucose
+OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O	(2R,3S,4R,5R)-2,3,4,5,6-Pentahydroxyhexanal
 O[C@H]1[C@H](O)[C@H](O[C@]1(O)CO)CO	fructose
+O[C@H]1[C@H](O)[C@H](O[C@]1(O)CO)CO	1,3,4,5,6-Pentahydroxyhex-2-one
 C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O	lactose
-O([C@H]1[C@H](O)[C@@H](O)C(O)O[C@@H]1CO)[C@H]2O[C@@H]([C@@H](O)[C@H](O)[C@H]2O)CO	maltose
+C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O	β-D-galactopyranosyl-(1→4)-D-glucose
+O([C@H]1[C@H](O)[C@@H](O)C(O)O[C@@H]1CO)[C@H]2O[C@@H]([C@@H](O)[C@H](O)[C@H]2O)CO	maltose	4-O-α-D-Glucopyranosyl-D-glucose
 O[C@H]1[C@@H](O)[C@H](O[C@H](O)[C@@H]1O)CO	galactose
 C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O	vitamin c
-C(C(C1C(=O)C(=C(O1)O)O)O)O	thiamine
+C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O	2-Oxo-L-threo-hexono-1,4-lactone-2,3-enediol
+[Cl-].Cc1c(CCO)sc[n+]1Cc1cnc(C)nc1N	thiamine
+[Cl-].Cc1c(CCO)sc[n+]1Cc1cnc(C)nc1N	2-[3-[(4-Amino-2-methyl-pyrimidin-5-yl)methyl]-4-methyl-thiazol-5-yl] ethanol
 O=C2/N=C\1/N(c3cc(c(cc3/N=C/1C(=O)N2)C)C)C[C@H](O)[C@H](O)[C@H](O)CO	riboflavin
-Oc(:o):c1cccnc1	niacin
+O=C2/N=C\1/N(c3cc(c(cc3/N=C/1C(=O)N2)C)C)C[C@H](O)[C@H](O)[C@H](O)CO	7,8-Dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione
+Oc(:o):c1cccnc1	niacin	pyridine-3-carboxylic acid
 CC(C)(CO)C(O)c(:[o]):[nH]CCc(:[o]):[oH]	pantothenic acid
+CC(C)(CO)C(O)c(:[o]):[nH]CCc(:[o]):[oH]	3-[(2,4-Dihydroxy-3,3-dimethylbutanoyl)amino]propanoic acid
 CC1=NC=C(C(=C1O)CO)CO	vitamin B-6
+CC1=NC=C(C(=C1O)CO)CO	Pyridoxal phosphate
 c1cc(ccc1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCc2cnc3c(n2)c(=O)nc([nH]3)N	folate
+c1cc(ccc1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCc2cnc3c(n2)c(=O)nc([nH]3)N	(2S)-2-[(4-{[(2-amino-4-hydroxypteridin-6-yl)methyl]amino}phenyl)formamido]pentanedioic acid
 C[N+](C)(C)CCO	choline
+C[N+](C)(C)CCO	2-Hydroxy-N,N,N-trimethylethanaminium
 C[N+](C)(C)CC(=O)[O-]	betaine
+C[N+](C)(C)CC(=O)[O-]	2-trimethylammonioacetate
 NC(=O)C[C@@]8(C)[C@H](CCC(N)=O)C=2/N=C8/C(/C)=C1/[C@@H](CCC(N)=O)[C@](C)(CC(N)=O)[C@@](C)(N1[Co+]C#N)[C@@H]7/N=C(C(\C)=C3/N=C(/C=2)C(C)(C)[C@@H]3CCC(N)=O)[C@](C)(CCC(=O)NCC(C)OP([O-])(=O)O[C@@H]6[C@@H](CO)O[C@H](n5cnc4cc(C)c(C)cc45)[C@@H]6O)[C@H]7CC(N)=O	vitamin B-12
+NC(=O)C[C@@]8(C)[C@H](CCC(N)=O)C=2/N=C8/C(/C)=C1/[C@@H](CCC(N)=O)[C@](C)(CC(N)=O)[C@@](C)(N1[Co+]C#N)[C@@H]7/N=C(C(\C)=C3/N=C(/C=2)C(C)(C)[C@@H]3CCC(N)=O)[C@](C)(CCC(=O)NCC(C)OP([O-])(=O)O[C@@H]6[C@@H](CO)O[C@H](n5cnc4cc(C)c(C)cc45)[C@@H]6O)[C@H]7CC(N)=O	α-(5,6-dimethylbenzimidazolyl)cobamidcyanide
 C\C(=C/CO)\C=C\C=C(/C)\C=C\C1=C(C)CCCC1(C)C	vitamin A
 OC/C=C(/C=C/C=C(/C=C/C1=C(/CCCC1(C)C)C)C)C	retinol
+OC/C=C(/C=C/C=C(/C=C/C1=C(/CCCC1(C)C)C)C)C	(2E,4E,6E,8E)-3,7-Dimethyl-9-(2,6,6-trimethyl-1-cyclohexen-1-yl)-2,4,6,8-nonatetraen-1-ol
 CC2(C)CCCC(\C)=C2\C=C\C(\C)=C\C=C\C(\C)=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C1=C(/C)CCCC1(C)C	beta carotene
+CC2(C)CCCC(\C)=C2\C=C\C(\C)=C\C=C\C(\C)=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C1=C(/C)CCCC1(C)C	1,3,3-Trimethyl-2-[3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohex-1-en-1-yl)octadeca-1,3,5,7,9,11,13,15,17-nonaen-1-yl]cyclohex-1-ene
 C\C2=C\CCC(C)(C)C2/C=CC(\C)=C\C=C\C(\C)=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C1=C(/C)CCCC1(C)C	alpha carotene
 O[C@@H]2C/C(=C(/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C1=C(\C)CCCC1(C)C)C)C)C)C)C(C)(C)C2)C	beta cryptoxanthin
+O[C@@H]2C/C(=C(/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C1=C(\C)CCCC1(C)C)C)C)C)C)C(C)(C)C2)C	(R)-3,5,5-Trimethyl-4-[3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohex-
+1-enyl)-octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-cyclohex-3-enol
 C(\C=C\C=C(\CC/C=C(\C)C)C)(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=C(\C)CC\C=C(/C)C)C)C)C)C	lycopene
+C(\C=C\C=C(\CC/C=C(\C)C)C)(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=C(\C)CC\C=C(/C)C)C)C)C)C	(6E,8E,10E,12E,14E,16E,18E,20E,22E,24E,26E)- 2,6,10,14,19,23,27,31-Octamethyldotriaconta-2,6,8,10,12,14,16,18,20,22,24,26,30-tridecaene
 CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H]2C(=C[C@@H](CC2(C)C)O)C)/C)/C	lutein
+CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H]2C(=C[C@@H](CC2(C)C)O)C)/C)/C	β,ε-carotene-3,3'-diol
 CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(C[C@H](CC2(C)C)O)C)\C)\C)/C)/C	zeaxanthin
+CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(C[C@H](CC2(C)C)O)C)\C)\C)/C)/C	4-[18-(4-hydroxy-2,6,6-trimethyl-1-cyclohexenyl)-3,7,12,16-tetramethyl-octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethyl-cyclohex-3-en-1-ol
 CC1=C(C(=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)C)O	vitamin E
 O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@@H](/C=C/[C@H](C)C(C)C)C)C	vitamin D2
-O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@H](C)CCCC(C)C)C	vitamin D3
+O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@@H](/C=C/[C@H](C)C(C)C)C)C	(3β,5Z,7E,22E)-9,10-secoergosta-5,7,10(19),22-tetraen-3-ol
+O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@H](C)CCCC(C)C)C	vitamin D3O[C@@H]1CC(\C(=C)CC1)=C\C=C2/CCC[C@]3([C@H]2CC[C@@H]3[C@H](C)CCCC(C)C)C	(3β,5Z,7E)-9,10-secocholesta-
+5,7,10(19)-trien-3-ol
 CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCCC(C)CCCC(C)CCCC(C)C	vitamin K
+CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCCC(C)CCCC(C)CCCC(C)C	phylloquinone
 CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C	menaquinone-4
+CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C	2-methyl-3-[(2Z,6E,10E)-3,7,11,15-tetramethylhexadeca-2,6,10,14-tetraen-1-yl]naphthoquinone
 C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C	cholesterol
+C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C	(3β)-cholest-5-en-3-ol
 CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C	phytosterol
+CCC(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C	β-Sitosterol
 CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C	stigmasterol
+CCC(C=CC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)C(C)C	(3S,8S,9S,10R,13R,14S,17R)-17-[(E,2R,5S)-5-ethyl-6-methylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol
 O[C@@H]4C/C3=C/C[C@@H]1[C@H](CC[C@]2([C@H]1CC[C@@H]2[C@H](C)CC[C@@H](C)C(C)C)C)[C@@]3(C)CC4	campesterol
+O[C@@H]4C/C3=C/C[C@@H]1[C@H](CC[C@]2([C@H]1CC[C@@H]2[C@H](C)CC[C@@H](C)C(C)C)C)[C@@]3(C)CC4	(3S,8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5,6-dimethylheptan-2-yl]-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol
 O[C@@H]4C/C3=C/C[C@@H]1[C@H](CC[C@]2([C@H]1CC[C@@H]2[C@H](C)CC[C@@H](CC)C(C)C)C)[C@@]3(C)CC4	beta-sitosterol
 CCO	alcohol
+CCO	ethyl alcohol
 Cn1cnc2c1c(=O)n(c(=O)n2C)C	caffeine
+Cn1cnc2c1c(=O)n(c(=O)n2C)C	1,3,7-Trimethyl-1H-purine-2,6(3H,7H)-dione
+3,7-Dihydro-1,3,7-trimethyl-1H-purine-2,6-dione
 Cn1cnc2c1c(=O)[nH]c(=O)n2C	theobromine
+theobromine	3,7-dimethyl-1H-purine-2,6-dione
