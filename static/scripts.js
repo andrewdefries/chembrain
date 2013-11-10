@@ -5,11 +5,12 @@ $(function () {
   graph = new Graph("#canvas");
   graph.addNode('6');
 
-  game = new Game("makeFormula", {6: 4, 1:4}, graph);
+  game = new Game("makeFormula", {3: 4, 40:4}, graph);
   game.update();
 
-  initButtons()
   initAutocomplete()
+  initMenu()
+  initButtons()
 
   //graph.updateLiveFormula()
 
@@ -64,6 +65,16 @@ function initButtons() {
     graph.startGenerate()
   })
 
+}
+
+function initMenu() {
+  var numbers = _.map(_.keys(game.goal), function(str) {return parseInt(str)})
+  numbers = _.union(numbers, _.range(1,9))
+  _.each(numbers.slice(0,8), function(num) {
+    var symbol = elementsData[num].symbol
+    var html = "<button class='add-atom' data-element='" + num + "'>" + symbol + "<sub>" + num +"</sub></button>"
+    $('#add-elements').append(html)
+  })
 }
 
 function formulaString(formulob) {
@@ -524,7 +535,9 @@ function Graph(el) {
 
     nodeEnter.append("svg:text")
       .attr("class", "textClass")
-      .attr("dx", 15)
+      .attr("dx", function (d) {
+        return 14 + d.atomicNumber/4;
+      })
       .attr("dy", ".35em")
       .text(function (d) {
         return d.symbol;
