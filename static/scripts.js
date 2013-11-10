@@ -65,6 +65,10 @@ function initButtons() {
     graph.startGenerate(250)
   })
 
+  $('.toggle-link-creation').click(function(e) {
+    graph.toggleLinkCreation()
+  })
+
 }
 
 function initMenu() {
@@ -201,9 +205,16 @@ function Game(gameType, goal, graph) {
 
 
 function Graph(el) {
+  // this should be somewhere better
+  this.onClickCreateLink = false;
+
+  this.toggleLinkCreation = function(){
+    this.onClickCreateLink = !this.onClickCreateLink;
+    $('.toggle-link-creation').toggleClass("selected")
+  }
 
   this.saveToLocal = function() {
-    var ob = {
+      var ob = {
       linkPairs: _.map(links, function(link) {
         return [link.source.id, link.target.id]
       }),
@@ -560,8 +571,11 @@ function Graph(el) {
       .attr("stroke", "black")
       .attr("opacity", 0)
       .on('click', function(d,i) {
-        $('circle').attr('stroke-width', 0);
+        if (graph.onClickCreateLink){
+          graph.addLink(selectedNode.id, d.id, 1)
+        }
         selectedNode = d;
+        $('circle').attr('stroke-width', 0);
         $('circle#Node' + d.id).attr('stroke-width', 2);
       });
 
