@@ -2,17 +2,16 @@ var graph;
 var selectedNode;
 
 $(function () {
-  graph = new myGraph("#canvas");
+  graph = new Graph("#canvas");
   graph.addNode('6');
 
-  initButtons()
-  window.goalFormula = {6: 4, 1:4}
-  liveFormula = {}
+  game = new Game("makeFormula", {6: 4, 1:4}, graph);
+  game.update();
 
+  initButtons()
   initAutocomplete()
 
-  $('#formula-goal').html(formulaString(goalFormula))
-  graph.updateLiveFormula()
+  //graph.updateLiveFormula()
 
 });
 
@@ -74,25 +73,43 @@ function formulaString(formulob) {
   return output
 }
 
+function Game(gameType, goal, graph) {
+  this.gameType = gameType;
+  this.goal = goal;
+  this.graph = graph;
 
-function myGraph(el) {
-
-  this.updateLiveFormula = function() {
+  this.currentFormula = function(){
     var formulob = {}
-    _.each(nodes, function(node) {
+    _.each(this.graph._nodes, function(node) {
       if (formulob[node.atomicNumber]) {
         formulob[node.atomicNumber] += 1
       } else {
         formulob[node.atomicNumber] = 1
       }
     })
-    liveFormula = formulob
-    $('#formula-current').html(formulaString(liveFormula))
+    return formulob;
+  }
 
-    if (_.isEqual(liveFormula, window.goalFormula)) {
-      alert('you win')
+  this.compareFormula = function(formulaDict, other){
+    return _.isEqual(formulaDict, other);
+  }
+
+  this.updateMakeFormula = function () {
+    var current = this.currentFormula()
+    $('#formula-goal').html(formulaString(this.goal)) // should be done only init?
+    $('#formula-current').html(formulaString(current))
+    if (this.compareFormula(current, this.goal)){alert('you win');}
+  }
+
+  this.update = function(){
+    if (this.gameType == 'makeFormula'){
+      this.updateMakeFormula();
     }
   }
+}
+
+
+function Graph(el) {
 
   this.saveToLocal = function() {
     var ob = {
@@ -240,7 +257,6 @@ function myGraph(el) {
     _.each(linkPairs, function(linkPair) {
       that.addLink(linkPair[0], linkPair[1], 1)
     })
-    this.updateLiveFormula()
   }
 
   this.addLinkedNode = function(letter, linkedId) {
@@ -257,7 +273,6 @@ function myGraph(el) {
 
     var newNode = this.addNode(letter)
     this.addLink(newNode.id, linkedId, 1)
-    this.updateLiveFormula()
   }
 
   this.addNode = function(atomicNumber, id) {
@@ -277,8 +292,6 @@ function myGraph(el) {
       selectedNode = nodes[0]
       $('circle').attr('stroke', 'green');
     }
-
-    graph.updateLiveFormula()
     return atomRepr
   };
 
@@ -289,7 +302,7 @@ function myGraph(el) {
     nodes.splice(findNodeIndex(id), 1);
     this.removeLinksToId(id)
     update();
-    graph.updateLiveFormula()
+    // game.update();
   };
 
   this.removeLinksToId = function(id) {
@@ -339,7 +352,6 @@ function myGraph(el) {
     nodes.splice(0, nodes.length);
     update();
     selectedNode = null;
-    graph.updateLiveFormula();
   };
 
   this.addLink = function (sourceId, targetId, value) {
@@ -485,6 +497,8 @@ function myGraph(el) {
         .linkDistance(50)
         .size([w, h])
         .start();
+
+    if ("game" in window){game.update();}
   };
 
   // Make it all go
