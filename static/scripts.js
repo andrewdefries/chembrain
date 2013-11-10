@@ -33,13 +33,13 @@ function initButtons() {
       $('#menu').animate({width: '60%'}, { duration: 500, queue: false });
       $('#canvas').animate({width: '40%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
+      $('.expanded-menu').removeClass('hidden')
     } else {
       $('#menu').animate({width: '10%'}, { duration: 500, queue: false });
       $('#canvas').animate({width: '90%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
+      $('.expanded-menu').addClass('hidden')
     }
-
-    // $('#expand-menu').toggle(500)
   })
 
   $('.kill-selected').click(function(e) {
@@ -68,11 +68,20 @@ function initButtons() {
 }
 
 function initMenu() {
-  var numbers = _.map(_.keys(game.goal), function(str) {return parseInt(str)})
-  numbers = _.union(numbers, _.range(1,9))
-  _.each(numbers.slice(0,8), function(num) {
-    var symbol = elementsData[num].symbol
-    var html = "<button class='add-atom' data-element='" + num + "'>" + symbol + "<sub>" + num +"</sub></button>"
+  var small = _.map(_.keys(game.goal), function(str) {return parseInt(str)})
+  small = _.union(small, _.range(1,9)).slice(0,8)
+  _.each(_.range(1,30), function(num) {
+    var symbol = elementsData[num].symbol;
+    var color = elementsData[num].color || '#2676B9';
+    var hidden
+    if (small.indexOf(num) > -1) {
+      hidden = ""
+    } else {
+      hidden = "expanded-menu hidden"
+    }
+    console.log(hidden)
+    var html = "<button class='add-atom " + hidden + "' style='color: white; background-color:" + color + ";' data-element='" + num + "'>" + symbol + "<sub>" + num +"</sub></button>"
+    console.log(num + html)
     $('#add-elements').append(html)
   })
 }
@@ -359,7 +368,7 @@ function Graph(el) {
     update();
     if (nodes.length == 1) {
       selectedNode = nodes[0]
-      $('circle').attr('stroke', 'green');
+      $('circle').attr('stroke-width', 2);
     }
     return atomRepr
   };
@@ -519,17 +528,17 @@ function Graph(el) {
         return Math.pow(40 * d.size, 1/3);
       })
       .attr("fill", function(d) {
-        return d3.scale.category20()(d.size);
+        return d.color || d3.scale.category20()(d.size);
       })
       .attr("id", function (d) {
         return "Node;" + d.id;
       })
       .attr("stroke", "black")
       .attr("class", "nodeStrokeClass")
-      .attr("stroke-width",2)
+      .attr("stroke-width",0)
       .on('click', function(d,i) {
-        $('circle').attr('stroke', 'black');
-        $(this).attr('stroke', 'green');
+        $('circle').attr('stroke-width', 0);
+        $(this).attr('stroke-width', 2);
         selectedNode = d;
       });
 
@@ -587,7 +596,8 @@ function getAtom(atomicNumber) {
     free: raw['free_electrons'] || free_electrons(atomicNumber) || 8,
     atomicNumber: atomicNumber,
     symbol: raw['symbol'],
-    size: atomicNumber * 5 + 10
+    size: atomicNumber * 5 + 10,
+    color: raw['color'] || '#2676B9'
   }
 }
 
