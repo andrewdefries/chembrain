@@ -67,12 +67,16 @@ function myGraph(el) {
   this.loadFromLocal = function() {
     var get = window.localStorage["savedMolecule"]
     if (get) {
-      var ob = JSON.parse(get)
-      graph.updateToMolecule(ob.nodes, ob.linkPairs)
+      this.loadJSON(get)
     }
   }
 
   // {nodes: [{atomicNumber: 6, id: 4}], linkPairs: [[4,5]]}
+  this.loadJSON= function(json) {
+    var ob = JSON.parse(json)
+    graph.updateToMolecule(ob.nodes, ob.linkPairs)
+  }
+
   this.updateToMolecule = function(oldNodes, linkPairs) {
     var that = this
     this.removeAllNodes()
@@ -209,7 +213,10 @@ function myGraph(el) {
       .attr("perserveAspectRatio", "xMinYMid")
       .append('svg:g');
 
-  var force = d3.layout.force();
+  var force = d3.layout.force()
+       .linkDistance(120)
+       .charge(-1500)
+       .friction(0.3)
 
   var nodes = force.nodes();
   var links = force.links();
