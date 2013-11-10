@@ -524,17 +524,15 @@ function Graph(el) {
 
     nodeEnter.append("svg:text")
       .attr("class", "textClass")
-      .attr("dx", 12)
+      .attr("dx", 15)
       .attr("dy", ".35em")
       .text(function (d) {
         return d.symbol;
       });
 
     node.exit().remove();
+
     force.on("tick", function () {
-      node.attr("transform", function (d) {
-        return "translate(" + d.x + "," + d.y + ")";
-      });
       link.attr("x1", function (d) {
         return d.source.x;
       })
@@ -547,7 +545,14 @@ function Graph(el) {
       .attr("y2", function (d) {
         return d.target.y;
       });
+      node.attr("transform", function (d) {
+        return "translate(" + d.x + "," + d.y + ")";
+      });
     });
+
+    // vis.selectAll("line").sort(function (a, b) {
+    //   return -1
+    // })
 
     // Restart the force layout.
     force.gravity(.05)
@@ -569,7 +574,7 @@ function getAtom(atomicNumber) {
     free: raw['free_electrons'] || free_electrons(atomicNumber) || 8,
     atomicNumber: atomicNumber,
     symbol: raw['symbol'],
-    size: atomicNumber / 20 + 10
+    size: atomicNumber * 5 + 10
   }
 }
 
