@@ -30,8 +30,8 @@ function initButtons() {
 
   $('#expand-menu').click(function(e) {
     if ($('#menu').width() < 200) {
-      $('#menu').animate({width: '60%'}, { duration: 500, queue: false });
-      $('#canvas').animate({width: '40%'}, { duration: 500, queue: false });
+      $('#menu').animate({width: '30%'}, { duration: 500, queue: false });
+      $('#canvas').animate({width: '70%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
       $('.expanded-menu').removeClass('hidden')
     } else {
@@ -62,7 +62,7 @@ function initButtons() {
   })
 
   $('.start-generation').click(function(e) {
-    graph.startGenerate()
+    graph.startGenerate(250)
   })
 
 }
@@ -79,9 +79,7 @@ function initMenu() {
     } else {
       hidden = "expanded-menu hidden"
     }
-    console.log(hidden)
     var html = "<button class='add-atom " + hidden + "' style='color: white; background-color:" + color + ";' data-element='" + num + "'>" + symbol + "<sub>" + num +"</sub></button>"
-    console.log(num + html)
     $('#add-elements').append(html)
   })
 }
@@ -101,6 +99,9 @@ function Tutorial() {
     window.localStorage['tutorialState'] = this.state
     if (this.state !== 'done') {
       this.loadSlide(this.state)
+      graph.startGenerate(800)
+      $('#menu').hide()
+      $('#canvas').width('100%')
     }
   }
 
@@ -115,10 +116,14 @@ function Tutorial() {
   }
 
   this.finish = function() {
-    console.log('ending tutorial')
     window.localStorage['tutorialState'] = 'done';
     $('#lightbox').empty()
     $('#overlay').hide()
+    $('#menu').show()
+    $('#canvas').width('90%')
+    graph.stopGenerate()
+    graph.removeAllNodes()
+    graph.addNode(6)
   }
 
   this.addButton = function() {
@@ -134,20 +139,28 @@ function Tutorial() {
   }
 
   this.loadSlide = function(num) {
-    console.log('loading slide #' + num)
     var src = 'static/tutorial/' + this.slideImages[num - 1]
     if (src == undefined) {return null}
     var html = "<img src='" + src + "'/>"
-    console.log(html)
     $('#overlay').show()
     $('#lightbox').html(html)
-    // $('#lightbox').modal()
     this.addButton()
   }
 
   this.slideImages = [
-    "AminoAcidsFinal.svg",
-    "HandOnChemistryHandSomeWater.svg"
+    "HandOnChemistryHandSomeWater.svg",
+    "WhatIsNElement.svg",
+    "IntroducingHydrogen.svg",
+    "IntroducingOxygen.svg",
+    "IntroducingCarbon.svg",
+    "IntroducingNitrogen.svg",
+    "HowDoTheyConnect.svg",
+    "WaterIsTheSpiceOfLife.svg",
+    "ValenceWater.svg",
+    "ValenceCO2.svg",
+    "NucleotidesAllWNames.svg",
+    "NucleotidesOfLifeFinal.svg",
+    "AminoAcidsFinal.svg"
   ]
 }
 
@@ -269,7 +282,7 @@ function Graph(el) {
     timer = setTimeout(next, 100);
   }
 
-  this.startGenerate = function(){
+  this.startGenerate = function(t){
     var that = this
 
     var next = function() {
@@ -315,9 +328,9 @@ function Graph(el) {
       args = JSON.stringify(step).slice(1, -1);
 
       eval("that." + f_name +"(" + args + ")");
-      timer = setTimeout(next, 250);
+      timer = setTimeout(next, t);
     }
-    timer = setTimeout(next, 250);
+    timer = setTimeout(next, t);
   }
 
   this.stopGenerate = function(){
@@ -665,7 +678,6 @@ function initAutocomplete() {
   $('#molecule-search input').autocomplete({
     lookup: _.map(molecules, function(ob, name){ return {value: name, data: name}}),
     onSelect: function (suggestion) {
-      $(this).attr('disabled', 'disabled')
       var moleculeData = molecules[suggestion.data]
       graph.updateToMolecule(moleculeData.nodes, moleculeData.linkPairs)
     },

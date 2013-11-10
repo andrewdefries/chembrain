@@ -1,6 +1,6 @@
 elementsData = {
   "1":{
-    "color":"#000000",
+    "color":"#505055",
     "specific_heat (@20\u00b0C J/g mol)":"14.267 (H-H)",
     "electronic_configuration":"1s\u00b9",
     "lattice_constant ang":3.75,
@@ -25,6 +25,7 @@ elementsData = {
     "free_electrons": 1,
   },
   "2":{
+    "color":"#00FFFF",
     "specific_heat (@20\u00b0C J/g mol)":5.188,
     "electronic_configuration":"1s\u00b2",
     "lattice_constant ang":3.57,
@@ -49,6 +50,7 @@ elementsData = {
     "free_electrons": 2
   },
   "3":{
+    "color":"#FFAAAA",
     "specific_heat (@20\u00b0C J/g mol)":3.489,
     "electronic_configuration":"[He]2s\u00b9",
     "lattice_constant ang":3.49,
@@ -73,6 +75,7 @@ elementsData = {
     "free_electrons": 1,
   },
   "4":{
+    "color":"#FF9955",
     "specific_heat (@20\u00b0C J/g mol)":1.824,
     "electronic_configuration":"[He]2s\u00b2",
     "lattice_constant ang":2.29,
@@ -97,6 +100,7 @@ elementsData = {
     "free_electrons": 2
   },
   "5":{
+    "color":"#EEFFAA",
     "specific_heat (@20\u00b0C J/g mol)":1.025,
     "electronic_configuration":"[He]2s\u00b22p\u00b9",
     "lattice_constant ang":8.73,
@@ -170,7 +174,7 @@ elementsData = {
     "atomic_volume cm3/mol":17.3
   },
   "8":{
-    "color":"FF0000",
+    "color":"#FF0000",
     "specific_heat (@20\u00b0C J/g mol)":"0.916 (O-O)",
     "electronic_configuration":"[He]2s\u00b22p",
     "lattice_constant ang":6.83,
@@ -194,6 +198,7 @@ elementsData = {
     "atomic_volume cm3/mol":14.0
   },
   "9":{
+    "color":"#55FF55",
     "specific_heat (@20\u00b0C J/g mol)":"0.824 (F-F)",
     "electronic_configuration":"[He]2s\u00b22p",
     "lattice_constant ang":"-",
@@ -217,6 +222,7 @@ elementsData = {
     "atomic_volume cm3/mol":17.1
   },
   "10":{
+    "color":"#AAEEFF",
     "specific_heat (@20\u00b0C J/g mol)":1.029,
     "electronic_configuration":"[He]2s\u00b22p",
     "lattice_constant ang":4.43,
@@ -240,6 +246,7 @@ elementsData = {
     "atomic_volume cm3/mol":16.8
   },
   "11":{
+    "color":"#2A2AFF",
     "specific_heat (@20\u00b0C J/g mol)":1.222,
     "electronic_configuration":"[Ne]3s\u00b9",
     "lattice_constant ang":4.23,
@@ -263,6 +270,7 @@ elementsData = {
     "atomic_volume cm3/mol":23.7
   },
   "12":{
+    "color":"#8800AA",
     "specific_heat (@20\u00b0C J/g mol)":1.025,
     "electronic_configuration":"[Ne]3s\u00b2",
     "lattice_constant ang":3.21,
@@ -286,6 +294,7 @@ elementsData = {
     "atomic_volume cm3/mol":14.0
   },
   "13":{
+    "color":"#FF2A7F",
     "specific_heat (@20\u00b0C J/g mol)":0.9,
     "electronic_configuration":"[Ne]3s\u00b23p\u00b9",
     "lattice_constant ang":4.05,
@@ -309,6 +318,7 @@ elementsData = {
     "atomic_volume cm3/mol":10.0
   },
   "14":{
+    "color":"#FFOOCC",
     "specific_heat (@20\u00b0C J/g mol)":0.703,
     "electronic_configuration":"[Ne]3s\u00b23p\u00b2",
     "lattice_constant ang":5.43,
@@ -356,6 +366,7 @@ elementsData = {
     "atomic_volume cm3/mol":17.0
   },
   "16":{
+    "color":"#808000",
     "specific_heat (@20\u00b0C J/g mol)":0.732,
     "electronic_configuration":"[Ne]3s\u00b23p",
     "lattice_constant ang":10.47,
@@ -379,6 +390,7 @@ elementsData = {
     "atomic_volume cm3/mol":15.5
   },
   "17":{
+    "color":"#FF6600",
     "specific_heat (@20\u00b0C J/g mol)":"0.477 (Cl-Cl)",
     "electronic_configuration":"[Ne]3s\u00b23p",
     "lattice_constant ang":6.24,
@@ -402,6 +414,7 @@ elementsData = {
     "atomic_volume cm3/mol":18.7
   },
   "18":{
+    "color":"#DE8787",
     "specific_heat (@20\u00b0C J/g mol)":0.138,
     "electronic_configuration":"[Ne]3s\u00b23p",
     "lattice_constant ang":5.26,
@@ -425,6 +438,7 @@ elementsData = {
     "atomic_volume cm3/mol":24.2
   },
   "19":{
+    "color":"#C8B7B7",
     "specific_heat (@20\u00b0C J/g mol)":0.753,
     "electronic_configuration":"[Ar]4s\u00b9",
     "lattice_constant ang":5.23,
@@ -448,6 +462,7 @@ elementsData = {
     "atomic_volume cm3/mol":45.3
   },
   "20":{
+    "color":"#FF00FF",
     "specific_heat (@20\u00b0C J/g mol)":0.653,
     "electronic_configuration":"[Ar]4s\u00b2",
     "lattice_constant ang":5.58,
@@ -471,6 +486,7 @@ elementsData = {
     "atomic_volume cm3/mol":29.9
   },
   "21":{
+    "color":"#808000",
     "specific_heat (@20\u00b0C J/g mol)":0.556,
     "electronic_configuration":"[Ar]3d\u00b94s\u00b2",
     "lattice_constant ang":3.31,
@@ -494,6 +510,7 @@ elementsData = {
     "atomic_volume cm3/mol":15.0
   },
   "22":{
+    "color":"#66FF00",
     "specific_heat (@20\u00b0C J/g mol)":0.523,
     "electronic_configuration":"[Ar]3d\u00b24s\u00b2",
     "lattice_constant ang":2.95,
@@ -517,6 +534,7 @@ elementsData = {
     "atomic_volume cm3/mol":10.6
   },
   "23":{
+    "color":"#2AFFD5",
     "specific_heat (@20\u00b0C J/g mol)":0.485,
     "electronic_configuration":"[Ar]3d\u00b34s\u00b2",
     "lattice_constant ang":3.02,
@@ -540,6 +558,7 @@ elementsData = {
     "atomic_volume cm3/mol":8.35
   },
   "24":{
+    "color":"#004455",
     "specific_heat (@20\u00b0C J/g mol)":0.488,
     "electronic_configuration":"[Ar]3d4s\u00b9",
     "lattice_constant ang":2.88,
@@ -563,6 +582,7 @@ elementsData = {
     "atomic_volume cm3/mol":7.23
   },
   "25":{
+    "color":"#B7C4C8",
     "specific_heat (@20\u00b0C J/g mol)":0.477,
     "electronic_configuration":"[Ar]3d4s\u00b2",
     "lattice_constant ang":8.89,
@@ -586,6 +606,7 @@ elementsData = {
     "atomic_volume cm3/mol":7.39
   },
   "26":{
+    "color":"#8787DE",
     "specific_heat (@20\u00b0C J/g mol)":0.443,
     "electronic_configuration":"[Ar]3d4s\u00b2",
     "lattice_constant ang":2.87,
@@ -609,6 +630,7 @@ elementsData = {
     "atomic_volume cm3/mol":7.1
   },
   "27":{
+    "color":"#CC00FF",
     "specific_heat (@20\u00b0C J/g mol)":0.456,
     "electronic_configuration":"[Ar]3d4s\u00b2",
     "lattice_constant ang":2.51,
@@ -632,6 +654,7 @@ elementsData = {
     "atomic_volume cm3/mol":6.7
   },
   "28":{
+    "color":"#FFAACC",
     "specific_heat (@20\u00b0C J/g mol)":0.443,
     "electronic_configuration":"[Ar]3d4s\u00b2",
     "lattice_constant ang":3.52,
@@ -655,6 +678,7 @@ elementsData = {
     "atomic_volume cm3/mol":6.6
   },
   "29":{
+    "color":"#8A6F91",
     "specific_heat (@20\u00b0C J/g mol)":0.385,
     "electronic_configuration":"[Ar]3d\u00b94s\u00b9",
     "lattice_constant ang":3.61,
@@ -678,6 +702,7 @@ elementsData = {
     "atomic_volume cm3/mol":7.1
   },
   "30":{
+    "color":"#6F916F",
     "specific_heat (@20\u00b0C J/g mol)":0.388,
     "electronic_configuration":"[Ar]3d\u00b94s\u00b2",
     "lattice_constant ang":2.66,

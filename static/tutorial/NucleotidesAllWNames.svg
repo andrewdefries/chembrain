@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="topsvg"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%"
+   viewBox="0 0 100 66"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="NucleotidesAllWNames.svg">
+  <metadata
+     id="metadata251">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs249" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="992"
+     id="namedview247"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="7.12"
+     inkscape:cx="66.041381"
+     inkscape:cy="17.244007"
+     inkscape:window-x="1024"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="topsvg" />
+  <title
+     id="title3">OBDepict</title>
+  <text
+     font-size="2"
+     x="12.6667"
+     y="28.333302"
+     id="text7"
+     style="font-size:12px;text-anchor:middle;fill:#000000;font-family:sans-serif" />
+  <g
+     id="g9"
+     transform="translate(-4,-4)">
+    <svg
+       width="33.333302"
+       height="33.333302"
+       x="0"
+       y="0"
+       viewBox="0 0 210.836 200"
+       id="svg11"
+       version="1.1"
+       inkscape:version="0.48.3.1 r9886"
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;font-family:sans-serif">
+      <line
+         x1="74.599998"
+         y1="120"
+         x2="74.599998"
+         y2="147"
+         id="line13"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="155"
+         y1="58.200001"
+         x2="170.8"
+         y2="80"
+         id="line15"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="170.8"
+         y1="80"
+         x2="155.10001"
+         y2="101.7"
+         id="line17"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="161.5"
+         y1="80.599998"
+         x2="150.39999"
+         y2="95.800003"
+         id="line19"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="135"
+         y1="108.3"
+         x2="109.3"
+         y2="100"
+         id="line21"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="100"
+         x2="109.3"
+         y2="60"
+         id="line23"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="116.5"
+         y1="94"
+         x2="116.5"
+         y2="66"
+         id="line25"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="60"
+         x2="135"
+         y2="51.700001"
+         id="line27"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="51.400002"
+         y1="106.6"
+         x2="74.599998"
+         y2="120"
+         id="line29"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="56.799999"
+         y1="101.4"
+         x2="73"
+         y2="110.8"
+         id="line31"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="74.599998"
+         y1="120"
+         x2="109.3"
+         y2="100"
+         id="line33"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="60"
+         x2="85.900002"
+         y2="46.5"
+         id="line35"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="63.200001"
+         y1="46.599998"
+         x2="40"
+         y2="60"
+         id="line37"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="65.099998"
+         y1="53.799999"
+         x2="48.799999"
+         y2="63.200001"
+         id="line39"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="40"
+         y1="60"
+         x2="40"
+         y2="87"
+         id="line41"
+         style="stroke:#000000;stroke-width:2" />
+      <text
+         x="34"
+         y="108"
+         font-size="16"
+         id="text43"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="68.641014"
+         y="48"
+         font-size="16"
+         id="text45"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="141.3243"
+         y="55.63932"
+         font-size="16"
+         id="text47"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="141.3243"
+         y="39.63932"
+         font-size="16"
+         id="text49"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">H</text>
+      <text
+         x="141.3243"
+         y="120.36068"
+         font-size="16"
+         id="text51"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="70.641014"
+         y="168"
+         font-size="16"
+         id="text53"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">NH</text>
+      <text
+         x="94.641014"
+         y="171.67999"
+         font-size="13"
+         id="text55"
+         style="font-size:13px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">2</text>
+    </svg>
+  </g>
+  <text
+     font-size="2.000000"
+     x="46.561798"
+     y="29.878277"
+     id="text57"
+     style="font-size:2px;text-anchor:middle;fill:#000000;font-family:sans-serif">
+    <tspan
+       style="font-size:6px"
+       id="tspan3254">guanine</tspan>
+  </text>
+  <g
+     transform="translate(29.333333,-4)"
+     id="g59">
+    <svg
+       width="33.333332"
+       height="33.333332"
+       x="0"
+       y="0"
+       viewBox="0 0 245.47672 230.40294"
+       id="svg61"
+       version="1.1"
+       inkscape:version="0.48.3.1 r9886"
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;font-family:sans-serif">
+      <line
+         x1="59.5"
+         y1="65.699997"
+         x2="55.200001"
+         y2="52.400002"
+         id="line63"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="139.2"
+         y1="150.39999"
+         x2="139.2"
+         y2="177.39999"
+         id="line65"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="133.2"
+         y1="150.39999"
+         x2="133.2"
+         y2="177.39999"
+         id="line67"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="182.10001"
+         y1="136.89999"
+         x2="194.2"
+         y2="143.89999"
+         id="line69"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="170.8"
+         y1="90.400002"
+         x2="194.2"
+         y2="76.900002"
+         id="line71"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="40"
+         y1="110.4"
+         x2="55.900002"
+         y2="88.599998"
+         id="line73"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="75.900002"
+         y1="82.099998"
+         x2="101.6"
+         y2="90.400002"
+         id="line75"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="101.6"
+         y1="90.400002"
+         x2="101.6"
+         y2="130.39999"
+         id="line77"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="94.400002"
+         y1="96.400002"
+         x2="94.400002"
+         y2="124.4"
+         id="line79"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="101.6"
+         y1="130.39999"
+         x2="75.900002"
+         y2="138.7"
+         id="line81"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="55.799999"
+         y1="132.10001"
+         x2="40"
+         y2="110.4"
+         id="line83"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="60.400002"
+         y1="126.2"
+         x2="49.400002"
+         y2="111"
+         id="line85"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="136.2"
+         y1="150.39999"
+         x2="159.60001"
+         y2="136.89999"
+         id="line87"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="170.8"
+         y1="117.4"
+         x2="170.8"
+         y2="90.400002"
+         id="line89"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="170.8"
+         y1="90.400002"
+         x2="147.60001"
+         y2="77"
+         id="line91"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="162"
+         y1="93.599998"
+         x2="145.8"
+         y2="84.199997"
+         id="line93"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="124.9"
+         y1="76.900002"
+         x2="101.6"
+         y2="90.400002"
+         id="line95"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="101.6"
+         y1="130.39999"
+         x2="136.2"
+         y2="150.39999"
+         id="line97"
+         style="stroke:#000000;stroke-width:2" />
+      <text
+         x="57.51141"
+         y="86.042259"
+         font-size="16"
+         id="text99"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="45.15073"
+         y="48"
+         font-size="16"
+         id="text101"
+         style="font-size:16px;fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1">H</text>
+      <text
+         x="57.51141"
+         y="150.76363"
+         font-size="16"
+         id="text103"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="130.19469"
+         y="198.40294"
+         font-size="16"
+         id="text105"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+      <text
+         x="164.83571"
+         y="138.40294"
+         font-size="16"
+         id="text107"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="199.47672"
+         y="158.40294"
+         font-size="16"
+         id="text109"
+         style="font-size:16px;fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1">H</text>
+      <text
+         x="130.19469"
+         y="78.402939"
+         font-size="16"
+         id="text111"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="201.47672"
+         y="78.402939"
+         font-size="16"
+         id="text113"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">NH</text>
+      <text
+         x="225.47672"
+         y="82.082939"
+         font-size="13"
+         id="text115"
+         style="font-size:13px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">2</text>
+    </svg>
+  </g>
+  <text
+     font-size="2.000000"
+     x="81.01873"
+     y="29.878277"
+     id="text117"
+     style="font-size:2px;text-anchor:middle;fill:#000000;font-family:sans-serif">
+    <tspan
+       style="font-size:6px"
+       id="tspan3258">cytosine</tspan>
+  </text>
+  <g
+     transform="translate(62.666667,-4)"
+     id="g119">
+    <svg
+       width="33.333332"
+       height="33.333332"
+       x="0"
+       y="0"
+       viewBox="0 0 183.92305 200"
+       id="svg121"
+       version="1.1"
+       inkscape:version="0.48.3.1 r9886"
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;font-family:sans-serif">
+      <line
+         x1="76.099998"
+         y1="142.60001"
+         x2="52.799999"
+         y2="156.10001"
+         id="line123"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="73.099998"
+         y1="137.39999"
+         x2="49.799999"
+         y2="150.89999"
+         id="line125"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="63.400002"
+         y1="93.5"
+         x2="51.299999"
+         y2="86.5"
+         id="line127"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="80"
+         x2="109.3"
+         y2="53"
+         id="line129"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="143.89999"
+         y1="100"
+         x2="143.89999"
+         y2="140"
+         id="line131"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="143.89999"
+         y1="140"
+         x2="120.7"
+         y2="153.39999"
+         id="line133"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="135.10001"
+         y1="136.8"
+         x2="118.8"
+         y2="146.2"
+         id="line135"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="98"
+         y1="153.5"
+         x2="74.599998"
+         y2="140"
+         id="line137"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="74.599998"
+         y1="140"
+         x2="74.599998"
+         y2="113"
+         id="line139"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="85.900002"
+         y1="93.5"
+         x2="109.3"
+         y2="80"
+         id="line141"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="80"
+         x2="143.89999"
+         y2="100"
+         id="line143"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="110.9"
+         y1="89.199997"
+         x2="135.10001"
+         y2="103.2"
+         id="line145"
+         style="stroke:#000000;stroke-width:2" />
+      <text
+         x="103.28203"
+         y="168"
+         font-size="16"
+         id="text147"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="34"
+         y="168"
+         font-size="16"
+         id="text149"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+      <text
+         x="68.641014"
+         y="108"
+         font-size="16"
+         id="text151"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="34"
+         y="88"
+         font-size="16"
+         id="text153"
+         style="font-size:16px;fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1">H</text>
+      <text
+         x="105.28203"
+         y="48"
+         font-size="16"
+         id="text155"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">NH</text>
+      <text
+         x="129.28203"
+         y="51.68"
+         font-size="13"
+         id="text157"
+         style="font-size:13px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">2</text>
+    </svg>
+  </g>
+  <text
+     font-size="2.000000"
+     x="13.96442"
+     y="63.632957"
+     id="text159"
+     style="font-size:2px;text-anchor:middle;fill:#000000;font-family:sans-serif">
+    <tspan
+       style="font-size:6px"
+       id="tspan3262">thymine</tspan>
+  </text>
+  <g
+     transform="translate(-4,29.333333)"
+     id="g161">
+    <svg
+       width="33.333332"
+       height="33.333332"
+       x="0"
+       y="0"
+       viewBox="0 0 218.56406 240"
+       id="svg163"
+       version="1.1"
+       inkscape:version="0.48.3.1 r9886"
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;font-family:sans-serif">
+      <line
+         x1="109.3"
+         y1="187"
+         x2="109.3"
+         y2="160"
+         id="line165"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="63.400002"
+         y1="93.5"
+         x2="51.299999"
+         y2="86.5"
+         id="line167"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="106.3"
+         y1="80"
+         x2="106.3"
+         y2="53"
+         id="line169"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="112.3"
+         y1="80"
+         x2="112.3"
+         y2="53"
+         id="line171"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="155.2"
+         y1="93.5"
+         x2="167.3"
+         y2="86.5"
+         id="line173"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="145.39999"
+         y1="137.39999"
+         x2="168.8"
+         y2="150.89999"
+         id="line175"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="142.39999"
+         y1="142.60001"
+         x2="165.8"
+         y2="156.10001"
+         id="line177"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="160"
+         x2="74.599998"
+         y2="140"
+         id="line179"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="107.7"
+         y1="150.8"
+         x2="83.400002"
+         y2="136.8"
+         id="line181"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="74.599998"
+         y1="140"
+         x2="74.599998"
+         y2="113"
+         id="line183"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="85.900002"
+         y1="93.5"
+         x2="109.3"
+         y2="80"
+         id="line185"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="80"
+         x2="132.7"
+         y2="93.5"
+         id="line187"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="143.89999"
+         y1="113"
+         x2="143.89999"
+         y2="140"
+         id="line189"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="143.89999"
+         y1="140"
+         x2="109.3"
+         y2="160"
+         id="line191"
+         style="stroke:#000000;stroke-width:2" />
+      <text
+         x="105.28203"
+         y="208"
+         font-size="16"
+         id="text193"
+         style="font-size:16px;fill:#666666;stroke:#666666;stroke-width:1">CH</text>
+      <text
+         x="129.28203"
+         y="211.67999"
+         font-size="13"
+         id="text195"
+         style="font-size:13px;fill:#666666;stroke:#666666;stroke-width:1">3</text>
+      <text
+         x="68.641014"
+         y="108"
+         font-size="16"
+         id="text197"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="34"
+         y="88"
+         font-size="16"
+         id="text199"
+         style="font-size:16px;fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1">H</text>
+      <text
+         x="103.28203"
+         y="48"
+         font-size="16"
+         id="text201"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+      <text
+         x="137.92305"
+         y="108"
+         font-size="16"
+         id="text203"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">N</text>
+      <text
+         x="172.56407"
+         y="88"
+         font-size="16"
+         id="text205"
+         style="font-size:16px;fill:#bfbfbf;stroke:#bfbfbf;stroke-width:1">H</text>
+      <text
+         x="172.56407"
+         y="168"
+         font-size="16"
+         id="text207"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+    </svg>
+  </g>
+  <text
+     font-size="2.000000"
+     x="43.050564"
+     y="64.194756"
+     id="text209"
+     style="font-size:2px;text-anchor:middle;fill:#000000;font-family:sans-serif">
+    <tspan
+       style="font-size:6px"
+       id="tspan3266">uracil</tspan>
+  </text>
+  <g
+     transform="translate(29.333333,29.333333)"
+     id="g211">
+    <svg
+       width="33.333332"
+       height="33.333332"
+       x="0"
+       y="0"
+       viewBox="0 0 183.92305 200"
+       id="svg213"
+       version="1.1"
+       inkscape:version="0.48.3.1 r9886"
+       style="stroke:#000000;stroke-width:2;stroke-linecap:round;font-family:sans-serif">
+      <line
+         x1="71.599998"
+         y1="147"
+         x2="71.599998"
+         y2="120"
+         id="line215"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="77.599998"
+         y1="147"
+         x2="77.599998"
+         y2="120"
+         id="line217"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="107.8"
+         y1="57.400002"
+         x2="131.2"
+         y2="43.900002"
+         id="line219"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="110.8"
+         y1="62.599998"
+         x2="134.2"
+         y2="49.099998"
+         id="line221"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="74.599998"
+         y1="120"
+         x2="51.299999"
+         y2="106.5"
+         id="line223"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="40"
+         y1="87"
+         x2="40"
+         y2="60"
+         id="line225"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="40"
+         y1="60"
+         x2="74.599998"
+         y2="40"
+         id="line227"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="48.799999"
+         y1="63.200001"
+         x2="73"
+         y2="49.200001"
+         id="line229"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="74.599998"
+         y1="40"
+         x2="109.3"
+         y2="60"
+         id="line231"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="109.3"
+         y1="60"
+         x2="109.3"
+         y2="87"
+         id="line233"
+         style="stroke:#000000;stroke-width:2" />
+      <line
+         x1="98"
+         y1="106.5"
+         x2="74.599998"
+         y2="120"
+         id="line235"
+         style="stroke:#000000;stroke-width:2" />
+      <text
+         x="68.641014"
+         y="168"
+         font-size="16"
+         id="text237"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+      <text
+         x="22"
+         y="108"
+         font-size="16"
+         id="text239"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">HN</text>
+      <text
+         x="137.92305"
+         y="48"
+         font-size="16"
+         id="text241"
+         style="font-size:16px;fill:#ff0c0c;stroke:#ff0c0c;stroke-width:1">O</text>
+      <text
+         x="103.28203"
+         y="108"
+         font-size="16"
+         id="text243"
+         style="font-size:16px;fill:#0c0cff;stroke:#0c0cff;stroke-width:1">NH</text>
+    </svg>
+  </g>
+  <script
+     type="text/ecmascript"
+     id="script245">
+    var svgEl = document.getElementById(&quot;topsvg&quot;);
+    svgEl.addEventListener('DOMMouseScroll', wheel, false);
+    svgEl.addEventListener('mousewheel', wheel, false);
+    var startx=0;
+    var starty=0;
+    function wheel(evt){
+      evt = evt ? evt : window.event;
+      var normal = evt.detail ? evt.detail * -1 : evt.wheelDelta / 40;
+      var vb = new Array(4);
+      var vbtext = svgEl.getAttributeNS(null,&quot;viewBox&quot;);
+      vb = vbtext.split(&quot; &quot;);
+      var zoom = (normal&lt;0)? 1.41 : 0.71;
+      //var dwidth = parseFloat(Math.max(vb[2],vb[3])) * (1-zoom);
+      vb[0] = parseFloat(vb[0]) + parseFloat(vb[2])*(1-zoom) * evt.clientX/innerWidth;
+      vb[1] = parseFloat(vb[1]) + parseFloat(vb[3])*(1-zoom) * evt.clientY/innerHeight;
+      vb[2] = parseFloat(vb[2]) * zoom;
+      vb[3] = parseFloat(vb[3]) * zoom;
+      svgEl.setAttributeNS(null, &quot;viewBox&quot;, vb.join(&quot; &quot;));
+      if (evt.preventDefault)
+        evt.preventDefault(); // Don't scroll the page when zooming
+    }
+   svgEl.onmousedown = function(evt) {
+      startx = evt.clientX;
+      starty = evt.clientY;
+    }
+    svgEl.onmousemove=function(evt) {
+      if(startx!=0 &amp;&amp; starty!=0 
+        &amp;&amp; ((evt.clientX - startx)*(evt.clientX - startx)+(evt.clientY - starty)*(evt.clientY - starty)&gt;100))
+      {
+        var vbtext = svgEl.getAttributeNS(null,&quot;viewBox&quot;);
+        vb = vbtext.split(&quot; &quot;);
+        var maxwh = Math.max(parseFloat(vb[2]),parseFloat(vb[3]));
+        vb[0] = parseFloat(vb[0]) - (evt.clientX - startx)*maxwh/innerWidth;
+        vb[1] = parseFloat(vb[1]) - (evt.clientY - starty)*maxwh/innerHeight;
+        svgEl.setAttributeNS(null, &quot;viewBox&quot;, vb.join(&quot; &quot;));
+        startx = evt.clientX;
+        starty = evt.clientY;
+      }
+    } 
+    svgEl.onmouseup=function() {
+      startx=0;
+      starty=0;
+    }
+    svgEl.ondblclick=function() {
+      location.reload();
+    }
+  </script>
+  <text
+     xml:space="preserve"
+     style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
+     x="0.10674191"
+     y="29.764044"
+     id="text3250"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3252"
+       x="0.10674191"
+       y="29.764044"
+       style="font-size:6px">adenine</tspan></text>
+  <rect
+     style="fill:#ececec;fill-opacity:0.51904764;stroke:#000000;stroke-width:0.2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect3288"
+     width="43.820225"
+     height="26.264046"
+     x="54.882027"
+     y="38.19101" />
+  <text
+     xml:space="preserve"
+     style="font-size:6px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
+     x="57.62249"
+     y="46.037788"
+     id="text3268"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="57.62249"
+       y="46.037788"
+       id="tspan3272">nucleotides</tspan><tspan
+       sodipodi:role="line"
+       x="57.62249"
+       y="53.537788"
+       id="tspan3278">the basis </tspan><tspan
+       sodipodi:role="line"
+       x="57.62249"
+       y="61.037788"
+       id="tspan3286">of life</tspan></text>
+</svg>

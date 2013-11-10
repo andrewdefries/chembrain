@@ -20,7 +20,7 @@
   <script type="text/javascript" src="static/d3.min.js"></script>
   <script type="text/javascript" src="static/scripts.js"></script>
 
-  <title>WHATEVER</title>
+  <title>Hands On Chemistry</title>
 </head>
 
 <body>
@@ -30,6 +30,7 @@
         <i id='expand-menu' class='fa fa-bars fa-2x'></i>
         <div id='controls'>
           <div id='add-elements'>
+            <div>Add Atoms</div>
           </div>
           <i class='fa fa-crosshairs fa-2x kill-selected'></i>
           <i class='fa fa-trash-o fa-2x clear'></i>
@@ -39,13 +40,17 @@
         <i class='fa fa-pause fa-2x stop-generation'></i>
         <i class='fa fa-play fa-2x start-generation'></i>
         <form class='expanded-menu hidden' id='molecule-search'>
-          <input class="search-text" type="text" name="q" placeholder="Molecule Name" value="">
+          <input class="search-text" type="text" name="q" placeholder="Load Molecule By Name" value="">
         </form>
-        <div id='free-electrons'></div>
-        <div id='formula-goal'></div>
-        <div id='formula-current'></div>
+        <div id='selected-atom-detail'>
+          <div id='free-electrons'></div>
+        </div>
       </div>
       <div id='canvas'></div>
+      <div id='legend'>
+        <div>Goal Formula: <span id='formula-goal'></span></div>
+        <div>Your Formula: <span id='formula-current'></span></div>
+      </div>
       <div id='lightbox'></div>
       <div id='overlay'></div>
     </div>
