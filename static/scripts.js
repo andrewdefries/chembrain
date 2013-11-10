@@ -489,7 +489,7 @@ function Graph(el) {
   var update = function () {
     var link = vis.selectAll("line")
       .data(links, function (d) {
-      return d.source.id + "-" + d.target.id;
+        return d.source.id + "-" + d.target.id;
     });
 
     link.enter().append("line")
@@ -522,15 +522,25 @@ function Graph(el) {
         return d3.scale.category20()(d.size);
       })
       .attr("id", function (d) {
-        return "Node;" + d.id;
+        return "Node" + d.id;
       })
       .attr("stroke", "black")
       .attr("class", "nodeStrokeClass")
       .attr("stroke-width",2)
+
+    nodeEnter.append("svg:circle")
+      .attr("r", function(d) {
+        return 40;
+      })
+      .attr("id", function (d) {
+        return "NodeSelector" + d.id;
+      })
+      .attr("stroke", "black")
+      .attr("opacity", 0)
       .on('click', function(d,i) {
         $('circle').attr('stroke', 'black');
-        $(this).attr('stroke', 'green');
         selectedNode = d;
+        $('circle#Node' + d.id).attr('stroke', 'green');
       });
 
     nodeEnter.append("svg:text")
