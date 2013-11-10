@@ -87,17 +87,26 @@ function myGraph(el) {
 
     this.removeAllNodes();
 
-    _.each(ob, function(step){
-      var f_name = step.shift();
-      // that[f_name](step); // need to unpack args
-      // that[f_name].apply(undefined, step);  // can't push undefined
+    var i = 0;
+    var next = function() {
+      if (i < ob.length){
 
-      // oh dear
-      args = JSON.stringify(step).slice(1, -1);
+        var step = ob[i] 
+        var f_name = step.shift();
+        // that[f_name](step); // need to unpack args
+        // that[f_name].apply(undefined, step);  // can't push undefined
 
-      eval("that." + f_name +"(" + args + ")");
-    })
+        // oh dear
+        args = JSON.stringify(step).slice(1, -1);
 
+        eval("that." + f_name +"(" + args + ")");
+        setTimeout(next, 100);
+        i++;
+      } else {
+        clearTimeout(timer)
+      }
+    }
+    timer = setTimeout(next, 100);
   }
 
   this.updateToMolecule = function(oldNodes, linkPairs) {
@@ -196,7 +205,11 @@ function myGraph(el) {
 
   this.removeAllNodes = function () {
     // Awful HACK
-    this._recording.push(["removeAllNodes"]);
+    // TODO some cleverness to replay without clearning
+    // this._recording.push(["removeAllNodes"]);
+
+    this._recording = [];;
+
 
     this.removeAllLinks()
     nodes.splice(0, nodes.length);
