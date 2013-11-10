@@ -48,7 +48,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.51978303"
-     inkscape:cx="1029.833"
+     inkscape:cx="1033.6808"
      inkscape:cy="333.31238"
      inkscape:current-layer="layer1"
      id="namedview5085"
@@ -146,25 +146,30 @@
     <text
        xml:space="preserve"
        style="font-size:80px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
-       x="33.639561"
+       x="31.639561"
        y="123.92767"
        id="text7238"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="33.639561"
+         x="31.639561"
          y="123.92767"
          id="tspan7291"
          style="font-size:72px">     Water is from </tspan><tspan
          sodipodi:role="line"
-         x="33.639561"
-         y="213.92766"
-         id="tspan7297"
-         style="font-size:72px"> the sun. Let's make</tspan><tspan
+         x="31.639561"
+         y="213.92767"
+         style="font-size:72px"
+         id="tspan3010"> the sun. </tspan><tspan
          sodipodi:role="line"
-         x="33.639561"
+         x="31.639561"
          y="303.92767"
          id="tspan7307"
-         style="font-size:72px"> some!</tspan></text>
+         style="font-size:72px">We will </tspan><tspan
+         sodipodi:role="line"
+         x="31.639561"
+         y="393.92767"
+         style="font-size:72px"
+         id="tspan3022">build some...</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot7271"

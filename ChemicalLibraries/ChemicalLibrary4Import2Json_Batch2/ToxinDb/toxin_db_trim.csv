@@ -1,0 +1,2949 @@
+id,common_name,smiles_isomeric
+ToxinDB,Arsenic,[As+3]
+ToxinDB,Lead,[Pb++]
+ToxinDB,Mercury,[Hg++]
+ToxinDB,Vinyl chloride,C=CCl
+ToxinDB,Polychlorinated biphenyls,C1=C(C=C(C(=C1Cl)Cl)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,Benzene,C1=CC=CC=C1
+ToxinDB,Cadmium,[Cd++]
+ToxinDB,Benzo[a]pyrene,C1=CC=C2C3=C4C(=CC2=C1)C=CC5=C4C(=CC=C5)C=C3
+ToxinDB,Benzo[b]fluoranthene,C1=CC=C2C3=C4C(=CC=C3)C5=CC=CC=C5C4=CC2=C1
+ToxinDB,Chloroform,C(Cl)(Cl)Cl
+ToxinDB,"DDT, P,P'-",C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)C(Cl)(Cl)Cl)Cl
+ToxinDB,Aroclor 1254,C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl
+ToxinDB,Aroclor 1260,C1=CC(=C(C(=C1C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"Dibenzo[a,h]anthracene",C1=CC=C2C(=C1)C=CC3=CC4=C(C=CC5=CC=CC=C54)C=C32
+ToxinDB,Trichloroethylene,C(=C(Cl)Cl)Cl
+ToxinDB,Dieldrin,C1[C@@H]2C3C([C@H]1C4C2O4)[C@]5(C(=C([C@]3(C5(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"Chromium, hexavalent",[Cr+6]
+ToxinDB,"Phosphorus, white",[P]
+ToxinDB,Chlordane,C1C2C(C(C1Cl)Cl)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"DDE, P,P'-",C1=CC(=CC=C1C(=C(Cl)Cl)C2=CC=C(C=C2)Cl)Cl
+ToxinDB,Hexachlorobutadiene,C(=C(Cl)Cl)(C(=C(Cl)Cl)Cl)Cl
+ToxinDB,Aldrin,C1[C@@H]2C=C[C@@H]1[C@@H]3[C@H]2[C@@]4(C(=C([C@@]3(C4(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"DDD, P,P'-",C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl
+ToxinDB,Benzidine,C1=CC(=CC=C1C2=CC=C(C=C2)N)N
+ToxinDB,Aroclor 1248,C1=C(C=C(C=C1Cl)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,Cyanide,[C-]#N
+ToxinDB,Aroclor 1242,C1=CC(=C(C=C1Cl)Cl)C2=C(C=C(C=C2)Cl)Cl
+ToxinDB,Toxaphene,C=C1C(C2(C(C(C1(C2(Cl)Cl)Cl)Cl)Cl)Cl)(CCl)CCl
+ToxinDB,"Hexachlorocyclohexane, gamma-",C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Tetrachloroethylene,C(=C(Cl)Cl)(Cl)Cl
+ToxinDB,Heptachlor,C1=CC(C2C1C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"1,2-Dibromoethane",C(CBr)Br
+ToxinDB,"Hexachlorocyclohexane, beta-",C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Acrolein,C=CC=O
+ToxinDB,Disulfoton,CCOP(=S)(OCC)SCCSCC
+ToxinDB,Benzo[a]anthracene,C1=CC=C2C(=C1)C=CC3=CC4=CC=CC=C4C=C32
+ToxinDB,"3,3'-Dichlorobenzidine",C1=CC(=C(C=C1C2=CC(=C(C=C2)N)Cl)Cl)N
+ToxinDB,Endrin,C1[C@@H]2[C@@H]3[C@H]([C@H]1[C@H]4[C@@H]2O4)[C@@]5(C(=C([C@]3(C5(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Beryllium,[Be++]
+ToxinDB,"Hexachlorocyclohexane, delta-",C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"1,2-Dibromo-3-chloropropane",C(C(CBr)Br)Cl
+ToxinDB,Pentachlorophenol,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
+ToxinDB,Heptachlor epoxide,C12C(C(C3C1O3)Cl)C4(C(=C(C2(C4(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Carbon tetrachloride,C(Cl)(Cl)(Cl)Cl
+ToxinDB,Aroclor 1221,
+ToxinDB,Cobalt,[Co++]
+ToxinDB,"DDT, O,P'-",C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)(Cl)Cl)Cl
+ToxinDB,Aroclor 1016,C1=CC(=CC(=C1)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,Di-n-butyl phthalate,CCCCOC(=O)C1=CC=CC=C1C(=O)OCCCC
+ToxinDB,Nickel,[Ni++]
+ToxinDB,Endosulfan,C1C2C(COS(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Endosulfan sulfate,C1C2C(COS(=O)(=O)O1)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Diazinon,CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C
+ToxinDB,"Endosulfan, alpha",C1[C@H]2[C@@H](COS(=O)O1)[C@]3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Xylene,CC1=CC(=CC=C1)C
+ToxinDB,"Chlordane, cis-",C1[C@@H]2[C@H]([C@@H]([C@@H]1Cl)Cl)[C@]3(C(=C([C@@]2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Dibromochloropropane,C(C(CBr)Br)Cl
+ToxinDB,Methoxychlor,COC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC)C(Cl)(Cl)Cl
+ToxinDB,Benzo[k]fluoranthene,C1=CC=C2C=C3C4=CC=CC5=C4C(=CC=C5)C3=CC2=C1
+ToxinDB,Endrin ketone,C1C2C3C4C1C(=O)C2C5(C3(C(C4(C5Cl)Cl)(Cl)Cl)Cl)Cl
+ToxinDB,"Chlordane, trans-",C1[C@@H]2[C@H]([C@@H]([C@H]1Cl)Cl)[C@]3(C(=C([C@@]2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Chromium(VI) oxide,O=[Cr](=O)=O
+ToxinDB,Methane,C
+ToxinDB,"Endosulfan, beta",C1[C@@H]2[C@H](COS(=O)O1)[C@@]3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Aroclor 1232,
+ToxinDB,Endrin aldehyde,C1C(C2C3C1C4C5(C2(C(C3(C45Cl)Cl)(Cl)Cl)Cl)Cl)C=O
+ToxinDB,Benzofluoranthene,C1=CC=C2C(=C1)C=C3C=CC=C4C3=C2C5=CC=CC=C54
+ToxinDB,Toluene,CC1=CC=CC=C1
+ToxinDB,2-Hexanone,CCCCC(C)=O
+ToxinDB,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",C1=C2C(=CC(=C1Cl)Cl)OC3=CC(=C(C=C3O2)Cl)Cl
+ToxinDB,Zinc,[Zn++]
+ToxinDB,Dimethylarsinic acid,C[As](C)(O)=O
+ToxinDB,Di(2-ethylhexyl)phthalate,CCCCC(CC)COC(=O)C1=CC=CC=C1C(=O)OCC(CC)CCCC
+ToxinDB,Chromium,[Cr+3]
+ToxinDB,Naphthalene,C1=CC=C2C=CC=CC2=C1
+ToxinDB,"1,1-Dichloroethene",C=C(Cl)Cl
+ToxinDB,Methylene chloride,C(Cl)Cl
+ToxinDB,Aroclor 1240,
+ToxinDB,"2,4,6-Trinitrotoluene",CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Hydrazine,NN
+ToxinDB,"1,2-Dichloroethane",C(CCl)Cl
+ToxinDB,"2,4,6-Trichlorophenol",C1=C(C=C(C(=C1Cl)O)Cl)Cl
+ToxinDB,"2,4-Dinitrophenol",C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])O
+ToxinDB,Bis(2-chloroethyl) ether,C(CCl)OCCCl
+ToxinDB,Thiocyanate,[S-]C#N
+ToxinDB,Asbestos,[OH-].[Na+]
+ToxinDB,Chlorine,[Cl-]
+ToxinDB,Cyclotrimethylenetrinitramine,C1N(CN(CN1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Hexachlorobenzene,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,4-Dinitrotoluene",CC1=C(C=C(C=C1)[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Ethion,CCOP(=S)(OCC)SCSP(=S)(OCC)OCC
+ToxinDB,"1,1,1-Trichloroethane",CC(Cl)(Cl)Cl
+ToxinDB,Ethylbenzene,CCC1=CC=CC=C1
+ToxinDB,Radium-226,[Ra]
+ToxinDB,Thorium,[Th]
+ToxinDB,"4,6-Dinitro-o-cresol",CC1=CC(=CC(=C1O)[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,"1,3,5-Trinitrobenzene",C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Chlorobenzene,C1=CC=C(C=C1)Cl
+ToxinDB,Radon,[Rn]
+ToxinDB,Radium-228,[228Ra]
+ToxinDB,Thorium-230,[230Th]
+ToxinDB,Uranium-235,[235U]
+ToxinDB,Barium,[Ba++]
+ToxinDB,Fluoranthene,C1=CC=C2C(=C1)C3=CC=CC4=C3C2=CC=C4
+ToxinDB,Uranium-234,[234U]
+ToxinDB,n-Nitrosodi-n-propylamine,CCCN(CCC)N=O
+ToxinDB,Thorium-228,[228Th]
+ToxinDB,Radon-222,[222Rn]
+ToxinDB,"Hexachlorocyclohexane, alpha-",C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"1,2,3-Trichlorobenzene",C1=CC(=C(C(=C1)Cl)Cl)Cl
+ToxinDB,Manganese,[Mn++]
+ToxinDB,Chrysotile asbestos,O.O[Si]([O-])([O-])[O-].O[Si]([O-])([O-])[O-].[Mg+2].[Mg+2].[Mg+2]
+ToxinDB,Strontium-90,[90Sr]
+ToxinDB,Plutonium-239,[239Pu]
+ToxinDB,Polonium-210,[210Po]
+ToxinDB,Methylmercury,C[Hg+]
+ToxinDB,Plutonium-238,[238Pu]
+ToxinDB,Plutonium,[Pu]
+ToxinDB,Chlorpyrifos,CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl
+ToxinDB,Copper,[Cu++]
+ToxinDB,Americium-241,[241Am]
+ToxinDB,Radon-220,[220Rn]
+ToxinDB,Amosite asbestos,
+ToxinDB,Iodine-131,[131I][131I]
+ToxinDB,Hydrogen cyanide,C#N
+ToxinDB,Tributyltin,CCCC[Sn](CCCC)CCCC
+ToxinDB,Guthion,COP(=S)(OC)SCN1C(=O)C2=CC=CC=C2N=N1
+ToxinDB,Neptunium-237,[237Np]
+ToxinDB,Chrysene,C1=CC=C2C(=C1)C=CC3=C2C=CC4=CC=CC=C43
+ToxinDB,Chlordecone,C1(=O)C2(C3(C4(C1(C5(C2(C3(C(C45Cl)(Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Iodine-129,[129IH]
+ToxinDB,Plutonium-240,[240Pu]
+ToxinDB,"S,S,S-Tributyl phosphorotrithioate",CCCCSP(=O)(SCCCC)SCCCC
+ToxinDB,Bromine,[Br-]
+ToxinDB,Polybrominated biphenyls,C1=C(C(=CC(=C1Br)Br)Br)C2=CC(=C(C=C2Br)Br)Br
+ToxinDB,Dicofol,C1=CC(=CC=C1C(C2=CC=C(C=C2)Cl)(C(Cl)(Cl)Cl)O)Cl
+ToxinDB,Parathion,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+]([O-])=O
+ToxinDB,"1,1,2,2-Tetrachloroethane",C(C(Cl)Cl)(Cl)Cl
+ToxinDB,Selenium,[Se--]
+ToxinDB,"Hexachlorocyclohexane, technical Grade",C1(C(C(C(C(C1Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"DDD, O,P'-",C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl
+ToxinDB,"4,4'-Methylenebis(2-chloroaniline)",C1=CC(=C(C=C1CC2=CC(=C(C=C2)N)Cl)Cl)N
+ToxinDB,Hexachlorodibenzo-p-dioxin,
+ToxinDB,Heptachlorodibenzo-p-dioxin,CC1=C(C(CC1)C(C)C)CCC(C)O
+ToxinDB,"1,3-Butadiene",C=CC=C
+ToxinDB,Ammonia,N
+ToxinDB,2-Methylnaphthalene,CC1=CC2=CC=CC=C2C=C1
+ToxinDB,"1,4-Dichlorobenzene",C1=CC(=CC=C1Cl)Cl
+ToxinDB,"1,1-Dichloroethane",CC(Cl)Cl
+ToxinDB,Acenaphthene,C1CC2=CC=CC3=C2C1=CC=C3
+ToxinDB,"1,2,3,4,6,7,8,9-Octachlorodibenzofuran",C12=C(C(=C(C(=C1Cl)Cl)Cl)Cl)OC3=C2C(=C(C(=C3Cl)Cl)Cl)Cl
+ToxinDB,"1,1,2-Trichloroethane",C(C(Cl)Cl)Cl
+ToxinDB,Hexachlorocyclopentadiene,C1(=C(C(C(=C1Cl)Cl)(Cl)Cl)Cl)Cl
+ToxinDB,Heptachlorodibenzofuran,C1=C2C3=C(C(=C(C(=C3Cl)Cl)Cl)Cl)OC2=C(C(=C1Cl)Cl)Cl
+ToxinDB,"1,2-Diphenylhydrazine",C1=CC=C(C=C1)NNC2=CC=CC=C2
+ToxinDB,"2,3,4,7,8-Pentachlorodibenzofuran",C1=C2C3=CC(=C(C(=C3OC2=CC(=C1Cl)Cl)Cl)Cl)Cl
+ToxinDB,"Cresol, para-",CC1=CC=C(O)C=C1
+ToxinDB,"1,2-Dichlorobenzene",C1=CC=C(C(=C1)Cl)Cl
+ToxinDB,"1,2-Dichloroethene, trans-",C(=C/Cl)\Cl
+ToxinDB,"Indeno(1,2,3-cd)pyrene",C1=CC=C2C(=C1)C3=C4C2=CC5=CC=CC6=C5C4=C(C=C6)C=C3
+ToxinDB,Carbon disulfide,C(=S)=S
+ToxinDB,"2,3,4,5-Tetrachlorophenol",C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)O
+ToxinDB,Americium,[Am]
+ToxinDB,Uranium-233,[233U]
+ToxinDB,Palladium,[Pd]
+ToxinDB,Hexachlorodibenzofuran,C1=CC(=C(C2=C1OC3=C2C(=C(C(=C3Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Phenol,OC1=CC=CC=C1
+ToxinDB,Chloroethane,CCCl
+ToxinDB,Acetone,CC(C)=O
+ToxinDB,"Xylene, para-",CC1=CC=C(C=C1)C
+ToxinDB,Aluminum,[Al+3]
+ToxinDB,Carbon monoxide,[C]#[O]
+ToxinDB,Hydrogen sulfide,S
+ToxinDB,Pentachlorodibenzofuran,C1=CC(=C2C(=C1Cl)C3=C(O2)C(=CC(=C3Cl)Cl)Cl)Cl
+ToxinDB,"Cresol, ortho-",CC1=CC=CC=C1O
+ToxinDB,Vanadium,[V+3]
+ToxinDB,n-Nitrosodimethylamine,CN(C)N=O
+ToxinDB,"1,2,4-Trichlorobenzene",C1=CC(=C(C=C1Cl)Cl)Cl
+ToxinDB,Tetrachlorodibenzo-p-dioxin,
+ToxinDB,Pentachlorodibenzo-p-dioxin,
+ToxinDB,"2,3,7,8-Tetrachlorodibenzofuran",C1=C2C3=CC(=C(C=C3OC2=CC(=C1Cl)Cl)Cl)Cl
+ToxinDB,"2,4-Dichlorophenol",OC1=CC=C(Cl)C=C1Cl
+ToxinDB,Fluorine,[F-]
+ToxinDB,Nitrite,[O-]N=O
+ToxinDB,Cesium-137,[137Cs]
+ToxinDB,Silver,[Ag+]
+ToxinDB,Chromic acid,O[Cr](=O)(=O)O
+ToxinDB,Nitrate,[O-][N+]([O-])=O
+ToxinDB,Potassium-40,[40K]
+ToxinDB,Dinitrotoluene,CC1=C(C=C(C=C1)[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Antimony,[Sb+3]
+ToxinDB,Thorium-227,[227Th]
+ToxinDB,"2,4,5-Trichlorophenol",C1=C(C(=CC(=C1Cl)Cl)Cl)O
+ToxinDB,Arsenic acid,O[As](=O)(O)O
+ToxinDB,Arsenic trioxide,O1[As]2O[As]1O2
+ToxinDB,Phorate,CCOP(=S)(OCC)SCSCC
+ToxinDB,Benzo[e]pyrene,C1=CC=C2C(=C1)C3=CC=CC4=C3C5=C(C=CC=C25)C=C4
+ToxinDB,Cresols,CC1=CC=C(O)C=C1
+ToxinDB,"Chlordane, technical",C1C2C(C(C1Cl)Cl)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Dimethoate,CNC(=O)CSP(=S)(OC)OC
+ToxinDB,Actinium-227,[227Ac]
+ToxinDB,4-Aminobiphenyl,C1=CC=C(C=C1)C2=CC=C(C=C2)N
+ToxinDB,Pyrethrum,CC1=C(C(=O)C[C@@H]1OC(=O)[C@@H]2[C@H](C2(C)C)/C=C(\C)/C(=O)OC)C/C=C/C=C
+ToxinDB,Arsine,[AsH3]
+ToxinDB,Naled,COP(=O)(OC)OC(C(Cl)(Cl)Br)Br
+ToxinDB,Chlorinated dibenzofurans,C1=CC=C2C(=C1)C3=C(O2)C=CC=C3Cl
+ToxinDB,Ethoprop,CCCSP(=O)(OCC)SCCC
+ToxinDB,Dichlorvos,COP(=O)(OC)OC=C(Cl)Cl
+ToxinDB,Calcium arsenate,[O-][As](=O)([O-])[O-].[O-][As](=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2]
+ToxinDB,Mercuric chloride,Cl[Hg]Cl
+ToxinDB,Sodium arsenite,[O-][As]=O.[Na+]
+ToxinDB,Formaldehyde,C=O
+ToxinDB,2-Chlorophenol,C1=CC=C(C(=C1)O)Cl
+ToxinDB,Phenanthrene,C1=CC=C2C(=C1)C=CC3=CC=CC=C32
+ToxinDB,Hydrogen fluoride,F
+ToxinDB,Dibromochloromethane,C(Cl)(Br)Br
+ToxinDB,Dimethyl formamide,CN(C)C=O
+ToxinDB,Pyrene,C1=CC2=C3C(=C1)C=CC4=CC=CC(=C43)C=C2
+ToxinDB,Ethyl ether,CCOCC
+ToxinDB,4-Nitrophenol,OC1=CC=C(C=C1)[N+]([O-])=O
+ToxinDB,Phosphine,P
+ToxinDB,Trichlorobenzene,C1=CC(=C(C(=C1)Cl)Cl)Cl
+ToxinDB,"2,6-Dinitrotoluene",CC1=C(C=CC=C1[N+](=O)[O-])[N+](=O)[O-]
+ToxinDB,Fluoride ion,[F-]
+ToxinDB,Methyl parathion,COP(=S)(OC)OC1=CC=C(C=C1)[N+](=O)[O-]
+ToxinDB,Pentaerythritol tetranitrate,C(C(CO[N+](=O)[O-])(CO[N+](=O)[O-])CO[N+](=O)[O-])O[N+](=O)[O-]
+ToxinDB,Styrene,C=CC1=CC=CC=C1
+ToxinDB,"1,2,3,4,6,7,8-Heptachlorodibenzofuran",C1=C2C3=C(C(=C(C(=C3Cl)Cl)Cl)Cl)OC2=C(C(=C1Cl)Cl)Cl
+ToxinDB,Adamsite,C1=CC=C2C(=C1)NC3=CC=CC=C3[As]2Cl
+ToxinDB,Arsenic trisulfide,S.[As]
+ToxinDB,Arsenic disulfide,S[As]
+ToxinDB,Arsenic pentasulfide,S.S.S.S.S.[As].[As]
+ToxinDB,Arsenic trichloride,Cl[As](Cl)Cl
+ToxinDB,Arsenous acid,[O-][As]=O.[Na+]
+ToxinDB,Arsenenic acid,[O-][As]([O-])[O-]
+ToxinDB,Ammonium arsenate,[NH4+].[NH4+].O[As](=O)([O-])[O-]
+ToxinDB,Copper(II) arsenite,O[As]([O-])[O-].[Cu+2]
+ToxinDB,Gallium arsenide,[Ga]#[As]
+ToxinDB,Copper arsenate,
+ToxinDB,Copper arsenate hydroxide,
+ToxinDB,Potassium arsenite,[O-][As]([O-])[O-].[K+]
+ToxinDB,Arsenic pentoxide,O=[As](=O)O[As](=O)=O
+ToxinDB,Magnesium arsenate,[O-][As](=O)([O-])[O-].[O-][As](=O)([O-])[O-].[Mg+2].[Mg+2].[Mg+2]
+ToxinDB,Manganese arsenate,[O-][As](=O)([O-])[O-].[O-][As](=O)([O-])[O-].[Mn+2].[Mn+2].[Mn+2]
+ToxinDB,Lead arsenate,O[As](=O)([O-])[O-].[Pb+2]
+ToxinDB,Potassium arsenate,O[As](=O)(O)[O-].[K+]
+ToxinDB,Sodium arsenate,O[As](=O)(O)[O-].[Na+]
+ToxinDB,Zinc arsenate,
+ToxinDB,Arsanilic acid,C1=CC(=CC=C1N)[As](=O)(O)O
+ToxinDB,Arsenobetaine,C[As+](C)(C)CC(=O)[O-]
+ToxinDB,Arsenocholine,C[As+](C)(C)CCO
+ToxinDB,Methylarsine,C[AsH2]
+ToxinDB,Dimethylarsine,C[AsH]C
+ToxinDB,Trimethylarsine,C[As](C)C
+ToxinDB,Methylarsonic acid,C[As](=O)(O)O
+ToxinDB,"Methylarsonic acid, disodium salt",C[As](=O)(O)O
+ToxinDB,"Methylarsonic acid, monosodium salt",C[As](=O)(O)[O-].[Na+]
+ToxinDB,Benzenearsonic acid,C1=CC=C(C=C1)[As](=O)(O)O
+ToxinDB,3-Nitro-4-hydroxy-phenyl-arsonic acid,C1=CC(=C(C=C1[As](=O)(O)O)[N+](=O)[O-])O
+ToxinDB,"4,4-Arsenobis(2-aminophenol) dihydrochloride",C1=CC(=C(C=C1[As]=[As]C2=CC(=C(C=C2)O)N)N)O.Cl.Cl
+ToxinDB,[4-(Aminocarbonyl-amino)phenyl] arsonic acid,C1=CC(=CC=C1NC(=O)N)[As](=O)(O)O
+ToxinDB,[4-[(2-Amino-2-oxoethyl)amino]phenyl] arsonic acid,C1=CC(=CC=C1NCC(=O)N)[As](=O)(O)[O-].[Na+]
+ToxinDB,(4-Nitrophenyl)arsonic acid,C1=CC(=CC=C1[N+](=O)[O-])[As](=O)(O)O
+ToxinDB,Sodium arsanilate,C1=CC(=CC=C1N)[As](=O)(O)[O-].[Na+]
+ToxinDB,Sodium dimethylarsinate,C[As](=O)(C)O.[Na+]
+ToxinDB,Trimethylarsine oxide,C[As](=O)(C)C
+ToxinDB,Lead acetate,CC(=O)[O-].CC(=O)[O-].[Pb+2]
+ToxinDB,Lead arsenite,[O-][As]=O.[O-][As]=O.[Pb+2]
+ToxinDB,Lead azide,[N-]=[N+]=N[Pb]N=[N+]=[N-]
+ToxinDB,Lead bromide,Br[Pb]Br
+ToxinDB,Lead carbonate,C(=O)([O-])[O-].[Pb+2]
+ToxinDB,Lead chloride,Cl[Pb]Cl
+ToxinDB,Lead chromate,[O-][Cr](=O)(=O)[O-].[Pb+2]
+ToxinDB,Lead fluoroborate,
+ToxinDB,Lead iodide,I[Pb]I
+ToxinDB,Lead molybdenum chromate,[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[O-2].[Cr+3].[Cr+3].[Mo].[Mo].[Pb+2].[Pb+2]
+ToxinDB,Lead nitrate,[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Pb+2]
+ToxinDB,Lead oxide,O=[Pb]
+ToxinDB,Lead dioxide,O=[Pb]=O
+ToxinDB,Lead tetroxide,O=[Pb]
+ToxinDB,Lead phosphate,[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Pb+2].[Pb+2]
+ToxinDB,Lead styphnate,C1=C(C(=C(C(=C1[N+](=O)[O-])[O-])[N+](=O)[O-])[O-])[N+](=O)[O-].[Pb+2]
+ToxinDB,Lead sulfate,[O-]S(=O)(=O)[O-].[Pb+2]
+ToxinDB,Lead sulfide,S=[Pb]
+ToxinDB,Tetramethyl lead,C[Pb](C)(C)C
+ToxinDB,Tetraethyl lead,CC[Pb](CC)(CC)CC
+ToxinDB,Mercury(II) fulminate,C(#[N+][O-])[Hg]C#[N+][O-]
+ToxinDB,Mercury(II) sulfide,S=[Hg]
+ToxinDB,Mercury(II) oxide,O=[Hg]
+ToxinDB,Mercury(I) chloride,Cl[Hg].Cl[Hg]
+ToxinDB,Phenylmercuric acetate,CC(=O)O[Hg]C1=CC=CC=C1
+ToxinDB,Mercury selenide,[Se-2].[Hg+2]
+ToxinDB,Mercury telluride,[Te]=[Hg]
+ToxinDB,Mercury cadmium telluride,[Cd]=[Te]=[Hg]
+ToxinDB,Mercury(II) acetate,CC(=O)[O-].CC(=O)[O-].[Hg+2]
+ToxinDB,Mercury(I) acetate,CC(=O)[O-].[Hg+]
+ToxinDB,Mercury(II) iodide,I[Hg]I
+ToxinDB,Mercury(I) iodide,I[Hg].I[Hg]
+ToxinDB,Mercury(I) bromide,Br[Hg].Br[Hg]
+ToxinDB,Mercury(II) bromide,Br[Hg]Br
+ToxinDB,Mercury(II) nitrate,[N+](=O)(O)[O-].[Hg]
+ToxinDB,Mercury(I) nitrate,[N+](=O)(O)[O-].[Hg]
+ToxinDB,Mercury(II) thiocyanate,C(#N)[S-].C(#N)[S-].C(#N)[S-].C(#N)[S-].[K+].[K+].[Hg+2]
+ToxinDB,Mercury(II) sulfate,[O-]S(=O)(=O)[O-].[Hg+2]
+ToxinDB,Mercury(I) sulfate,[O-]S(=O)(=O)[O-].[Hg+2]
+ToxinDB,Methylmercuric chloride,C1[C@H](C[C@H]([C@H]1CO)O)N2C=C(C(=O)NC2=O)/C=C/Br
+ToxinDB,Dimethyl mercury,C[Hg]C
+ToxinDB,Mercuric potassium iodide,[K+].[K+].I[Hg-2](I)(I)I
+ToxinDB,Mercury(II) cyanide,C(#N)[Hg]C#N
+ToxinDB,Cadmium acetate,CC(=O)[O-].CC(=O)[O-].[Cd+2]
+ToxinDB,Cadmium acetate hydrate,
+ToxinDB,Cadmium acetate dihydrate,CC(=O)[O-].CC(=O)[O-].O.O.[Cd+2]
+ToxinDB,Cadmium arsenide,[As]=[Cd].[As]=[Cd].[Cd]
+ToxinDB,Cadmium bromate,[O-]Br(=O)=O.[O-]Br(=O)=O.[Cd+2]
+ToxinDB,Cadmium bromide,[Br-].[Br-].[Cd+2]
+ToxinDB,Cadmium carbonate,C(=O)([O-])[O-].[Cd+2]
+ToxinDB,Cadmium chloride,Cl[Cd]Cl
+ToxinDB,Cadmium fluoborate,
+ToxinDB,Cadmium fluoride,[F-].[F-].[Cd+2]
+ToxinDB,Cadmium fluosilicate,[F-].[F-].[F-].[F-].[F-].[F-].[Si+4].[Cd+2]
+ToxinDB,Cadmium hydroxide,[OH-].[OH-].[Cd+2]
+ToxinDB,Cadmium iodide,[Cd+2].[I-].[I-]
+ToxinDB,Cadmium lactate,CC(C(=O)[O-])O.CC(C(=O)[O-])O.[Cd+2]
+ToxinDB,Cadmium nitrate,[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Cd+2]
+ToxinDB,Cadmium nitrate tetrahydrate,[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Cd+2]
+ToxinDB,Cadmium oxide fume,O=[Cd]
+ToxinDB,Cadmium phosphate,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1C3=CC=CC=C3)Cl.I
+ToxinDB,Cadmium selenide,[Se]=[Cd]
+ToxinDB,Cadmium succinate,C(CC(=O)[O-])C(=O)[O-].[Cd+2]
+ToxinDB,Cadmium sulfate,[O-]S(=O)(=O)[O-].[Cd+2]
+ToxinDB,Cadmium sulfate hydrate,O.[O-]S(=O)(=O)[O-].[Cd+2]
+ToxinDB,Cadmium sulphide,S=[Cd]
+ToxinDB,Cadmium telluride,[Cd]=[Te]
+ToxinDB,Cadmium tungstate,O[W](=O)(=O)O.[Cd]
+ToxinDB,Diphenyl,C1=CC=C(C=C1)C2=CC=CC=C2
+ToxinDB,2-Chlorobiphenyl,C1=CC=C(C=C1)C2=CC=CC=C2Cl
+ToxinDB,3-Chlorobiphenyl,C1=CC=C(C=C1)C2=CC(=CC=C2)Cl
+ToxinDB,4-Chlorobiphenyl,C1=CC=C(C=C1)C2=CC=C(C=C2)Cl
+ToxinDB,"2,2'-Dichlorobiphenyl",C1=CC=C(C(=C1)C2=CC=CC=C2Cl)Cl
+ToxinDB,"2,3-Dichlorobiphenyl",C1=CC=C(C=C1)C2=C(C(=CC=C2)Cl)Cl
+ToxinDB,"2,3'-Dichlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=CC=C2)Cl)Cl
+ToxinDB,"2,4-Dichlorobiphenyl",C1=CC=C(C=C1)C2=C(C=C(C=C2)Cl)Cl
+ToxinDB,"2,4'-Dichlorobiphenyl",C1=CC=C(C(=C1)C2=CC=C(C=C2)Cl)Cl
+ToxinDB,"2,5-Dichlorobiphenyl",C1=CC=C(C=C1)C2=C(C=CC(=C2)Cl)Cl
+ToxinDB,"2,6-Dichlorobiphenyl",C1=CC=C(C=C1)C2=C(C=CC=C2Cl)Cl
+ToxinDB,"3,3'-Dichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=CC=C2)Cl
+ToxinDB,"3,4-Dichlorobiphenyl",C1=CC=C(C=C1)C2=CC(=C(C=C2)Cl)Cl
+ToxinDB,"3,4'-Dichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC=C(C=C2)Cl
+ToxinDB,"3,5-Dichlorobiphenyl",C1=CC=C(C=C1)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,"4,4'-Dichlorobiphenyl",C1=CC(=CC=C1C2=CC=C(C=C2)Cl)Cl
+ToxinDB,"2,2',3-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=C(C(=CC=C2)Cl)Cl)Cl
+ToxinDB,"2,2',4-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,2',5-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',6-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=CC=C2Cl)Cl)Cl
+ToxinDB,"2,3,3'-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C(=CC=C2)Cl)Cl
+ToxinDB,"2,3,4-Trichlorobiphenyl",C1=CC=C(C=C1)C2=C(C(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,3,4'-Trichlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC=C(C=C2)Cl
+ToxinDB,"2,3,5-Trichlorobiphenyl",C1=CC=C(C=C1)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3,6-Trichlorobiphenyl",C1=CC=C(C=C1)C2=C(C=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3',4-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C=C(C=C2)Cl)Cl
+ToxinDB,"2,3',5-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C=CC(=C2)Cl)Cl
+ToxinDB,"2,3',6-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C=CC=C2Cl)Cl
+ToxinDB,"2,4,4'-Trichlorobiphenyl",C1=CC(=CC=C1C2=C(C=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,4,5-Trichlorobiphenyl",C1=CC=C(C=C1)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,4,6-Trichlorobiphenyl",C1=CC=C(C=C1)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,4',5-Trichlorobiphenyl",C1=CC(=CC=C1C2=C(C=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,4',6-Trichlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC=C(C=C2)Cl)Cl
+ToxinDB,"2,3',4'-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,3',5'-Trichlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=CC(=C2)Cl)Cl)Cl
+ToxinDB,"3,3',4-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=C(C=C2)Cl)Cl
+ToxinDB,"3,3',5-Trichlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,"3,4,4'-Trichlorobiphenyl",C1=CC(=CC=C1C2=CC(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"3,4,5-Tricholobiphenyl",C1=CC=C(C=C1)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"3,4',5-Trichlorobiphenyl",C1=CC(=CC=C1C2=CC(=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',3,3'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=CC=C2)Cl)Cl
+ToxinDB,"2,2',3,4-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=C(C=C2)Cl)Cl
+ToxinDB,"2,2',3,5-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=CC(=C2)Cl)Cl
+ToxinDB,"2,2',3,5'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=CC(=C2)Cl)Cl
+ToxinDB,"2,2',3,6-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,6'-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,4'-Tetrachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C=C(C=C2)Cl)Cl
+ToxinDB,"2,2',4,5-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,5'-Tetrachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C=CC(=C2)Cl)Cl
+ToxinDB,"2,2',4,6-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,6'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,2',5,5'-Tetrachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',5,6'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',6,6'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C=CC=C2Cl)Cl)Cl
+ToxinDB,"2,3,3',4-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,3,3',4'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C=C2)Cl)Cl
+ToxinDB,"2,3,3',5-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3,3',5'-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,"2,3,3',6-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3,4,4'-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,5-Tetrachlorobiphenyl",C1=CC=C(C=C1)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,6-Tetrachlorobiphenyl",C1=CC=C(C=C1)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4',5-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=CC(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4',6-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=C(C=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,5,6-Tetrachlorobiphenyl",C1=CC=C(C=C1)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,4'-Tetrachlorobiphenyl",C1=CC(=C(C=C1C2=C(C=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,5-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,3',4,5'-Tetrachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,"2,3',4,6-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,3',4',5-Tetrachlorobiphenyl",C1=CC(=C(C=C1C2=C(C=CC(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4',6-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,3',5,5'-Tetrachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=CC(=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,3',5',6-Tetrachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=CC(=C2)Cl)Cl)Cl
+ToxinDB,"2,4,4',5-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=CC(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,4,4',6-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=C(C=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4',5'-Tetrachlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"3,3',4,4'-Tetrachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"3,3',4,5-Tetrachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"3,3',4,5'-Tetrachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=CC(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"3,3',5,5'-Tetrachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=CC(=CC(=C2)Cl)Cl
+ToxinDB,"3,4,4',5-Tetrachlorobiphenyl",C1=CC(=CC=C1C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,2',3,3',6-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5-Pentachlorobiphenyl",C1=CC=C(C(=C1)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,6-Pentachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,2',3,4',6-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,2',3,5,5'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=CC(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,5,6-Pentachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,5,6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,5',6-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,6,6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,2',3,4',6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,2',4,4',5-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,2',4,4',6-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,2',4,5,5'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=CC(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,5,6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,5',6-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,6,6'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4'-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5-Pentachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5'-Pentachlorobiphenyl",C1=CC(=C(C(=C1C2=CC(=CC(=C2)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,6-Pentachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4',6-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=C(C=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',5,5'-Pentachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3,3',5,6-Pentachlorobiphenyl",C1=CC(=CC(=C1)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',5',6-Pentachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=CC(=CC(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,4',5-Pentachlorobiphenyl",C1=CC(=CC=C1C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,4',6-Pentachlorobiphenyl",C1=CC(=CC=C1C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,5,6-Pentachlorobiphenyl",C1=CC=C(C=C1)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4',5,6-Pentachlorobiphenyl",C1=CC(=CC=C1C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,4',5-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,4',6-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=C(C=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,5,5'-Pentachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,3',4,5',6-Pentachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5'-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"2,3',4,4',5'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"2,3',4',5,5'-Pentachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4',5',6-Pentachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl
+ToxinDB,"3,3',4,4',5-Pentachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"3,3',4,5,5'-Pentachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C(=C(C=C2)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=CC(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,6-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,5'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=CC(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,6-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=CC(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',6,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=C(C=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=CC(=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',6-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5,5'-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5,6-Hexachlorobiphenyl",C1=CC=C(C(=C1)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5',6-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,6,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5,5'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5,6-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5,6'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=C(C=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5',6-Hexachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=CC(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',6,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=C(C=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,5,5',6-Hexachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,5,6,6'-Hexachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,4',5,5'-Hexachlorobiphenyl",C1=C(C(=CC(=C1Cl)Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,2',4,4',5,6'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=CC(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',4,4',6,6'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=C(C=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5-Hexachlorobiphenyl",C1=CC(=C(C=C1C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5'-Hexachlorobiphenyl",C1=CC(=C(C(=C1C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',6-Hexachlorobiphenyl",C1=CC(=C(C=C1C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5,5'-Hexachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5,6-Hexachlorobiphenyl",C1=CC(=C(C=C1C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5',6-Hexachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5,5'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=CC(=CC(=C2Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5,6-Hexachlorobiphenyl",C1=CC(=C(C=C1C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5',6-Hexachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',5,5',6-Hexachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,4,4',5,6-Hexachlorobiphenyl",C1=CC(=CC=C1C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3',4,4',5,5'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=CC(=C(C=C2Cl)Cl)Cl
+ToxinDB,"2,3',4,4',5',6-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=C(C=C(C=C2Cl)Cl)Cl
+ToxinDB,"3,3',4,4',5,5'-Hexachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=CC(=C(C(=C2)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5-Heptachlorobiphenyl",C1=CC(=C(C(=C1C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',6-Heptachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,5'-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,6-Heptachlorobiphenyl",C1=CC(=C(C(=C1)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,6'-Heptachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5',6-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,6,6'-Heptachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5',6'-Heptachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,5',6-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,6,6'-Heptachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5,5'-Heptachlorobiphenyl",C1=C(C(=CC(=C1Cl)Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5,6-Heptachlorobiphenyl",C1=CC(=C(C=C1Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5,6'-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5',6-Heptachlorobiphenyl",C1=C(C(=CC(=C1Cl)Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',6,6'-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5,5',6-Heptachlorobiphenyl",C1=CC(=C(C=C1Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,5,6,6'-Heptachlorobiphenyl",C1=CC(=C(C(=C1)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5,5',6-Heptachlorobiphenyl",C1=C(C(=CC(=C1Cl)Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4',5,6,6'-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5,5'-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5,6-Heptachlorobiphenyl",C1=CC(=C(C=C1C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5',6-Heptachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,5,5',6-Heptachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4',5,5',6-Heptachlorobiphenyl",C1=C(C=C(C=C1Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5,5'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)C2=CC(=C(C(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5,6-Octachlorobiphenyl",C1=CC(=C(C(=C1C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5,6'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',6,6'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)C2=C(C(=C(C=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,5',6-Octachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,5',6'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,6,6'-Octachlorobiphenyl",C1=CC(=C(C(=C1Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5',6,6'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',5,5',6,6'-Octachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)C2=C(C(=CC(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5,5',6-Octachlorobiphenyl",C1=C(C(=CC(=C1Cl)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,4,4',5,6,6'-Octachlorobiphenyl",C1=C(C=C(C(=C1Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,3,3',4,4',5,5',6-Octachlorobiphenyl",C1=C(C=C(C(=C1Cl)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5,5',6-Nonachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,4',5,6,6'-Nonachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,"2,2',3,3',4,5,5',6,6'-Nonachlorobiphenyl",C1=C(C(=C(C(=C1Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl)Cl)Cl
+ToxinDB,Decachlorobiphenyl,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)Cl
+ToxinDB,Aroclor 1210,
+ToxinDB,Aroclor 1216,
+ToxinDB,Aroclor 1231,
+ToxinDB,Aroclor 1250,
+ToxinDB,Aroclor 1252,
+ToxinDB,Aroclor 1262,
+ToxinDB,Aroclor 1268,C1=COC(=C1)C(C(=O)C2=CC=CO2)O
+ToxinDB,Methiochlor,
+ToxinDB,Chlorbenzylate,
+ToxinDB,Acenaphthylene,C1=CC2=C3C(=C1)C=CC3=CC=C2
+ToxinDB,Anthracene,C1=CC=C2C=C3C=CC=CC3=CC2=C1
+ToxinDB,Benzo[ghi]perylene,C1=CC2=C3C(=C1)C4=CC=CC5=C4C6=C(C=C5)C=CC(=C36)C=C2
+ToxinDB,Benzo[j]fluoranthene,C1=CC=C2C(=C1)C=CC3=C2C4=CC=CC5=C4C3=CC=C5
+ToxinDB,Coronene,C1=CC2=C3C4=C1C=CC5=C4C6=C(C=C5)C=CC7=C6C3=C(C=C2)C=C7
+ToxinDB,Fluorene,C1C2=CC=CC=C2C3=CC=CC=C31
+ToxinDB,"Indeno[1,2,3-cd]pyrene",C1=CC=C2C(=C1)C3=C4C2=CC5=CC=CC6=C5C4=C(C=C6)C=C3
+ToxinDB,Tetracene,C1=CC=C2C=C3C=C4C=CC=CC4=CC3=CC2=C1
+ToxinDB,1-Methylnaphthalene,CC1=CC=CC2=CC=CC=C12
+ToxinDB,Pentacene,C1=CC=C2C=C3C=C4C=C5C=CC=CC5=CC4=CC3=CC2=C1
+ToxinDB,Triphenylene,C1=CC=C2C(=C1)C3=CC=CC=C3C4=CC=CC=C24
+ToxinDB,Ovalene,C1=CC2=C3C4=C1C=CC5=CC6=C7C8=C(C=CC9=C8C1=C(C=C9)C=C(C3=C1C7=C54)C=C2)C=C6
+ToxinDB,Anthanthrene,C1=CC2=C3C(=C1)C=C4C=CC5=C6C4=C3C(=CC6=CC=C5)C=C2
+ToxinDB,Acridine,C1=CC=C2C(=C1)C=C3C=CC=CC3=N2
+ToxinDB,Quinoline,C1=CC=C2C(=C1)C=CC=N2
+ToxinDB,Azulene,C1=CC=C2C=CC=C2C=C1
+ToxinDB,Picene,C1=CC=C2C(=C1)C=CC3=C2C=CC4=C3C=CC5=CC=CC=C54
+ToxinDB,Bisphenol A,
+ToxinDB,Basic beryllium acetate,
+ToxinDB,Beryllium acetate,
+ToxinDB,Beryllium bromide,
+ToxinDB,Beryllium carbonate,
+ToxinDB,Beryllium chloride,
+ToxinDB,Beryllium copper,
+ToxinDB,Beryllium fluoride,
+ToxinDB,Beryllium hydride,
+ToxinDB,Beryllium hydroxide,
+ToxinDB,Beryllium iodide,
+ToxinDB,Beryllium oxide,
+ToxinDB,Beryllium telluride,
+ToxinDB,Beryllium phosphate,
+ToxinDB,Beryllium nitrate,
+ToxinDB,Beryllium sulfate,
+ToxinDB,Cobalt(II) acetate,
+ToxinDB,Cobalt(III) acetate,
+ToxinDB,Cobalt(II) carbonate,
+ToxinDB,Cobalt(II) bromide,
+ToxinDB,Cobalt(II) chloride,
+ToxinDB,Cobalt(II) fluoride,
+ToxinDB,Cobalt(II) iodide,
+ToxinDB,Cobalt(II) hydroxide,
+ToxinDB,Cobalt(II) naphthenate,
+ToxinDB,Cobalt(II) mesoporphyrin,
+ToxinDB,Cobalt(II) nitrate,
+ToxinDB,Cobalt(II) oxide,
+ToxinDB,Cobalt(III) oxide,
+ToxinDB,"Cobalt(II, III) oxide",
+ToxinDB,Cobalt(II) sulfate,
+ToxinDB,Cobalt(III) fluoride,
+ToxinDB,Cobaltocene,
+ToxinDB,Cobamamide,
+ToxinDB,Cyanocobalamin,[Co+3].[C-]#N.C[C@H](CNC(=O)CC[C@]1(C)[C@@H](CC(N)=O)[C@H]2[N-]\C1=C(C)/C1=N/C(=C\C3=N\C(=C(C)/C4=N[C@]2(C)[C@@](C)(CC(N)=O)[C@@H]4CCC(N)=O)[C@@](C)(CC(N)=O)[C@@H]3CCC(N)=O)C(C)(C)[C@@H]1CCC(N)=O)O[P@](O)(=O)O[C@H]1[C@H](CO)O[C@@H]([C@@H]1O)N1C=NC2=C1C=C(
+ToxinDB,Dicobalt edetate,
+ToxinDB,Dicobalt octacarbonyl,
+ToxinDB,Hexamminecobalt(III) chloride,
+ToxinDB,Hydroxocobalamin,O.[Co++].C[C@H](CNC(=O)CC[C@]1(C)[C@@H](CC(N)=O)[C@H]2[N-]\C1=C(C)/C1=N/C(=C\C3=N\C(=C(C)/C4=N[C@]2(C)[C@@](C)(CC(N)=O)[C@@H]4CCC(N)=O)[C@@](C)(CC(N)=O)[C@@H]3CCC(N)=O)C(C)(C)[C@@H]1CCC(N)=O)O[P@]([O-])(=O)O[C@@H]1[C@@H](CO)O[C@@H]([C@@H]1O)N1C=NC2=C1C=C(
+ToxinDB,Lithium cobalt oxide,
+ToxinDB,Methylcobalamin,
+ToxinDB,Salcomine,
+ToxinDB,Sodium cobaltinitrite,
+ToxinDB,Tris(ethylenediamine)cobalt(III) chloride,
+ToxinDB,Bis(cyclooctadiene)nickel(0),
+ToxinDB,Nickel acetate,
+ToxinDB,Nickel ammonium sulfate hexahydrate,
+ToxinDB,Nickel carbonate,
+ToxinDB,Nickel chloride,
+ToxinDB,Nickel chromate,
+ToxinDB,Nickel cyanide,
+ToxinDB,Nickel tetracarbonyl,
+ToxinDB,Nickel bromide,
+ToxinDB,Nickel fluoride,
+ToxinDB,Nickel hydroxide,
+ToxinDB,Nickel iodide,
+ToxinDB,Nickel nitrate,
+ToxinDB,Nickel oxide,
+ToxinDB,Nickel sulfate,
+ToxinDB,Nickel subsulfide,
+ToxinDB,Nickel sulfamate,
+ToxinDB,Ammonium dichromate,
+ToxinDB,Barium chromate,
+ToxinDB,Caesium chromate,
+ToxinDB,Calcium chromate dihydrate,
+ToxinDB,Iron(III) chromate,
+ToxinDB,Potassium chromate,
+ToxinDB,Potassium dichromate,
+ToxinDB,Pyridinium chlorochromate,
+ToxinDB,Pyridinium dichromate,
+ToxinDB,Silver chromate,
+ToxinDB,Sodium chromate,
+ToxinDB,Sodium dichromate,
+ToxinDB,Strontium chromate,
+ToxinDB,Zinc chromate,
+ToxinDB,Ammonium chromate,
+ToxinDB,Lithuim chromate,
+ToxinDB,Zinc dichromate,
+ToxinDB,Lead chromate oxide,
+ToxinDB,Zinc potassium chromate,
+ToxinDB,Zinc chromate hydroxide,
+ToxinDB,Zinc acetate,
+ToxinDB,Zinc antimonide,
+ToxinDB,Zinc arsenide,
+ToxinDB,Zinc bromide,
+ToxinDB,Zinc chlorate,
+ToxinDB,Zinc carbonate,
+ToxinDB,Zinc chloride,
+ToxinDB,Zinc cyanide,
+ToxinDB,Zinc fluoride,
+ToxinDB,Zinc gluconate,
+ToxinDB,Zinc hydride,
+ToxinDB,Zinc hydroxide,
+ToxinDB,Zinc hydrosulfite,
+ToxinDB,Zinc iodide,
+ToxinDB,Zinc molybdate,
+ToxinDB,Zinc nitrate,
+ToxinDB,Zinc oxide,
+ToxinDB,Zinc peroxide,
+ToxinDB,Zinc phosphate,
+ToxinDB,Zinc phosphide,
+ToxinDB,Zinc pyrithione,
+ToxinDB,Zinc pyrophosphate,
+ToxinDB,Zinc selenide,
+ToxinDB,Zinc stearate,
+ToxinDB,Zinc sulfate,
+ToxinDB,Zinc sulfide,
+ToxinDB,Zinc thiocyanate,
+ToxinDB,Zinc silicofluoride,
+ToxinDB,Diethylzinc,
+ToxinDB,Dimethylzinc,
+ToxinDB,Copper(I) cyanide,
+ToxinDB,Cyanogen,
+ToxinDB,Cyanogen bromide,
+ToxinDB,Cyanogen chloride,
+ToxinDB,Cyanogen iodide,
+ToxinDB,Calcium cyanide,
+ToxinDB,Ammonium thiocyanate,
+ToxinDB,Potassium cyanide,
+ToxinDB,Potassium ferricyanide,
+ToxinDB,Potassium ferrocyanide,
+ToxinDB,Potassium silver cyanide,
+ToxinDB,Silver cyanide,
+ToxinDB,Sodium cyanide,
+ToxinDB,Sodium ferrocyanide,
+ToxinDB,Sodium nitroprusside,
+ToxinDB,Trimethylsilyl cyanide,
+ToxinDB,Ethanol,CCO
+ToxinDB,Methanol,
+ToxinDB,Ethylene glycol ,
+ToxinDB,Potassium cyanate,
+ToxinDB,Isocyanic acid,
+ToxinDB,Allyl isothiocyanate,
+ToxinDB,Methyl isothiocyanate,
+ToxinDB,Phenyl isothiocyanate,
+ToxinDB,"1,3-Dinitrobenzene",
+ToxinDB,"1,3,5-Trichlorobenzene",
+ToxinDB,Guanidinium thiocyanate,
+ToxinDB,Lead thiocyanate,
+ToxinDB,Potassium thiocyanate,
+ToxinDB,Sodium thiocyanate,
+ToxinDB,Thiocyanic acid,
+ToxinDB,Cyanuric acid,
+ToxinDB,Uranium-238,
+ToxinDB,Crocidolite Asbestos,
+ToxinDB,Tremolite Asbestos,
+ToxinDB,Actinolite Asbestos,
+ToxinDB,Anthophyllite Asbestos,
+ToxinDB,Tin,
+ToxinDB,Imidacloprid,
+ToxinDB,Fipronil,
+ToxinDB,Nicotine,CN1CCC[C@@H]1C1=CN=CC=C1
+ToxinDB,Rotenone,
+ToxinDB,Dichlorprop,
+ToxinDB,"2,4-Dichlorophenoxybutyric acid",
+ToxinDB,"2,4,5-Trichlorophenoxyacetic acid",
+ToxinDB,2-Methyl-4-chlorophenoxyacetic acid,
+ToxinDB,4-(4-Chloro-2-methylphenoxy)butanoic acid,
+ToxinDB,Methylchlorophenoxypropionic acid,
+ToxinDB,Dicamba,
+ToxinDB,Paraquat,
+ToxinDB,Alachlor,
+ToxinDB,Acetochlor,
+ToxinDB,Glufosinate,
+ToxinDB,Amygdalin,
+ToxinDB,Angelicin,
+ToxinDB,Isobergapten,
+ToxinDB,Sphondin,
+ToxinDB,Heratomin,
+ToxinDB,Pimpinellin,
+ToxinDB,Psoralen,
+ToxinDB,Isoimperatorin,
+ToxinDB,Bergamottin,
+ToxinDB,Xanthotoxin,
+ToxinDB,Imperatorin,
+ToxinDB,"6,7-Dihydroxybergamottin",
+ToxinDB,Isopimpinelin,
+ToxinDB,8-Hydroxybergapten,
+ToxinDB,Phellopterin,
+ToxinDB,Mirex,
+ToxinDB,Oxalic Acid,
+ToxinDB,Linamarin,
+ToxinDB,Lotaustralin,
+ToxinDB,"Xylene, meta-",
+ToxinDB,"Xylene, ortho-",
+ToxinDB,4-Chlorophenol,
+ToxinDB,"2,3,5,6-Tetrachlorophenol",
+ToxinDB,Antimony pentasulfide,
+ToxinDB,Antimony pentoxide,
+ToxinDB,Antimony potassium tartate,
+ToxinDB,Antimony trichloride,
+ToxinDB,Antimony trioxide,
+ToxinDB,Antimony trisulfide,
+ToxinDB,Stibine,
+ToxinDB,Antimony pentachloride,
+ToxinDB,Pendimethalin,
+ToxinDB,"2,3,5-Trimethylphenyl methylcarbamate",
+ToxinDB,"2,3-Dichlorobenzyl methylcarbamate",
+ToxinDB,"2,4-Dimethyl-1,3-dithiolane-2-carboxaldehyde O-(methylcarbamoyl)oxime",
+ToxinDB,"2-Chloro-4,5-xylyl N-hydroxy-N-methylcarbamate",
+ToxinDB,2-Cyclopentylphenyl methylcarbamate,
+ToxinDB,2-Hydroxyphenyl methylcarbamate,
+ToxinDB,3-(4-Chlorophenyl)-1-(4-chlorophenylcarbamoyl)-2-pyrazoline,
+ToxinDB,"3,4-Dichlorobenzyl methylcarbamate",
+ToxinDB,"3,5-Diisopropylphenyl methylcarbamate",
+ToxinDB,"3,5-Xylyl methylcarbamate",
+ToxinDB,3-Hydroxycarbofuran,
+ToxinDB,3-Iodo-2-propynyl butyl carbamate,
+ToxinDB,3-Ketocarbofuran,
+ToxinDB,3-tert-Butylphenyl sec-butylcarbamate,
+ToxinDB,"4-(Methylamino)-3,5-xylyl methylcarbamate",
+ToxinDB,4-(Methylthio)-m-tolyl methylcarbamate,
+ToxinDB,"4-Amino-3,5-xylyl methylcarbamate",
+ToxinDB,4-Chlorophenyl-N-methylcarbamate,
+ToxinDB,4-Ethylthiophenyl methylcarbamate,
+ToxinDB,"4-Methylformamido-3,5-xylyl methylcarbamate",
+ToxinDB,"5,6,7,8-Tetrahydro-1-naphthyl methylcarbamate",
+ToxinDB,"6-Chloro-3,4-xylyl methylcarbamate",
+ToxinDB,6-Methyl-2-propyl-4-pyrimidinyl dimethylcarbamate,
+ToxinDB,Alanycarb,
+ToxinDB,Alcamate,
+ToxinDB,Aldicarb sulfoxide,
+ToxinDB,Aldicarb,
+ToxinDB,Aldoxycarb,
+ToxinDB,Allyxycarb,
+ToxinDB,Aminocarb,
+ToxinDB,Asulam,
+ToxinDB,"Asulam, sodium salt",
+ToxinDB,Barban,
+ToxinDB,Bendiocarb,
+ToxinDB,Benfuracarb,
+ToxinDB,Benomyl,
+ToxinDB,Benthiavalicarb,
+ToxinDB,Benthiavalicarb-isopropyl,
+ToxinDB,Betamix,
+ToxinDB,"Biscarbofuran N,N'-disulfide",
+ToxinDB,Bufencarb,
+ToxinDB,Bufencarb-1,
+ToxinDB,Bufencarb-2,
+ToxinDB,Butacarb,
+ToxinDB,Butocarboxim,
+ToxinDB,Butoxycarboxim,
+ToxinDB,Carbanolate,
+ToxinDB,Carbaril,
+ToxinDB,Carbasulam,
+ToxinDB,Carbendazim,
+ToxinDB,Carbetamide,
+ToxinDB,Carbofuran,
+ToxinDB,Carbosulfan,
+ToxinDB,Carboxazole,
+ToxinDB,Chlorbufam,
+ToxinDB,Chlorprocarb,
+ToxinDB,Chlorpropham,
+ToxinDB,Cloethocarb,
+ToxinDB,Cycloate,
+ToxinDB,Cypendazole,
+ToxinDB,Debacarb,
+ToxinDB,Decarbofuran,
+ToxinDB,Desmedipham,
+ToxinDB,Di-allate,
+ToxinDB,Dichlormate,
+ToxinDB,Dicresyl,
+ToxinDB,Diethofencarb,
+ToxinDB,Dimetan,
+ToxinDB,Dimetilan,
+ToxinDB,Dioxacarb,
+ToxinDB,Dipropylcarbamothioic acid S-ethyl ester,
+ToxinDB,Ethiofencarb,
+ToxinDB,Ethylene thiuram monosulfide,
+ToxinDB,Fenasulam,
+ToxinDB,Fenethacarb,
+ToxinDB,Fenobucarb,
+ToxinDB,Fenoxycarb,
+ToxinDB,Formetanate,
+ToxinDB,Formetanate hydrochloride,
+ToxinDB,Formparanate,
+ToxinDB,Fosamine,
+ToxinDB,Furathiocarb,
+ToxinDB,Hyquincarb,
+ToxinDB,Isolan,
+ToxinDB,Isoprocarb,
+ToxinDB,Karbutilate,
+ToxinDB,m-Cumenyl methylcarbamate,
+ToxinDB,Mecarbinzid,
+ToxinDB,Methiocarb,
+ToxinDB,Methiocarb sulfone,
+ToxinDB,Methiocarb sulfoxide,
+ToxinDB,Methomyl,
+ToxinDB,Metolcarb,
+ToxinDB,Mexacarbate,
+ToxinDB,Mobam,
+ToxinDB,Molinate,
+ToxinDB,Nitrilacarb,
+ToxinDB,o-(2-Propynyloxy)phenyl methylcarbamate,
+ToxinDB,Oms 22,
+ToxinDB,Oxamyl,
+ToxinDB,Pebulate,
+ToxinDB,Phenmedipham,
+ToxinDB,Pirimicarb,
+ToxinDB,Potassium asulam,
+ToxinDB,Primor,
+ToxinDB,Promacyl,
+ToxinDB,Promecarb,
+ToxinDB,Propamocarb hydrochloride,
+ToxinDB,Propamocarb,
+ToxinDB,Propham,
+ToxinDB,Propoxur,
+ToxinDB,Proximphan,
+ToxinDB,Pyrolan,
+ToxinDB,Sulfallate,
+ToxinDB,Sulfocarbathione,
+ToxinDB,Swep,
+ToxinDB,Tazimcarb,
+ToxinDB,Terbucarb,
+ToxinDB,Thiobencarb,
+ToxinDB,Thiocarboxime,
+ToxinDB,Thiodicarb,
+ToxinDB,Thiofanox,
+ToxinDB,Tillam sulfoxide,
+ToxinDB,Tiocarbazil,
+ToxinDB,Triallate,
+ToxinDB,Trimethacarb,
+ToxinDB,Vernolate,
+ToxinDB,Xylylcarb,
+ToxinDB,Telodrin,
+ToxinDB,Isodrin,
+ToxinDB,Allethrin,
+ToxinDB,Cismethrin,
+ToxinDB,Phenothrin,
+ToxinDB,Resmethrin,
+ToxinDB,Tetramethrin,
+ToxinDB,Acrinathrin,
+ToxinDB,Cycloprothrin,
+ToxinDB,Cyfluthrin,
+ToxinDB,Cyhalothrin,
+ToxinDB,Cyphenothrin,
+ToxinDB,Cypermethrin,
+ToxinDB,Deltamethrin,
+ToxinDB,Esfenvalerate,
+ToxinDB,Fenvalerate,
+ToxinDB,Fluvalinate,
+ToxinDB,Ivermectin,
+ToxinDB,Avermectin B1a,
+ToxinDB,Avermectin B1b,
+ToxinDB,Emamectin B1a,
+ToxinDB,Emamectin B1b,
+ToxinDB,2-[(2E)-2-(Nitromethylidene)pyrrolidin-1-yl]acetonitrile,
+ToxinDB,2-(Nitromethylene)imidazolidine,
+ToxinDB,(2Z)-1-Methyl-2-(nitromethylidene)pyrrolidine,
+ToxinDB,2-Nitromethylene-azepane,
+ToxinDB,2-Nitromethylene-piperidine,
+ToxinDB,Nitro-methylene-cyclopentane,
+ToxinDB,"(2E)-3-Benzyl-2-(nitromethylidene)-1,3-thiazolidine",
+ToxinDB,Nitromethylidenecyclohexane,
+ToxinDB,"Thiazolidine, 2-(nitromethylene)",
+ToxinDB,"(4E)-4-(Nitromethylidene)-1,2,3,5-tetrahydro-3-benzazepine",
+ToxinDB,"(2E)-2-(Nitromethylidene)-1,3-thiazinane",
+ToxinDB,"2-(Nitromethylidene)-1,3-thiazolidine",
+ToxinDB,"(2Z)-2-(Nitromethylidene)-1,3-thiazolidine",
+ToxinDB,(2Z)-1-Ethyl-2-(nitromethylidene)pyrrolidine,
+ToxinDB,(2E)-2-(Nitromethylidene)-1-prop-2-enylpyrrolidine,
+ToxinDB,(2Z)-1-Benzyl-2-(nitromethylidene)pyrrolidine,
+ToxinDB,2-[(2E)-2-(Nitromethylene)hydrazino]naphthalene,
+ToxinDB,(2E)-1-Methyl-2-(nitromethylidene)pyrrolidine,
+ToxinDB,2-[2-(Nitromethylidene)pyrrolidin-1-yl]acetonitrile,
+ToxinDB,[2-(Nitromethylene)-1-pyrrolidinyl]acetonitrile,
+ToxinDB,"1-(4,5-Dihydro-1H-imidazol-2-ylmethyl)-2,3,4,5-tetrahydro-1-benzazepine",
+ToxinDB,"(3Z)-2-Ethyl-3-(nitromethylidene)-3a,4,5,6,7,7a-hexahydro-1H-isoindole",
+ToxinDB,3-[(2E)-2-(Nitromethylidene)hydrazinyl]benzoic acid,
+ToxinDB,"(2Z)-2-(Nitromethylidene)-3-phenyl-1,3-thiazolidin-4-one",
+ToxinDB,1-(Cyclopropylmethyl)-2-(nitromethylidene)pyrrolidine,
+ToxinDB,3-Chloro-4-fluoro-N-[(E)-nitromethylideneamino]aniline,
+ToxinDB,4-[(2E)-2-(Nitromethylidene)hydrazinyl]benzenesulfonamide,
+ToxinDB,"2,3-Dimethyl-N-[(E)-nitromethylideneamino]aniline",
+ToxinDB,(3E)-3-[Naphthalen-1-yl(nitro)methylidene]-2-benzofuran-1-one,
+ToxinDB,(3E)-3-[(4-Chlorophenyl)-nitromethylidene]-2-benzofuran-1-one,
+ToxinDB,"(2Z)-3-(4-Methoxyphenyl)-2-(nitromethylidene)-1,3-thiazolidin-4-one",
+ToxinDB,Methyl (5Z)-3-amino-5-(nitromethylidene)dithiole-4-carboxylate,
+ToxinDB,"2,5-Bis[(2E)-2-(nitromethylidene)pyrrolidin-1-yl]benzene-1,4-diol",
+ToxinDB,"(11E)-11-(Nitromethylidene)-[1]benzofuro[3,2-b]chromene",
+ToxinDB,2-Chloro-5-[[2-(nitromethylidene)imidazolidin-1-yl]methyl]pyridine,
+ToxinDB,"N-[(E)-Nitromethylideneamino]-2-[5-(trifluoromethyl)-1,2,4-oxadiazol-3-yl]aniline",
+ToxinDB,2-Chloro-5-[[(2E)-2-(nitromethylidene)imidazolidin-1-yl]methyl]pyridine,
+ToxinDB,(2E)-3-Methyl-2-(nitromethylidene)imidazole-1-carboximidamide,
+ToxinDB,"(2Z)-2-(Mitromethylidene)-3-[4-(trifluoromethoxy)phenyl]-1, 3-thiazolidin-4-one",
+ToxinDB,"1-[(6-Chloropyridin-3-yl)methyl]-2-(nitromethylidene)-1,3-diazinane",
+ToxinDB,(E)-N-[2-[[5-(Dimethylaminomethyl)furan-2-yl]methylsulfanyl]ethyl]-1-(4-methylpiperazin-1-yl)-2-nitroethenamine,
+ToxinDB,Amidochlor,
+ToxinDB,Butachlor,
+ToxinDB,Metalaxyl,
+ToxinDB,Metolachlor,
+ToxinDB,Propachlor,
+ToxinDB,Aluminium barium titanium oxide,
+ToxinDB,Barium acetate,
+ToxinDB,Barium azide,
+ToxinDB,Barium bromate,
+ToxinDB,Barium bromide,
+ToxinDB,Barium bromide dihydrate,
+ToxinDB,Barium cadmium stearate,
+ToxinDB,Barium calcium titanium oxide,
+ToxinDB,Barium carbonate,
+ToxinDB,Barium chlorate,
+ToxinDB,Barium chloride,
+ToxinDB,Barium chloride dihydrate,
+ToxinDB,Barium cyanide,
+ToxinDB,Barium ferrate,
+ToxinDB,Barium ferrite,
+ToxinDB,Barium fluoborate,
+ToxinDB,Barium fluoride,
+ToxinDB,Barium hydroxide,
+ToxinDB,Barium hydroxide monohydrate,
+ToxinDB,Barium hydroxide octahydrate,
+ToxinDB,Barium hypochlorite,
+ToxinDB,Barium iodide,
+ToxinDB,Barium iodide dihydrate,
+ToxinDB,Barium iron oxide,
+ToxinDB,Barium nitrate,
+ToxinDB,Barium oxalate,
+ToxinDB,Barium oxide,
+ToxinDB,Barium perchlorate,
+ToxinDB,Barium permanganate,
+ToxinDB,Barium peroxide,
+ToxinDB,Barium silicofluoride,
+ToxinDB,Barium sulfate,
+ToxinDB,Barium sulfide,
+ToxinDB,Barium titanate,
+ToxinDB,Barium zirconium oxide,
+ToxinDB,Yttrium barium copper oxide,
+ToxinDB,Manganese chloride,
+ToxinDB,Manganese chloride dihydrate,
+ToxinDB,Manganese chloride tetrahydrate,
+ToxinDB,Manganese sulfate,
+ToxinDB,Manganese sulfate monohydrate,
+ToxinDB,Manganese sulfate tetrahydrate,
+ToxinDB,"Manganese(II,III) oxide",
+ToxinDB,Manganese dioxide,
+ToxinDB,Potassium permanganate,
+ToxinDB,Mangafodipir,
+ToxinDB,Methylcyclopentadienyl manganese tricarbonyl,
+ToxinDB,Manganese(II) oxide,
+ToxinDB,Dimanganese decacarbonyl,
+ToxinDB,Manganese diselenide,
+ToxinDB,Manganese heptaoxide,
+ToxinDB,Manganese bromide,
+ToxinDB,Manganese bromide tetrahydrate,
+ToxinDB,Manganese carbonate,
+ToxinDB,Manganese fluoride,
+ToxinDB,Manganese phthalocyanine,
+ToxinDB,Manganese sulfide,
+ToxinDB,Manganese triacetate,
+ToxinDB,Manganese trifluoride,
+ToxinDB,Manganese(III) oxide,
+ToxinDB,Potassium manganate,
+ToxinDB,Ammonium permanganate,
+ToxinDB,Calcium permanganate,
+ToxinDB,Sodium permanganate,
+ToxinDB,Zinc permanganate,
+ToxinDB,Manganese gluconate,
+ToxinDB,Manganous acetate,
+ToxinDB,Manganese citrate,
+ToxinDB,Ammonium diuranate,
+ToxinDB,Sodium uranate,
+ToxinDB,Triuranium octaoxide,
+ToxinDB,Uranium dioxide,
+ToxinDB,Uranium hexafluoride,
+ToxinDB,Uranium pentachloride,
+ToxinDB,Uranium peroxide,
+ToxinDB,Uranium tetrachloride,
+ToxinDB,Uranium pentafluoride,
+ToxinDB,Uranium trioxide,
+ToxinDB,Uranyl fluoride,
+ToxinDB,Uranyl nitrate hexahydrate,
+ToxinDB,Uranium boride,
+ToxinDB,Uranium carbide,
+ToxinDB,Uranium nitride,
+ToxinDB,Uranium chloride,
+ToxinDB,Uranocene,
+ToxinDB,Uranyl acetate,
+ToxinDB,Uranyl acetate dihydrate,
+ToxinDB,Uranyl chloride,
+ToxinDB,Uranyl formate,
+ToxinDB,Uranyl nitrate,
+ToxinDB,Uranyl sulfate,
+ToxinDB,Uranyl zinc acetate,
+ToxinDB,Stryker's reagent,
+ToxinDB,Chromated copper arsenate,
+ToxinDB,Copper aspirinate,
+ToxinDB,Copper benzoate,
+ToxinDB,Chlorophyllin,
+ToxinDB,Copper chromite,
+ToxinDB,Copper(I) fluoride,
+ToxinDB,Copper(II) fluoride,
+ToxinDB,Copper(II) fluoride dihydrate,
+ToxinDB,Copper gluconate,
+ToxinDB,Copper(I) oxide,
+ToxinDB,Copper(II) oxide,
+ToxinDB,Copper silicide,
+ToxinDB,Copper(I) sulfide,
+ToxinDB,Copper(II) sulfide,
+ToxinDB,Copper(I) acetylide,
+ToxinDB,Copper(I) bromide,
+ToxinDB,Copper(I) chloride,
+ToxinDB,Copper(I) iodide,
+ToxinDB,Copper(I) phosphide,
+ToxinDB,Copper(II) acetate,
+ToxinDB,Copper(II) acetate monohydrate,
+ToxinDB,Copper(II) azide,
+ToxinDB,Copper(II) bromide,
+ToxinDB,Copper(II) carbonate,
+ToxinDB,Copper(II) chloride,
+ToxinDB,Copper(II) chloride dihydrate,
+ToxinDB,Copper(II) hydroxide,
+ToxinDB,Copper(II) nitrate,
+ToxinDB,Copper(II) nitrate hydrate,
+ToxinDB,Copper(II) nitrate trihydrate,
+ToxinDB,Copper(II) sulfate,
+ToxinDB,Copper(II) sulfate pentahydrate,
+ToxinDB,Copper(II) triflate,
+ToxinDB,Scheele's Green,
+ToxinDB,Copper(II) acetoarsenite,
+ToxinDB,Tetramminecopper(II) sulfate,
+ToxinDB,Copper(II) hydroxide sulfate,
+ToxinDB,Copper orthophosphate,
+ToxinDB,Copper(II) phosphate,
+ToxinDB,Copper(II) pyrophosphate,
+ToxinDB,Copper chloride hydroxide,
+ToxinDB,Copper formate,
+ToxinDB,Copper tartrate,
+ToxinDB,Copper lactate,
+ToxinDB,Copper acetylacetonate,
+ToxinDB,Copper naphthenate,
+ToxinDB,Cupriethylenediamine,
+ToxinDB,Tin(II) chloride,
+ToxinDB,Tin(II) chloride dihydrate,
+ToxinDB,Tin(IV) oxide,
+ToxinDB,Tin(II) fluoroborate,
+ToxinDB,Tin(II) fluoride,
+ToxinDB,Monomethyltin trichloride,
+ToxinDB,Dimethyltin dichloride,
+ToxinDB,Trimethyltin chloride,
+ToxinDB,Monobutyltin trichloride,
+ToxinDB,Dibutyltin dichloride,
+ToxinDB,Tributyltin chloride,
+ToxinDB,Monobutyltin hydride,
+ToxinDB,Monobutyltin,
+ToxinDB,Dibutyltin hydride,
+ToxinDB,Tributyltin hydride,
+ToxinDB,Tetrabutyltin,
+ToxinDB,Bis(tributyltin) oxide,
+ToxinDB,Triethyltin bromide,
+ToxinDB,Triphenyltin,
+ToxinDB,Triphenyltin hydroxide,
+ToxinDB,Triphenyltin chloride,
+ToxinDB,Mono-n-octyltin trichloride,
+ToxinDB,Di-n-octyltin dichloride,
+ToxinDB,Trioctyltin stannane,
+ToxinDB,Tri-n-octyltin chloride,
+ToxinDB,Tetra-n-octylstannane,
+ToxinDB,Dibutyltin oxide,
+ToxinDB,Fentin acetate,
+ToxinDB,Tetraethyltin,
+ToxinDB,Tetramethyltin,
+ToxinDB,Triphenyltin hydride,
+ToxinDB,Niobium tin,
+ToxinDB,Stannane,
+ToxinDB,Tin selenide,
+ToxinDB,Tin telluride,
+ToxinDB,Tin(II) bromide,
+ToxinDB,Tin(II) hydroxide,
+ToxinDB,Tin(II) iodide,
+ToxinDB,Tin(II) oxide,
+ToxinDB,Tin(II) sulfate,
+ToxinDB,Tin(II) sulfide,
+ToxinDB,Tin(IV) bromide,
+ToxinDB,Tin(IV) chloride,
+ToxinDB,Tin(IV) chloride pentahydrate,
+ToxinDB,Tin(IV) fluoride,
+ToxinDB,Tin(IV) iodide,
+ToxinDB,Tin(IV) sulfide,
+ToxinDB,Monomethyltin tris(isooctyl mercaptoacetate),
+ToxinDB,Dimethyltin bis(isooctyl mercaptoacetate),
+ToxinDB,Dibutyltin diacetate,
+ToxinDB,Dibutyltin dilaurate,
+ToxinDB,Tricyclohexyltin hydroxide,
+ToxinDB,Azocyclotin,
+ToxinDB,Fenbutatin oxide,
+ToxinDB,Tributyltin methacrylate,
+ToxinDB,Arsenious acid,
+ToxinDB,Aluminium arsenide,
+ToxinDB,Boron arsenide,
+ToxinDB,Indium arsenide,
+ToxinDB,Yttrium(III) arsenide,
+ToxinDB,Acetarsol,
+ToxinDB,Arsabenzene,
+ToxinDB,Arsenamide,
+ToxinDB,Arsenic pentachloride,
+ToxinDB,Arsenic pentafluoride,
+ToxinDB,Arsenic tribromide,
+ToxinDB,Arsenic trifluoride,
+ToxinDB,Arsenic triiodide,
+ToxinDB,Arsenic triselenide,
+ToxinDB,Arsole,
+ToxinDB,p-Azobenzenearsonate,
+ToxinDB,"1,2-Bis(dimethylarsino)benzene",
+ToxinDB,Cacodyl,
+ToxinDB,Cacodyl oxide,
+ToxinDB,Diphenylchlorarsine,
+ToxinDB,Diphenylcyanoarsine,
+ToxinDB,Ethyldichloroarsine,
+ToxinDB,Lewisite,
+ToxinDB,Methyldichloroarsine,
+ToxinDB,Phenyldichloroarsine,
+ToxinDB,Thorin,
+ToxinDB,Triphenylarsine,
+ToxinDB,Sodium arsenate heptahydrate,
+ToxinDB,Calcium arsenite,
+ToxinDB,Strontium arsenite tetrahydrate,
+ToxinDB,Ferrous arsenate,
+ToxinDB,Ferric arsenate,
+ToxinDB,Iron cacodylate,
+ToxinDB,Phenarsazine oxide,
+ToxinDB,Lead chlorate,
+ToxinDB,Lead oxalate,
+ToxinDB,Lead stearate,
+ToxinDB,Lead selenide,
+ToxinDB,Lead telluride,
+ToxinDB,Lead fluoride,
+ToxinDB,Lead hydroxide,
+ToxinDB,Plumbane,
+ToxinDB,Basic lead carbonate,
+ToxinDB,Lead subacetate,
+ToxinDB,Lead tetraacetate,
+ToxinDB,Lead tungstate,
+ToxinDB,Lead thiosulfate,
+ToxinDB,Lead perchlorate,
+ToxinDB,Lead acetate trihydrate,
+ToxinDB,Basic lead acetate,
+ToxinDB,Diethyldimethyl lead,
+ToxinDB,Methyltriethyl lead,
+ToxinDB,Ethyltrimethyl lead,
+ToxinDB,Mercuric amidochloride,
+ToxinDB,Mercury(I) fluoride,
+ToxinDB,Mercury(II) fluoride,
+ToxinDB,Mercury(I) oxide,
+ToxinDB,Mercury oxide sulfate,
+ToxinDB,Cadmium mercury sulfide,
+ToxinDB,Mercuric potassium cyanide,
+ToxinDB,Mercuric benzoate,
+ToxinDB,Mercuric oleate,
+ToxinDB,Methylmercuric dicyanamide,
+ToxinDB,Ethylmercuric phosphate,
+ToxinDB,Methoxyethelmercuric acetate,
+ToxinDB,Ethoxyethyl hydroxy mercury,
+ToxinDB,Phenylmercuric chloride,
+ToxinDB,Phenylmercuric nitrate,
+ToxinDB,Mercurol,
+ToxinDB,Mercaptomerin,
+ToxinDB,Diethyl mercury,
+ToxinDB,Ethylmercury chloride,
+ToxinDB,Meralluride,
+ToxinDB,Merbromin,
+ToxinDB,Mersalyl acid,
+ToxinDB,Phenylmercuric borate,
+ToxinDB,Thiomersal,
+ToxinDB,Mercury(II) nitrate hydrate,
+ToxinDB,Cadmium chloride hemi-pentahydrate,
+ToxinDB,Cadmium cyclohexane-butyrate,
+ToxinDB,Cadmium sulfate monohydrate,
+ToxinDB,Cadmium sulfate tetrahydrate,
+ToxinDB,Cadmium sulfate octahydrate,
+ToxinDB,Cadmium 3-ethylhexanoate,
+ToxinDB,Cadmium cyanide,
+ToxinDB,Zinc cadmium sulfide,
+ToxinDB,Cadmium(I) tetrachloroaluminate,
+ToxinDB,Beryllium silicate,
+ToxinDB,Zinc beryllium silicate,
+ToxinDB,Basic beryllium carbonate,
+ToxinDB,Beryllium carbonate tetrahydrate,
+ToxinDB,Beryllium sulfate tetrahydrate,
+ToxinDB,Cobalt(II) acetate tetrahydrate,
+ToxinDB,Cobalt(II) chloride dihydrate,
+ToxinDB,Cobalt(II) chloride hexahydrate,
+ToxinDB,Cobalt(III) hydroxide,
+ToxinDB,Cobalt(II) nitrate hexahydrate,
+ToxinDB,Cobalt(II) molybdenum(VI) oxide,
+ToxinDB,Cobalt(III) oxide monohydrate,
+ToxinDB,Cobalt sulfide,
+ToxinDB,Tetracobalt dodecacarbonyl,
+ToxinDB,Cobalt(II) carbonate hydroxide (1:1),
+ToxinDB,Cobalt(II) carbonate hydroxide (2:3),
+ToxinDB,Cobalt(II) citrate,
+ToxinDB,"Dichlorobis(ethylenediamine)cobalt(III) chloride, cis-",
+ToxinDB,"Dichlorobis(ethylenediamine)cobalt(III) chloride, trans-",
+ToxinDB,Cobalt(II) cyanide,
+ToxinDB,Cobalt(II) cyanide dihydrate,
+ToxinDB,Cobalt(II) cyanide trihydrate,
+ToxinDB,Cyclopentadienylcobalt dicarbonyl,
+ToxinDB,Potassium cobaltinitrite,
+ToxinDB,Cobalt(II) formate,
+ToxinDB,Cobalt(II) succinate,
+ToxinDB,Cobalt(II) sulfamate,
+ToxinDB,Cobalt bis(2-ethylhexanoate),
+ToxinDB,Bis(3-fluorosalicylaldehyde)-ethylenediimine-cobalt,
+ToxinDB,Cobalt (II) carbonate hydrate,
+ToxinDB,Cobalt(II) bromide hydrate,
+ToxinDB,Cobalt(II) sulfate monohydrate,
+ToxinDB,Cobalt(II) sulfate heptahydrate,
+ToxinDB,Nickel arsenate,
+ToxinDB,Nickel chloride hexahydrate,
+ToxinDB,Nickel phosphate,
+ToxinDB,Nickel sulfide,
+ToxinDB,Dichlorobis(ethylenediamine)nickel(II),
+ToxinDB,Nickel aluminide,
+ToxinDB,Nickel formate,
+ToxinDB,Nickel bis(dibutyldithiocarbamate),
+ToxinDB,Nickel trioxide,
+ToxinDB,Nickelocene,
+ToxinDB,Nickel sulfate hexahydrate,
+ToxinDB,Nickel sulfate heptahydrate,
+ToxinDB,Nickel acetate tetrahydrate,
+ToxinDB,Nickel potassium cyanide,
+ToxinDB,Nickel hydroxide monohydrate,
+ToxinDB,Nickel nitrate hexahydrate,
+ToxinDB,Potassium tetraperoxochromate(V),
+ToxinDB,(Benzene)chromium tricarbonyl,
+ToxinDB,Bis(benzene)chromium,
+ToxinDB,Chromium(III) potassium sulfate,
+ToxinDB,Chromium(III) potassium sulfate dodecahydrate,
+ToxinDB,Chromium carbide,
+ToxinDB,Chromium carbonyl,
+ToxinDB,Chromium(III) nitrate,
+ToxinDB,Chromium(III) nitrate nonahydrate,
+ToxinDB,Chromium nitride,
+ToxinDB,Chromium(II) acetate,
+ToxinDB,Chromium(II) chloride,
+ToxinDB,Chromium(II) oxide,
+ToxinDB,Chromium(III) acetylacetonate,
+ToxinDB,Chromium(III) chloride,
+ToxinDB,Chromium(III) chloride hexahydrate,
+ToxinDB,Chromium(III) fluoride,
+ToxinDB,Chromium(III) fluoride trihydrate,
+ToxinDB,Chromium(III) fluoride tetrahydrate,
+ToxinDB,Chromium(III) oxide,
+ToxinDB,Chromium(III) picolinate,
+ToxinDB,Chromium(III) sulfate,
+ToxinDB,Chromium(III) sulfate dodecahydrate,
+ToxinDB,Chromium(III) sulfide,
+ToxinDB,Chromium(IV) oxide,
+ToxinDB,Chromocene,
+ToxinDB,Chromyl chloride,
+ToxinDB,Ammonium tetrathiocyanato-diamminechromate(III),
+ToxinDB,Sodium dichromate dihydrate,
+ToxinDB,Chromium trihydroxide,
+ToxinDB,Chromium chromate,
+ToxinDB,Chromic chromate,
+ToxinDB,Chromium(II) oxalate,
+ToxinDB,Chromium(III) acetate,
+ToxinDB,Zinc arsenite,
+ToxinDB,Zinc diethyldithiocarbamate,
+ToxinDB,Zinc laurate,
+ToxinDB,Zinc oleate,
+ToxinDB,Zinc phenolsulfate,
+ToxinDB,Zinc silicate,
+ToxinDB,Zinc dimethyldithiocarbamate,
+ToxinDB,Zineb,
+ToxinDB,Diisopropylzinc,
+ToxinDB,Nysted reagent,
+ToxinDB,Sodium zincate,
+ToxinDB,Zinc ammonium chloride,
+ToxinDB,Zinc dithiophosphate,
+ToxinDB,Zinc trifluoromethanesulfonate,
+ToxinDB,Zinc borate,
+ToxinDB,Zinc ammonium sulfate,
+ToxinDB,Zinc formate,
+ToxinDB,Zinc propionate,
+ToxinDB,Zinc acetate dihydrate,
+ToxinDB,Zinc fluoride hydrate,
+ToxinDB,Zinc fluoride tetrahydrate,
+ToxinDB,Zinc nitrate tetrahydrate,
+ToxinDB,Zinc nitrate hexahydrate,
+ToxinDB,Zinc sulfate monohydrate,
+ToxinDB,Zinc sulfate hexahydrate,
+ToxinDB,Zinc sulfate heptahydrate,
+ToxinDB,Aluminium chlorohydrate,
+ToxinDB,Aluminium diacetate hydroxide,
+ToxinDB,Aluminum triacetate,
+ToxinDB,Aloglutamol,
+ToxinDB,Aluminium acetoacetate,
+ToxinDB,Aluminium antimonide,
+ToxinDB,Aluminium carbide,
+ToxinDB,Aluminium chloride,
+ToxinDB,Aluminium chloride hexahydrate,
+ToxinDB,Aluminium diboride,
+ToxinDB,Aluminium dodecaboride,
+ToxinDB,Aluminium lactate,
+ToxinDB,Aluminium fluoride monohydrate,
+ToxinDB,Potassium aluminium fluoride,
+ToxinDB,Aluminium fluoride trihydrate,
+ToxinDB,Aluminium glycinate,
+ToxinDB,Aluminium hydride,
+ToxinDB,Lithium aluminium hydride,
+ToxinDB,Aluminium hydroxide,
+ToxinDB,Aluminium iodide,
+ToxinDB,Aluminium iodide hexahydrate,
+ToxinDB,Aluminium(I) oxide,
+ToxinDB,Aluminium(II) oxide,
+ToxinDB,Aluminium(III) oxide,
+ToxinDB,Aluminium isopropoxide,
+ToxinDB,Aluminium molybdate,
+ToxinDB,Aluminium monochloride,
+ToxinDB,Aluminium monofluoride,
+ToxinDB,Aluminium monostearate,
+ToxinDB,Aluminium nitrate,
+ToxinDB,Aluminium nitrate hexahydrate,
+ToxinDB,Aluminium nitride,
+ToxinDB,Aluminium oxynitride,
+ToxinDB,Aluminium phosphate,
+ToxinDB,Aluminium phosphide,
+ToxinDB,Aluminium silicate,
+ToxinDB,Aluminium sulfate,
+ToxinDB,Aluminium sulfate octadecahydrate,
+ToxinDB,Aluminium sulfide,
+ToxinDB,Methylaluminoxane,
+ToxinDB,Aluminum ammonium sulfate,
+ToxinDB,Aluminum ammonium sulfate dodecahydrate,
+ToxinDB,Diisobutylaluminium hydride,
+ToxinDB,Potassium alum,
+ToxinDB,Potassium alum dodecahydrate,
+ToxinDB,Sodium bis(2-methoxyethoxy)aluminumhydride,
+ToxinDB,Sodium aluminium hydride,
+ToxinDB,Sodium hexafluoroaluminate,
+ToxinDB,Tebbe's reagent,
+ToxinDB,Triethylaluminium,
+ToxinDB,Trimethylaluminium,
+ToxinDB,Tris(8-hydroxyquinolinato)aluminium,
+ToxinDB,Lithium aluminate,
+ToxinDB,Sodium aluminate,
+ToxinDB,Strontium aluminate,
+ToxinDB,Magnesium aluminate,
+ToxinDB,Tantalum(III) aluminide,
+ToxinDB,Titanium aluminide,
+ToxinDB,Lithium tetrachloroaluminate,
+ToxinDB,Dichloroethylaluminum,
+ToxinDB,Aluminum sodium sulfate,
+ToxinDB,Aluminum palmitate,
+ToxinDB,Aluminum oleate,
+ToxinDB,Sodium aluminum phosphate,
+ToxinDB,Triisobutylaluminum,
+ToxinDB,Ethylaluminum sesquichloride,
+ToxinDB,Methyl aluminum sesquibromide,
+ToxinDB,Chlorodiethyaluminum,
+ToxinDB,Aluminum ethylate,
+ToxinDB,Aluminum distearate,
+ToxinDB,Aluminum tristearate,
+ToxinDB,Tri-n-ocylaluminum,
+ToxinDB,Tri-n-butylaluminum,
+ToxinDB,Tri-n-hexylaluminum,
+ToxinDB,Trieicosylaluminum,
+ToxinDB,Tritetradecylaluminum,
+ToxinDB,Tris(dodecyl)aluminum,
+ToxinDB,Trihexadecylaluminum,
+ToxinDB,Tri-n-decylaluminum,
+ToxinDB,Bis(isobutyl)aluminum chloride,
+ToxinDB,Aluminum calcium sodium silicate,
+ToxinDB,"Aluminum oxide hydroxide, alpha-",
+ToxinDB,"Aluminum oxide hydroxide, gamma-",
+ToxinDB,"Aluminum oxide trihydrate, alpha-",
+ToxinDB,"Aluminum oxide trihydrate, beta-",
+ToxinDB,Aluminum butylate,
+ToxinDB,Allylpalladium chloride dimer,
+ToxinDB,Palladium acetylacetonate,
+ToxinDB,Palladium hydride,
+ToxinDB,Palladium(II) acetate,
+ToxinDB,Palladium(II) chloride,
+ToxinDB,Palladium(II) nitrate,
+ToxinDB,Palladium(II) oxide,
+ToxinDB,Tetrakis(triphenylphosphine)palladium(0),
+ToxinDB,Tris(dibenzylideneacetone)dipalladium(0),
+ToxinDB,Ammonium hexachloro-palladate(IV),
+ToxinDB,Ammonium tetrachloro-palladate(II),
+ToxinDB,"Bis(1,5-diphenyl-1,4-pentadien-3-one) palladium(0)",
+ToxinDB,"Bis(2,4-pentanedionato) palladium(II)",
+ToxinDB,"Diamminedichloro-palladium(II), cis",
+ToxinDB,"Diamminedichloro-palladium(II), trans-",
+ToxinDB,"Dichlorobis-(triphenylphosphine) palladium(II), trans-",
+ToxinDB,"Diamminedinitro-palladium(II), trans-",
+ToxinDB,"Dichloro(1,5-cyclooctadiene) palladium(II)",
+ToxinDB,Hydrogen tetrachloro-palladate(II),
+ToxinDB,Palladium(II) iodide,
+ToxinDB,Palladium(II) sulfate,
+ToxinDB,Potassium hexachloro-palladate(IV),
+ToxinDB,Sodium tetrachloro-palladate(II),
+ToxinDB,Tetraammine palladium(II) chloride,
+ToxinDB,Tetraammine palladium hydrogen carbonate,
+ToxinDB,Argyrol,
+ToxinDB,Silver acetate,
+ToxinDB,Silver acetylide,
+ToxinDB,Silver azide,
+ToxinDB,Silver carbonate,
+ToxinDB,Silver chlorate,
+ToxinDB,Silver chloride,
+ToxinDB,Silver fulminate,
+ToxinDB,Silver hexafluorophosphate,
+ToxinDB,Silver iodate,
+ToxinDB,Silver iodide,
+ToxinDB,Silver molybdate,
+ToxinDB,Silver nitrate,
+ToxinDB,Silver oxalate,
+ToxinDB,Silver oxide,
+ToxinDB,Silver perchlorate,
+ToxinDB,Silver perchlorate monohydrate,
+ToxinDB,Silver subfluoride,
+ToxinDB,Silver sulfate,
+ToxinDB,Silver sulfide,
+ToxinDB,Silver telluride,
+ToxinDB,Silver tetrafluoroborate,
+ToxinDB,Silver trifluoromethanesulfonate,
+ToxinDB,Silver(II) fluoride,
+ToxinDB,"Silver(I,III) oxide",
+ToxinDB,Vanadium carbide,
+ToxinDB,Vanadium carbonyl,
+ToxinDB,Vanadium nitride,
+ToxinDB,Vanadium oxytrichloride,
+ToxinDB,Vanadium tetrachloride,
+ToxinDB,Vanadium(II) chloride,
+ToxinDB,Vanadium(II) oxide,
+ToxinDB,Vanadium(III) chloride,
+ToxinDB,Vanadium(III) fluoride,
+ToxinDB,Vanadium(III) iodide,
+ToxinDB,Vanadium(III) oxide,
+ToxinDB,Vanadium(III) sulfate,
+ToxinDB,Vanadium(IV) fluoride,
+ToxinDB,Vanadyl sulfate,
+ToxinDB,Vanadium(IV) oxide,
+ToxinDB,Vanadium(V) oxide,
+ToxinDB,Vanadium(V) oxytrifluoride,
+ToxinDB,Vanadocene dichloride,
+ToxinDB,Vanadyl acetylacetonate,
+ToxinDB,Vanadyl sulfate hydrate,
+ToxinDB,Ammonium vanadate,
+ToxinDB,Ammonium metavanadate,
+ToxinDB,Sodium metavanadate,
+ToxinDB,Sodium orthovanadate,
+ToxinDB,Palladium(II) cyanide,
+ToxinDB,Fluorescein isothiocyanate,
+ToxinDB,tert-Butyl isocyanide,
+ToxinDB,Hydrogen isocyanide,
+ToxinDB,Methyl isocyanide,
+ToxinDB,Toluenesulfonylmethyl isocyanide,
+ToxinDB,Trifluoromethyl isocyanide,
+ToxinDB,Xantocillin,
+ToxinDB,Potassium ferrocyanide trihydrate,
+ToxinDB,Sodium ferrocyanide decahydrate,
+ToxinDB,Sodium nitroprusside dihydrate,
+ToxinDB,Phenyl isocyanate,
+ToxinDB,Chlorosulfonyl isocyanate,
+ToxinDB,Hexamethylene diisocyanate,
+ToxinDB,Isophorone diisocyanate,
+ToxinDB,Methyl isocyanate,
+ToxinDB,Methylene diphenyl diisocyanate,
+ToxinDB,Toluene diisocyanate,
+ToxinDB,n-Butyl isocyanate,
+ToxinDB,"2,4-Toluene diisocyanate",
+ToxinDB,"2,6-Toluene diisocyanate",
+ToxinDB,"3,4-Dichlorophenyl isocyanate",
+ToxinDB,Methacryloyloxyethyl isocyanate,
+ToxinDB,"3,3'-Dimethoxybenzidine-4,4'-diisocyanate",
+ToxinDB,Methylene bis(4-cyclohexylisocyanate),
+ToxinDB,Methyl thiocyanate,
+ToxinDB,Ethyl thiocyanate,
+ToxinDB,Methylene thiocyanate,
+ToxinDB,Isobornyl thiocyanoacetate,
+ToxinDB,Acetone cyanohydrin,
+ToxinDB,Cyanoacetamide,
+ToxinDB,Ethyl cyanoacetate,
+ToxinDB,"Phenylene-1,4-diisothiocyanate",
+ToxinDB,Ethylene cyanohydrin,
+ToxinDB,Cyanoacetic acid,
+ToxinDB,Ferric hexacyanoferrate,
+ToxinDB,Acetonitrile,
+ToxinDB,Mandelonitrile,
+ToxinDB,"1,1'-Azobis(cyclohexanecarbonitrile)",
+ToxinDB,Acrylonitrile,
+ToxinDB,Adiponitrile,
+ToxinDB,Aminopropionitrile,
+ToxinDB,Benzonitrile,
+ToxinDB,Benzyl cyanide,
+ToxinDB,Bromobenzyl cyanide,
+ToxinDB,Bromoxynil,
+ToxinDB,Butyl cyanoacrylate,
+ToxinDB,Butyronitrile,
+ToxinDB,Carbonyl cyanide m-chlorophenyl hydrazone,
+ToxinDB,Carbonyl cyanide-p-trifluoromethoxyphenylhydrazone,
+ToxinDB,Chlorfenapyr,
+ToxinDB,Chlorothalonil,
+ToxinDB,"2,6-Dichlorobenzonitrile",
+ToxinDB,Ethyl cyanoacrylate,
+ToxinDB,Glutaronitrile,
+ToxinDB,Malononitrile,
+ToxinDB,Methyl cyanoacrylate,
+ToxinDB,Octyl cyanoacrylate,
+ToxinDB,Phthalonitrile,
+ToxinDB,Propionitrile,
+ToxinDB,Ranelic acid,
+ToxinDB,Succinonitrile,
+ToxinDB,Tetracyanoquinodimethane,
+ToxinDB,Tetracyanoethylene,
+ToxinDB,Tetramethylsuccinonitrile,
+ToxinDB,Bromic acid,
+ToxinDB,Potassium bromate,
+ToxinDB,Silver bromate,
+ToxinDB,Sodium bromate,
+ToxinDB,Strontium bromate,
+ToxinDB,Aluminium bromide,
+ToxinDB,Ammonium bromide,
+ToxinDB,Antimony tribromide,
+ToxinDB,Boron tribromide,
+ToxinDB,Bronopol,
+ToxinDB,Bronidox,
+ToxinDB,Caesium bromide,
+ToxinDB,Calcium bromide,
+ToxinDB,Calcium bromide dihydrate,
+ToxinDB,Cerium(III) bromide,
+ToxinDB,Gallium(III) bromide,
+ToxinDB,Gold(III) bromide,
+ToxinDB,Hydrogen bromide,
+ToxinDB,Indium(I) bromide,
+ToxinDB,Indium(III) bromide,
+ToxinDB,Iron(II) bromide,
+ToxinDB,Iron(III) bromide,
+ToxinDB,Lanthanum(III) bromide,
+ToxinDB,Lithium bromide,
+ToxinDB,Magnesium bromide,
+ToxinDB,Magnesium bromide hexahydrate,
+ToxinDB,Magnesium bromide decahydrate,
+ToxinDB,Niobium(V) bromide,
+ToxinDB,Nitrogen tribromide,
+ToxinDB,Phosphorus pentabromide,
+ToxinDB,Phosphorus tribromide,
+ToxinDB,Platinum(II) bromide,
+ToxinDB,Platinum(IV) bromide,
+ToxinDB,Potassium bromide,
+ToxinDB,Radium bromide,
+ToxinDB,Rubidium bromide,
+ToxinDB,Selenium oxybromide,
+ToxinDB,Silicon tetrabromide,
+ToxinDB,Silver bromide,
+ToxinDB,Sodium bromide,
+ToxinDB,Sodium bromide dihydrate,
+ToxinDB,Strontium bromide,
+ToxinDB,Strontium bromide hexahydrate,
+ToxinDB,Tantalum(V) bromide,
+ToxinDB,Tellurium dibromide,
+ToxinDB,Tellurium tetrabromide,
+ToxinDB,Terbium(III) bromide,
+ToxinDB,Tetrabromomethane,
+ToxinDB,Thallium(I) bromide,
+ToxinDB,Thionyl bromide,
+ToxinDB,Titanium tetrabromide,
+ToxinDB,Tungsten(V) bromide,
+ToxinDB,Tungsten(VI) oxytetrabromide,
+ToxinDB,Vanadium(III) bromide,
+ToxinDB,Ytterbium(III) bromide,
+ToxinDB,Yttrium(III) bromide,
+ToxinDB,Zirconium(IV) bromide,
+ToxinDB,2-Bromobutane,
+ToxinDB,2-Bromohexane,
+ToxinDB,Allyl bromide,
+ToxinDB,"1-Bromo-3-chloro-5,5-dimethylhydantoin",
+ToxinDB,Benzyl bromide,
+ToxinDB,Bromoacetic acid,
+ToxinDB,Bromoacetone,
+ToxinDB,Bromobenzene,
+ToxinDB,Bromobimane,
+ToxinDB,1-Bromobutane,
+ToxinDB,Bromodeoxyuridine,
+ToxinDB,Bromodifluoroacetyl chloride,
+ToxinDB,Bromoethane,
+ToxinDB,Bromoform,
+ToxinDB,1-Bromohexane,
+ToxinDB,Bromomethane,
+ToxinDB,2-Bromopropane,
+ToxinDB,N-Bromosuccinimide,
+ToxinDB,5-Bromouracil,
+ToxinDB,Broxyquinoline,
+ToxinDB,"1,3-Dibromo-5,5-dimethylhydantoin",
+ToxinDB,"1,1-Dibromoethane",
+ToxinDB,Dibromomethane,
+ToxinDB,"1,2-Dibromopropane",
+ToxinDB,"1,3-Dibromopropane",
+ToxinDB,Dibrompropamidine,
+ToxinDB,Ethyl bromoacetate,
+ToxinDB,Hexabromocyclododecane,
+ToxinDB,Phenacyl bromide,
+ToxinDB,n-Propyl bromide,
+ToxinDB,Tetrabromobisphenol A,
+ToxinDB,"1,1,2,2-Tetrabromoethane",
+ToxinDB,Tribromoisocyanuric acid,
+ToxinDB,Vinyl bromide,
+ToxinDB,o-Xylyl bromide,
+ToxinDB,p-Xylyl bromide,
+ToxinDB,m-Xylyl bromide,
+ToxinDB,Bromine dioxide,
+ToxinDB,Bromine(I) chloride,
+ToxinDB,Bromine pentafluoride,
+ToxinDB,Bromine trifluoride,
+ToxinDB,Bromopentacarbonylrhenium(I),
+ToxinDB,Selenic acid,
+ToxinDB,Sodium selenate,
+ToxinDB,Benzeneselenol,
+ToxinDB,Diphenyl diselenide,
+ToxinDB,Selenium dioxide,
+ToxinDB,Selenium Sulfide,S=[Se]
+ToxinDB,Selenium disulfide,
+ToxinDB,Selenium hexafluoride,
+ToxinDB,Selenium hexasulfide,
+ToxinDB,Selenium oxydichloride,
+ToxinDB,Selenium tetrachloride,
+ToxinDB,Selenium tetrafluoride,
+ToxinDB,Selenium trioxide,
+ToxinDB,Aluminium selenide,
+ToxinDB,Antimony triselenide,
+ToxinDB,Carbon diselenide,
+ToxinDB,Gallium(II) selenide,
+ToxinDB,Gallium(III) selenide,
+ToxinDB,Germanium selenide,
+ToxinDB,Hydrogen selenide,
+ToxinDB,Indium(III) selenide,
+ToxinDB,Silver(I) selenide,
+ToxinDB,Selenous acid,
+ToxinDB,Silver selenite,
+ToxinDB,Sodium selenite,
+ToxinDB,Thallium selenide,
+ToxinDB,Selenium dimethyldithiocarbamate,
+ToxinDB,"Cresol, Meta-",
+ToxinDB,Bifenthrin,
+ToxinDB,Bioresmethrin,
+ToxinDB,Racemic fenpropathrin,
+ToxinDB,Fenpropathrin,
+ToxinDB,Flucythrinate,
+ToxinDB,Flumethrin,
+ToxinDB,Tau-fluvalinate,
+ToxinDB,Permethrin,
+ToxinDB,Tefluthrin,
+ToxinDB,Tralomethrin,
+ToxinDB,Cinerin I,
+ToxinDB,Cinerin II,
+ToxinDB,Jasmolin I,
+ToxinDB,Jasmolin II,
+ToxinDB,Pyrethrin I,
+ToxinDB,Pyrethrin II,
+ToxinDB,Antimony monosulfide,
+ToxinDB,Antimony tetramer,
+ToxinDB,Antimony(III) isopropoxide,
+ToxinDB,Antimony(III) ethoxide,
+ToxinDB,Chlorofluorotrimethylantimony,
+ToxinDB,Chlorohydroxytriphenylantimony,
+ToxinDB,Diantimony diselenide,
+ToxinDB,Diantimony tetrasulfide,
+ToxinDB,Dibromotributylantimony,
+ToxinDB,Dichlorotribenzylantimony,
+ToxinDB,Dioxygenyl hexafluoroantimonate,
+ToxinDB,Hexafluoroantimonic acid,
+ToxinDB,Lithium hexafluoroantimonate(V),
+ToxinDB,Magic acid (fluorosulfuric acid-antimony pentafluoride),
+ToxinDB,Nitronium hexafluoroantimonate(V),
+ToxinDB,Nitrosonium (nitrosyl) hexafluoroantimonate,
+ToxinDB,Potassium hexahydroxoantimonate(V),
+ToxinDB,Potassium antimonyl tartrate trihydrate,
+ToxinDB,Potassium hexafluoroantimonate(V),
+ToxinDB,Potassium pyroantimonate,
+ToxinDB,Silver(I) hexafluoroantimonate,
+ToxinDB,Sodium hexafluoroantimonate,
+ToxinDB,Sodium thioantimonate(V),
+ToxinDB,Tetrabutylantimony(V) bromide,
+ToxinDB,Tetraphenylantimony bromide,
+ToxinDB,Triantimony disulfide,
+ToxinDB,Triethyloxonium hexachloroantimonate,
+ToxinDB,Trimethylantimony bromide,
+ToxinDB,Trimethylantimony dichloride,
+ToxinDB,Trimethylantimony diiodide,
+ToxinDB,Trimethyloxonium hexachlorantimonate,
+ToxinDB,Triphenylantimony,
+ToxinDB,Triphenylantimony diacetate,
+ToxinDB,Triphenylantimony dibenzoate,
+ToxinDB,Triphenylantimony dichloride,
+ToxinDB,Triphenylthioantimonate,
+ToxinDB,Triphenylcarbenium hexachloroantimonate,
+ToxinDB,Tris(1-naphthyl)antimony,
+ToxinDB,Tris(3-(trifluoromethyl)phenyl)antimony,
+ToxinDB,Tris(4-bromophenyl)aminium hexachloroantimonate,
+ToxinDB,Tris(4-bromophenyl)antimony,
+ToxinDB,Tris(dimethylamino)antimony,
+ToxinDB,Tris(o-tolyl)antimony,
+ToxinDB,Tris(p-tolyl)antimony,
+ToxinDB,Antimony acetate,
+ToxinDB,"1,3-Dichloropropene, cis",
+ToxinDB,"1,3-Dichloropropene, trans",
+ToxinDB,"1,1-Dichloropropene",
+ToxinDB,"1,2-Dichloropropene",
+ToxinDB,"2,3-Dichloropropene",
+ToxinDB,"3,3-Dichloropropene",
+ToxinDB,Magnesium perchlorate,
+ToxinDB,Potassium perchlorate,
+ToxinDB,Ammonium perchlorate,
+ToxinDB,Sodium perchlorate,
+ToxinDB,Lithium perchlorate,
+ToxinDB,2-Monobromobiphenyl,
+ToxinDB,"2,3-Dibromobiphenyl",
+ToxinDB,"2,4,5-Tribromobiphenyl",
+ToxinDB,"3,4,5-Tribromobiphenyl",
+ToxinDB,"2,3,4,5-Tetrabromobiphenyl",
+ToxinDB,"2,3,4,6-Tetrabromobiphenyl",
+ToxinDB,"2,2',3,3',4,6'-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',5,6'-Hexabromobiphenyl",
+ToxinDB,"2,2',3,4,5',6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,5,5',6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',5,5',6-Heptabromobiphenyl",
+ToxinDB,"2,2',3,4,4',5,6'-Heptabromobiphenyl",
+ToxinDB,"2,2',3,4,4',6,6'-Heptabromobiphenyl",
+ToxinDB,"2,2',3,4,5,6,6'-Heptabromobiphenyl",
+ToxinDB,"2,2',3,4',5,6,6'-Heptabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',6,6'-Octabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5,6,6'-Octabromobiphenyl",
+ToxinDB,"2,2',3,4,4',5,6,6'-Octabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5,6,6'-Nonabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5,5',6,6'-Nonabromobiphenyl",
+ToxinDB,"2,2',3,4,5,5'-Hexabromobiphenyl",
+ToxinDB,"2,3,3',4,5,5'-Hexabromobiphenyl",
+ToxinDB,"2,2'-Dibromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5,5',6,6'-Decabromobiphenyl",
+ToxinDB,"3,5-Dibromobiphenyl",
+ToxinDB,"3,3',5,5'-Tetrabromobiphenyl",
+ToxinDB,"3,3'-Dibromobiphenyl",
+ToxinDB,3-Monobromobiphenyl,
+ToxinDB,Monobromobiphenyl,
+ToxinDB,Dibromobiphenyl,
+ToxinDB,Nonabromobiphenyl,
+ToxinDB,Octabromobiphenyl,
+ToxinDB,Heptabromobiphenyl,
+ToxinDB,Hexabromobiphenyl,
+ToxinDB,"2,2',4,4',5,6'-Hexabromobiphenyl",
+ToxinDB,"2,3,4,5,6-Pentabromobiphenyl",
+ToxinDB,Tetrabromobiphenyl,
+ToxinDB,"2,3'-Dibromobiphenyl",
+ToxinDB,"2,4'-Dibromobiphenyl",
+ToxinDB,Tribromobiphenyl,
+ToxinDB,"2,4-Dibromobiphenyl",
+ToxinDB,"2,2',3,3',5,5'-Hexabromobiphenyl",
+ToxinDB,Pentabromobiphenyl,
+ToxinDB,"3,4'-Dibromobiphenyl",
+ToxinDB,"2,5-Dibromobiphenyl",
+ToxinDB,"2,6-Dibromobiphenyl",
+ToxinDB,"2,4,6-Tribromobiphenyl",
+ToxinDB,"2,2',5-Tribromobiphenyl",
+ToxinDB,"2,3',5-Tribromobiphenyl",
+ToxinDB,"2,4',5-Tribromobiphenyl",
+ToxinDB,"2,2',5,5'-Tetrabromobiphenyl",
+ToxinDB,"2,3',4',5-Tetrabromobiphenyl",
+ToxinDB,"2,2',4,5',6-Pentabromobiphenyl",
+ToxinDB,"2,2',4,4',5,5'-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',5,5',6,6'-Octabromobiphenyl",
+ToxinDB,"2,2',4,4',6,6'-Hexabromobiphenyl",
+ToxinDB,"3,4,4',5-Tetrabromobiphenyl",
+ToxinDB,"2,2',4,5'-Tetrabromobiphenyl",
+ToxinDB,"2,2',5,6'-Tetrabromobiphenyl",
+ToxinDB,"3,3',4,4',5,5'-Hexabromobiphenyl",
+ToxinDB,"3,4-Dibromobiphenyl",
+ToxinDB,"2,4,4',6-Tetrabromobiphenyl",
+ToxinDB,"2,4',6-Tribromobiphenyl",
+ToxinDB,"2,4,4'-Tribromobiphenyl",
+ToxinDB,"2,2',4,4'-Tetrabromobiphenyl",
+ToxinDB,"3,4,4'-Tribromobiphenyl",
+ToxinDB,"2,2',3,4,4',5,5'-Heptabromobiphenyl",
+ToxinDB,"2,2',4,5,5'-Pentabromobiphenyl",
+ToxinDB,"2,3',4,4',5-Pentabromobiphenyl",
+ToxinDB,"2,2',3,4,4',5'-Hexabromobiphenyl",
+ToxinDB,"2,3',4,4',5,5'-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5,5'-Octabromobiphenyl",
+ToxinDB,"2,2',3,4',5',6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5-Heptabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5',6-Octabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4',5,5',6-Nonabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5',6,6'-Octabromobiphenyl",
+ToxinDB,"3,4',5-Tribromobiphenyl",
+ToxinDB,"2',3,4,4',5-Pentabromobiphenyl",
+ToxinDB,"3,3',4,4'-Tetrabromobiphenyl",
+ToxinDB,"2,3,3',4,4',5-Hexabromobiphenyl",
+ToxinDB,"2,2',3,4,6-Pentabromobiphenyl",
+ToxinDB,"2,3,3',4,4',5,6-Heptabromobiphenyl",
+ToxinDB,"2,2',4,5,6'-Pentabromobiphenyl",
+ToxinDB,"2,3',4,5,5'-Pentabromobiphenyl",
+ToxinDB,"2,2',3,4,4',5-Hexabromobiphenyl",
+ToxinDB,"2,2',4,4',5-Pentabromobiphenyl",
+ToxinDB,"3,3',4,5,5'-Pentabromobiphenyl",
+ToxinDB,"2,2',3,3',4,4'-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5'-Hexabromobiphenyl",
+ToxinDB,"2,3,3',4',5',6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5,5'-Heptabromobiphenyl",
+ToxinDB,"2,3',4,4'-Tetrabromobiphenyl",
+ToxinDB,"3,3',4,4',5-Pentabromobiphenyl",
+ToxinDB,"2,3,3',4,4',5'-Hexabromobiphenyl",
+ToxinDB,"2,3',4,4',5',6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,4',5,5',6-Heptabromobiphenyl",
+ToxinDB,"2,3',4,4',6-Pentabromobiphenyl",
+ToxinDB,"2,2',3,3',4,5,6'-Heptabromobiphenyl",
+ToxinDB,"2,2',3,5',6-Pentabromobiphenyl",
+ToxinDB,"2,3,3',4,4',5,5'-Heptabromobiphenyl",
+ToxinDB,4-Monobromobiphenyl,
+ToxinDB,"4,4'-Dibromobiphenyl",
+ToxinDB,"2,2',3,4',5,6'-Hexabromobiphenyl",
+ToxinDB,"2,3,4,4',5-Pentabromobiphenyl",
+ToxinDB,"2,2',4,6'-Tetrabromobiphenyl",
+ToxinDB,"2,2',6,6'-Tetrabromobiphenyl",
+ToxinDB,"2,2',4,4',6-Pentabromobiphenyl",
+ToxinDB,"3,3',4,5'-Tetrabromobiphenyl",
+ToxinDB,"2,3,3',4-Tetrabromobiphenyl",
+ToxinDB,"2,2',4,6,6'-Pentabromobiphenyl",
+ToxinDB,"2,2',3,3',4-Pentabromobiphenyl",
+ToxinDB,"2,2',3,6-Tetrabromobiphenyl",
+ToxinDB,"2,2',3,4,5,6-Hexabromobiphenyl",
+ToxinDB,"2,2',3,3'-Tetrabromobiphenyl",
+ToxinDB,4-Bromobiphenyl Ether,
+ToxinDB,"4,4'-Dibromobiphenyl Ether",
+ToxinDB,Tribromobiphenyl Ether,
+ToxinDB,Tetrabromobiphenyl Ether,
+ToxinDB,"2,2',4,4',5-Pentabromobiphenyl Ether",
+ToxinDB,Hexabromobiphenyl Ether,
+ToxinDB,Heptabromobiphenyl Ether,
+ToxinDB,"2,3,3',4,4',5,5',6'-Octabromobiphenyl Ether",
+ToxinDB,Nonabromobiphenyl Ether,
+ToxinDB,"2,2',3,3',4,4',5,5',6,6'-Decabromobiphenyl Ether",
+ToxinDB,1-Chlorodibenzo-p-dioxin,
+ToxinDB,2-Chlorodibenzo-p-dioxin,
+ToxinDB,"1,3-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,6-Dichlorodibenzo-p-dioxin",
+ToxinDB,"2,3-Dichlorodibenzo-p-dioxin",
+ToxinDB,"2,7-Dichlorodibenzo-p-dioxin",
+ToxinDB,"2,8-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,4-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,2-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,9-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,8-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,7-Dichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4-Trichlorodibenzo-p-dioxin",
+ToxinDB,"2,3,7-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,3,7-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,7,8-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,4,9-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,4,8-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,3,9-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,3,8-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,3,6-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,9-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,8-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,7-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,6-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3-Trichlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,7-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,7-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,6,7-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,6,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,6,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"2,3,6,7-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,8,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,3,6,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,3,6,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,3,7,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,3,7,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,4,6,9-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,4,7,8-Tetrachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,7-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,7,8-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,7,8-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,8,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,8,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6,7-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,7,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,8-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,7,9-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6,8-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,7-Pentachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,7,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6,7,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6,7-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,6,8,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,4,6,8,9-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6,8-Hexachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6,7,8-Heptachlorodibenzo-p-dioxin",
+ToxinDB,"1,2,3,4,6,7,9-Heptachlorodibenzo-p-dioxin",
+ToxinDB,Octachlorodibenzo-p-dioxin,
+ToxinDB,"1-((1,1-Dimethylethyl)amino)-3-((5a,6,7,8,9,9a-hexahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-((1,1-Dimethylethyl)amino)-3-((6,7,8,9-tetrahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-((1-Methylethyl)amino)-3-((6,7,8,9-tetrahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-(2,6-Dimethyl-1-piperidyl)-3-(6,7,8,9-tetrahydrodibenzofuran-2-yloxy)propan-2-ol hydrochloride",
+ToxinDB,"1-(Bis(1-methylethyl)amino)-3-((6,7,8,9-tetrahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-(Butylamino)-3-((5a,6,7,8,9,9a-hexahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-(Cyclohexylamino)-3-((6,7,8,9-tetrahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1-(Diethylamino)-3-((6,7,8,9-tetrahydro-2-dibenzofuranyl)oxy)-2-propanol hydrochloride",
+ToxinDB,"1,1'-(2,8-Dibenzofuradiyl)bis(2-(dimethylamino)ethanone) dhydrochloride hydrate",
+ToxinDB,"1,2,3,4,4a,9b-Hexahydro-4a-((4-(2-ethoxy-2-phenylethyl)-1-piperazinyl)methyl)-6-methoxy-4-dibenzofuranol dihydrochloride",
+ToxinDB,"1,2,3,4,4a,9b-Hexahydro-4a-((4-(2-ethoxy-2-phenylethyl)-1-piperazinyl)methyl)-8-methoxy-4-dibenzofuranol dihydrochloride",
+ToxinDB,"1,2,3,4,4a,9b-Hexahydro-4a-((4-(2-methoxy-2-phenylethyl)-1-piperazinyl)methyl-4-dibenzofuranol dihydrochloride",
+ToxinDB,"1,2,3,4,4a,9b-Hexahydro-8,9b-dimethyl-4-(3-(4-methyl-piperazin-1-yl)propionamido) dibenzofuran-3-one",
+ToxinDB,"1,2,3,4,6,7,8,9,10,10,11,11-Dodecachloro-1,4,4a,5a,6,9,9a,9b-octahydro-1,4:6,9- dimethanodibenzofuran",
+ToxinDB,"1,2,3,4,6,7,8,9-Octahydrodibenzofuran",
+ToxinDB,"1,2,3,4,6,7,8-Heptabromodibenzofuran",
+ToxinDB,"1,2,3,4,6,7,9-Heptachlorodibenzofuran",
+ToxinDB,"1,2,3,4,6,7-Hexabromodibenzofuran",
+ToxinDB,"1,2,3,4,6,7-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,6,8,9-Heptachlorodibenzofuran",
+ToxinDB,"1,2,3,4,6,8-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,6,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,6-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,4,7,8,9-Heptabromodibenzofuran",
+ToxinDB,"1,2,3,4,7,8,9-Heptachlorodibenzofuran",
+ToxinDB,"1,2,3,4,7,8-Hexabromodibenzofuran",
+ToxinDB,"1,2,3,4,7,8-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,7,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,7-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,4,8,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,4,8-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,4,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,4-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,3,4-Tetrahydrodibenzofuran",
+ToxinDB,"1,2,3,6,7,8-Hexabromodibenzofuran",
+ToxinDB,"2,3,4,7,8,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,6,7,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,6,7-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,6,8,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,6,8-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,6,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,6-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,3,7,8,9-Hexabromodibenzofuran",
+ToxinDB,"1,2,3,7,8,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,3,7,8-Pentabromodibenzofuran",
+ToxinDB,"1,2,3,7,8-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,7,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,3,8,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,3,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,3,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,4,6,7,8-Hexachlorodibenzofuran",
+ToxinDB,"1,2,4,6,7,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,4,6,7-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,6,8,9-Hexachlorodibenzofuran",
+ToxinDB,"1,2,4,6,8-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,6,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,6-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,4,7,8-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,7,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,4,8,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,4,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,4-Trimethoxy-3-dibenzofuranol",
+ToxinDB,"2,3,4,8,9-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,8,9-Pentachlorodibenzofuran",
+ToxinDB,"1,2,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,6,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,7,8-Tetrabromodibenzofuran",
+ToxinDB,"1,2,7,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,7,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,2-Dichlorodibenzofuran",
+ToxinDB,"1,3,4,6,7,8-Hexachlorodibenzofuran",
+ToxinDB,"1,3,4,6,7,9-Hexachlorodibenzofuran",
+ToxinDB,"1,3,4,6,7-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,6,8-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,6,9-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,6-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,4,7,8-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,7,9-Pentachlorodibenzofuran",
+ToxinDB,"1,3,4,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,4,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,4-Trimethoxy-2-dibenzofuranol",
+ToxinDB,"2,3,4,7,9-Pentachlorodibenzofuran",
+ToxinDB,"1,3,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,6,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,6,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,7,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,7,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,7-Trichlorodibenzofuran",
+ToxinDB,"1,3-Dichlorodibenzofuran",
+ToxinDB,"1,4,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"1,4,6,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,4,7,8-Tetrachlorodibenzofuran",
+ToxinDB,"1,4,8-Trichlorodibenzofuran",
+ToxinDB,1-Chlorodibenzofuran,
+ToxinDB,"1H-Imidazole-1-ethanol, alpha-(((5a,6,7,8,9,9a-hexahydro-2-dibenzofuranyl)oxy)methyl)-, monohydrochloride",
+ToxinDB,1-Methyldibenzofuran,
+ToxinDB,1-Nitrodibenzofuran,
+ToxinDB,"1-Piperazinecarboxylic acid, 4-(3-((1,2,3,4,4a,9b-hexahydro-8,9b-dimethyl-3-oxo-4-dibenzofuranyl)amino)-3-oxopropyl)-, ethyl ester, (4-alpha,4a-beta,9b-beta)-",
+ToxinDB,2-(2-(Dimethylamino)-1-hydroxyethyl)dibenzofuran hydrochloride,
+ToxinDB,2-(2-Amino-1-hydroxyethyl)dibenzofuran hydrochloride,
+ToxinDB,2-(2-Piperidino-1-hydroxyethyl)dibenzofuran hydrochloride,
+ToxinDB,2-(3-(Dimethylamino)propionyl)dibenzofuran hydrochloride,
+ToxinDB,2-(4-Dibenzofuranyloxy)-2-methylpropionic acid,
+ToxinDB,2-(Chloroacetyl)dibenzofuran,
+ToxinDB,"2,3,4,5-Bis(2-butenylene) tetrahydrofurfural",
+ToxinDB,"2,3,4,6,7,8-Hexabromodibenzofuran",
+ToxinDB,"2,3,4,6,7,8-Hexachlorodibenzofuran",
+ToxinDB,"2,3,4,6,7-Pentabromodibenzofuran",
+ToxinDB,"2,3,4,6,7-Pentachlorodibenzofuran",
+ToxinDB,"2,3,4,6,8-Pentachlorodibenzofuran",
+ToxinDB,"2,3,4,6-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,4,7,8-Pentabromodibenzofuran",
+ToxinDB,"2,3,4,7-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,4,8-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,4-Trichlorodibenzofuran",
+ToxinDB,"2,3,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,6,8-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,6-Trichlordibenzofuran",
+ToxinDB,"2,3,7,8-Tetrabromodibenzofuran",
+ToxinDB,"2,3,7-Trichlorodibenzofuran",
+ToxinDB,"2,3,8-Trichlorodibenzofuran",
+ToxinDB,"2,3-Hexahydroxydiphenoyl-D-glucose",
+ToxinDB,"2,4,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"2,4,6,8-Tetrachlorodibenzofuran",
+ToxinDB,"2,4,6-Trichlorodibenzofuran",
+ToxinDB,"2,4,8-Trichlorodibenzofuran",
+ToxinDB,"2,4-Dichlorodibenzofuran",
+ToxinDB,"2,6-Bis(1,1-dimethylethyl)-8-hydroxy-1,4-dibenzofurandione",
+ToxinDB,"2,6-Diacetyl-7,9-dihydroxy-8,9b-dimethyldibenzofuran-1,3(2H,9bH)-dione sodium salt",
+ToxinDB,"2,6-Diacetyl-7,9-dihydroxy-8,9b-dimethyldibenzofuran-1,3(2H,9bH)-dione, 2,2',2''-nitrilotriethanol complex",
+ToxinDB,"2,6-Diacetyl-7,9-dihydroxy-8-methyl-1,3(2H,9bH)-dibenzofurandione",
+ToxinDB,"2,6-Diacetyl-9-(acetyloxy)-4a,9b-dihydro-3,7-dihydroxy-4a-methoxy-8,9b-dimethyl-1(4H)-dibenzofuranone",
+ToxinDB,"2,6-Dichlorodibenzofuran",
+ToxinDB,"2,7-Dibromodibenzofuran",
+ToxinDB,"2,7-Difluorodibenzofuran",
+ToxinDB,"2,7-Dinitrodibenzofuran",
+ToxinDB,"2,8-Bis((2,4-dihydroxy-6-methylphenyl)amino)-9a,9b-dihydro-1,9-dimethyl-3,7-dibenzofurandione",
+ToxinDB,"2,8-Bis(2-(dimethylamino)acetyl)dibenzofuran dihydrochloride",
+ToxinDB,"2,8-Dibromodibenzofuran",
+ToxinDB,"2,8-Dichlorodibenzofuran",
+ToxinDB,"2,8-Dinitrodibenzofuran",
+ToxinDB,2-Bromodibenzofuran,
+ToxinDB,2-Chlorodibenzofuran,
+ToxinDB,2-Dibenzofuranamine,
+ToxinDB,2-Dibenzofuranylphenylmethanone,
+ToxinDB,2-Hydroxy-3-((2-hydroxy-1-dibenzofuranyl)azo)-5-nitrobenzenesulfonic acid sodium salt,
+ToxinDB,2-Hydroxydibenzofuran-3-carboxylic acid,
+ToxinDB,2-Hydroxy-N-1-naphthalenyl-3-dibenzofurancarboxamide monosodium salt,
+ToxinDB,2-Hydroxy-N-1-naphthalenyl-3-dibenzofurancarboxamide,
+ToxinDB,2-Methoxy-3-aminodibenzofuran,
+ToxinDB,2-Methoxydibenzofuran,
+ToxinDB,3-Methyldibenzofuran,
+ToxinDB,2-Nitrodibenzofuran,
+ToxinDB,"3,4,6,7-Tetrachlorodibenzofuran",
+ToxinDB,"3,4-Dihydro-2-(piperidinomethyl)-1(2H)-dibenzofuranone hydrochloride",
+ToxinDB,"3,6-Dichlorodibenzofuran",
+ToxinDB,"3,7-Dichlorodibenzofuran",
+ToxinDB,"3-[4-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-4-acetyl-2,3,5,6-tetrahydropyrazin -1-yl]propanamide hydrochloride",
+ToxinDB,"3-[4-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-4-ethyl-2,3,5,6-tetrahydropyrazin- 1-yl]propanamide dihydrochloride",
+ToxinDB,3-Aminodibenzofuran,
+ToxinDB,3-Chlorodibenzofuran,
+ToxinDB,N-(2-ethoxyphenyl)-2-hydroxy-3-dibenzofurancarboxamide,
+ToxinDB,3-Hydroxy-N-(2-methoxy-3-dibenzofuranyl)-2-naphthalenecarboxamide sodium salt,
+ToxinDB,3-Hydroxy-N-(2-methoxy-3-dibenzofuranyl)-2-naphthalenecarboxamide,
+ToxinDB,3-Methoxy-2-dibenzofuranamine,
+ToxinDB,3-Methoxy-2-nitrodibenzofuran,
+ToxinDB,3-Methoxy-4-morpholinomethyldibenzofuran,
+ToxinDB,3-Methoxy-4-piperidinomethyldibenzofuran,
+ToxinDB,3-Methoxy-4-pyrrolidinomethyldibenzofuran,
+ToxinDB,2-Methyldibenzofuran,
+ToxinDB,3-Nitrodibenzofuran,
+ToxinDB,4-(Diethylamino)methyl-3-methoxydibenzofuran,
+ToxinDB,4-(Dimethylamino)methyl-3-methoxydibenzofuran,
+ToxinDB,"4-(N-(1-Azabicyclo(2.2.2)-octan-3-yl))-2-chloro-5a,6,7,8,9,9a-hexahydrobenzofurancarboxamide",
+ToxinDB,4-(Triphenylsilyl)dibenzofuran,
+ToxinDB,"4,4'-Bi(dibenzofuran) disodium salt",
+ToxinDB,"4,6-Dimethyldibenzofuran",
+ToxinDB,"4a,9b-Dihydro-8,9b-dimethyl-3(4H)-dibenzofuranone",
+ToxinDB,"4a-[[4-(2-Ethoxy-2-phenyl-ethyl)piperazin-1-yl]methyl]-1,2,3,9b-tetrahydrodibenzofuran -4-one dihydrochloride",
+ToxinDB,"4a-[[4-(2-Ethoxy-2-phenyl-ethyl)piperazin-1-yl]methyl]-8-fluoro-2,3,4,9b-tetrahydro- 1H-dibenzofuran-4-ol dihydrochloride",
+ToxinDB,"4-Bromo-2,3,7,8-tetrachlorodibenzofuran",
+ToxinDB,4-Chlorodibenzofuran,
+ToxinDB,4-Dibenzofurancarboxaldehyde,
+ToxinDB,4-Dibenzofuranol,
+ToxinDB,4-Methyldibenzofuran,
+ToxinDB,4-Nitrodibenzofuran,
+ToxinDB,"6,7,8,9-Tetrahydro-1-(((1,1-dimethylethyl)amino)methyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-1-(((1-methylethyl)amino)methyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-1-((diethylamino)methyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-1-((dimethylamino)methyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-1-(1-piperidinylmethyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-1-(4-morpholinylmethyl)-2-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-2-dibenzofuranol",
+ToxinDB,"6,7,8,9-Tetrahydro-3-((4-methyl-1-piperazinyl)methyl)-4-dibenzofuranol dihydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-3-((diethylamino)methyl)-4-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-3-((dimethylamino)methyl)-4-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-3-(4-morpholinylmethyl)-4-dibenzofuranol hydrochloride",
+ToxinDB,"6,7,8,9-Tetrahydro-4-dibenzofuranol",
+ToxinDB,"6-Cyclohexyl-1,3,8-trichlorodibenzofuran",
+ToxinDB,"6-Methyl-1,3,8-trichlorodibenzofuran",
+ToxinDB,"6-Methyl-8-iodo-1,3-dichlordibenzofuran",
+ToxinDB,"6-Nitro-1,3,8-trichlorodibenzofuran",
+ToxinDB,"6-tert-Butyl-1,3,8-trichlorodibenzofuran",
+ToxinDB,"7,8-Dichloro-2-dibenzofuranol",
+ToxinDB,"8-Bromo-2,3,4-trichlorodibenzofuran",
+ToxinDB,8-Chloro-3-dibenzofuranol,
+ToxinDB,"(((6,7,8,9-Tetrahydro-2-dibenzofuranyl)oxy)methyl)-4-morpholineethanol hydrochloride, alpha-",
+ToxinDB,"((Diethylamino)methyl)-2-dibenzofuranmethanol hydrochloride, alpha-",
+ToxinDB,Bis(omega-piperidinylacetyl)dibenzofuran dihydrochloride,
+ToxinDB,Bromodichlorodibenzofuran,
+ToxinDB,Cannabielsoin,
+ToxinDB,Cercosporamide,
+ToxinDB,Dibenzofuran,
+ToxinDB,"Dibenzofuran-2,8-bis(sulphonohydrazide)",
+ToxinDB,Dibenzofuran-2-ol,
+ToxinDB,Dibenzofuran-2-sulfonic acid,
+ToxinDB,Dibenzofuran-3-ol,
+ToxinDB,Dibenzofuran-4-carboxylic acid,
+ToxinDB,Dibromohexachlorodibenzofuran,
+ToxinDB,Dibromopentachlorodibenzofuran,
+ToxinDB,Dibromotetrachlorodibenzofuran,
+ToxinDB,Dichloromethoxydibenzofuran,
+ToxinDB,"1,2-Dimethyldibenzofuran",
+ToxinDB,Ethyl-2-(4-dibenzofuranyloxy)-2-methylpropionic acid,
+ToxinDB,Furcloprofen,
+ToxinDB,Furobufen,
+ToxinDB,Heptabromochlorodibenzofuran,
+ToxinDB,Heptabromodibenzofuran,
+ToxinDB,"1,2,3,4,6,7-Hexabromo-8,9-dichlorodibenzofuran",
+ToxinDB,Methyldibenzofuran,
+ToxinDB,"N-(1-Azabicyclo(2.2.2)octan-3-yl)-2-chloro-5a,6,7,8,9,9a-hexahydrodibenzofuran-4-carboxamide",
+ToxinDB,"N-(2,5-Dimethoxyphenyl)-2-hydroxy-3-dibenzofurancarboxamide sodium salt",
+ToxinDB,"N-(2,5-Dimethoxyphenyl)-2-hydroxy-3-dibenzofurancarboxamide",
+ToxinDB,N-(2-Ethoxyphenyl)-2-hydroxy-3-dibenzofurancarboxamide sodium salt,
+ToxinDB,"N,N-Diethyl-2-dibenzofurancarbonylmethylamine hydrochloride",
+ToxinDB,"N,N-Dimethyl-2-dibenzofurancarbonylmethylamine hydrochloride",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]- 2-pyrrolidin-1-yl-acetamide",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]- 3-pyrrolidin-1-yl-propanamide hydrochloride",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-2-(4-methylpiperazin -1-yl) acetamide dihydrochloride",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-3-(1-piperidyl) propanamide hydrochloride",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-3-(2-dimethylaminoethyl- methyl-amino) propanamide dihydrochloride",
+ToxinDB,"N-[(4S,4aS,9bR)-8,9b-Dimethyl-3-oxo-1,2,4,4a-tetrahydrodibenzofuran-4-yl]-3-(4-benzylpiperazin- 1-yl)propanamide",
+ToxinDB,N-3-Dibenzofuranylacetamide,
+ToxinDB,Pentabromochlorodibenzofuran,
+ToxinDB,Taziprinone,
+ToxinDB,Tetrabromochlorodibenzofuran,
+ToxinDB,Tetrabromodichlorodibenzofuran,
+ToxinDB,Tetrabromotrichlorodibenzofuran,
+ToxinDB,Tetrachlorodibenzofuran,
+ToxinDB,Tribromochlorodibenzofuran,
+ToxinDB,Tribromodibenzofuran,
+ToxinDB,Tribromodichlorodibenzofuran,
+ToxinDB,Tribromotetrachlorodibenzofuran,
+ToxinDB,Tribromotrichlorodibenzofuran,
+ToxinDB,Trichlorodibenzofuran,
+ToxinDB,Usnic acid sodium salt,
+ToxinDB,Usnic acid,
+ToxinDB,(-)-Usnic acid,
+ToxinDB,"(+)-2,6-Diacetyl-1,7,9-trihydroxy-8,9b-dimethyldibenzofuran-3(9bH)-one sodium salt",
+ToxinDB,(+)-Usnic acid,
+ToxinDB,"(4a,9b-Dihydro-8,9b-dimethyl-3(4H)-dibenzofuranylidene)acetic acid 2-(1-piperidinyl)ethyl ester hydrochloride",
+ToxinDB,"(4a,9b-Dihydro-8,9b-dimethyl-3(4H)-dibenzofuranylidene)acetic acid 2-(4-morpholinyl)ethyl ester hydrochloride",
+ToxinDB,"(4a,9b-Dihydro-8,9b-dimethyl-3(4H)-dibenzofuranylidene)acetic acid 2-(diethylamino)ethyl ester hydrochloride",
+ToxinDB,"(4a,9b-Dihydro-8,9b-dimethyl-3(4H)-dibenzofuranylidene)acetic acid 2-(dimethylamino)ethyl ester hydrochloride",
+ToxinDB,"(4-alpha,4a-beta,9b-beta)-2-(Ethyl(phenylmethyl)amino)-N-(1,2,3,4,4a,9b-hexahydro-8,9b-dimethyl-3-oxo- 4-dibenzofuranyl)acetamide hydrochloride",
+ToxinDB,n-Hexane,
+ToxinDB,2-Methylpentane,
+ToxinDB,3-Methylpentane,
+ToxinDB,"2,3-Dimethylbutane",
+ToxinDB,"2,2-Dimethylbutane",
+ToxinDB,Boron phosphide,
+ToxinDB,Calcium phosphide,
+ToxinDB,Gallium phosphide,
+ToxinDB,Indium phosphide,
+ToxinDB,Iron phosphide,
+ToxinDB,Sodium phosphide,
+ToxinDB,Titanium(III) phosphide,
+ToxinDB,"1,4-Dichlorodibenzofuran",
+ToxinDB,"1,6-Dichlorodibenzofuran",
+ToxinDB,"1,7-Dichlorodibenzofuran",
+ToxinDB,"1,8-Dichlorodibenzofuran",
+ToxinDB,"1,9-Dichlorodibenzofuran",
+ToxinDB,"2,3-Dichlorodibenzofuran",
+ToxinDB,"2,7-Dichlorodibenzofuran",
+ToxinDB,"3,4-Dichlorodibenzofuran",
+ToxinDB,"1,2,3-Trichlorodibenzofuran",
+ToxinDB,"1,2,6-Trichlorodibenzofuran",
+ToxinDB,"1,2,7-Trichlorodibenzofuran",
+ToxinDB,"1,2,8-Trichlorodibenzofuran",
+ToxinDB,"1,2,9-Trichlorodibenzofuran",
+ToxinDB,"1,3,4-Trichlorodibenzofuran",
+ToxinDB,"1,3,6-Trichlorodibenzofuran",
+ToxinDB,"1,3,8-Trichlorodibenzofuran",
+ToxinDB,"1,3,9-Trichlorodibenzofuran",
+ToxinDB,"1,4,6-Trichlorodibenzofuran",
+ToxinDB,"1,4,7-Trichlorodibenzofuran",
+ToxinDB,"1,4,9-Trichlorodibenzofuran",
+ToxinDB,"2,3,9-Trichlorodibenzofuran",
+ToxinDB,"2,4,7-Trichlorodibenzofuran",
+ToxinDB,"2,4,9-Trichlorodibenzofuran",
+ToxinDB,"3,4,6-Trichlorodibenzofuran",
+ToxinDB,"3,4,7-Trichlorodibenzofuran",
+ToxinDB,"3,4,8-Trichlorodibenzofuran",
+ToxinDB,"3,4,9-Trichlorodibenzofuran",
+ToxinDB,"1,2,4,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,6,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,2,8,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,3,4,9-Tetrachlorodibenzofuran",
+ToxinDB,"1,4,6,9-Tetrachlorodibenzofuran",
+ToxinDB,"2,3,4,9-Tetrachlorodibenzofuran",
+ToxinDB,Dichlorodibenzofuran,
+ToxinDB,"Amanitin, alpha-",
+ToxinDB,Orellanine,
+ToxinDB,Muscarine,
+ToxinDB,Gyromitrin ,
+ToxinDB,Coprine,
+ToxinDB,Ibotenic acid,
+ToxinDB,Muscimol,
+ToxinDB,Psilocybin,
+ToxinDB,Psilocin,
+ToxinDB,Ergotamine,CN1C[C@@H](C=C2[C@H]1CC1=CNC3=CC=CC2=C13)C(=O)N[C@]1(C)O[C@@]2(O)[C@@H]3CCCN3C(=O)[C@H](CC3=CC=CC=C3)N2C1=O
+ToxinDB,Palytoxin,
+ToxinDB,Ciguatoxin 1,
+ToxinDB,Ciguatoxin 2,
+ToxinDB,Ciguatoxin 3,
+ToxinDB,Ciguatoxin 4B,
+ToxinDB,Phalloidin,
+ToxinDB,Prophalloin,
+ToxinDB,Phalloin,
+ToxinDB,Phallisin,
+ToxinDB,Phallacidin,
+ToxinDB,Phallacin,
+ToxinDB,Phallisacin,
+ToxinDB,Naftidrofuryl,
+ToxinDB,Insulin,
+ToxinDB,Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1
+ToxinDB,Vindesine,CC[C@]1(O)C[C@H]2CN(CCC3=C(NC4=CC=CC=C34)[C@@](C2)(C(=O)OC)C2=C(OC)C=C3N(C)[C@H]4[C@](O)([C@H](O)[C@]5(CC)C=CC[N@@]6CC[C@]4([C@H]56)C3=C2)C(N)=O)C1
+ToxinDB,Amitriptyline,CN(C)CC\C=C1\C2=CC=CC=C2CCC2=CC=CC=C12
+ToxinDB,Ricin,
+ToxinDB,Dapsone,NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(N)C=C1
+ToxinDB,Glipizide,CC1=CN=C(C=N1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1
+ToxinDB,Tetrodotoxin,
+ToxinDB,Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O
+ToxinDB,Apamin (Apis mellifera),
+ToxinDB,Philanthotoxin,
+ToxinDB,alpha-Pompilidotoxin,
+ToxinDB,beta-Pompilidotoxin,
+ToxinDB,Holocyclotoxin,
+ToxinDB,Poneratoxin,
+ToxinDB,"Agatoxin, omega-",
+ToxinDB,"Atracotoxin, omega- (Hadronyche versuta)",
+ToxinDB,Versutoxin,
+ToxinDB,Robustoxin,
+ToxinDB,Grammotoxin,
+ToxinDB,Huwentoxin,
+ToxinDB,"Latrotoxin, alpha-",
+ToxinDB,Phrixotoxin,
+ToxinDB,Stromatoxin,
+ToxinDB,Phoneutriatoxin,
+ToxinDB,Heteropodatoxin,
+ToxinDB,Agitoxin,
+ToxinDB,Charybdotoxin,
+ToxinDB,Chlorotoxin ,
+ToxinDB,Cobatoxin,
+ToxinDB,"Cobratoxin, alpha-",
+ToxinDB,"Hefutoxin, kappa-",
+ToxinDB,Iberiotoxin,
+ToxinDB,Imperatoxin-A,
+ToxinDB,Imperatoxin-1,
+ToxinDB,Kaliotoxin,
+ToxinDB,Kaliotoxin-1,
+ToxinDB,Kaliotoxin-2,
+ToxinDB,Kaliotoxin-3,
+ToxinDB,Kurtoxin,
+ToxinDB,Margatoxin,
+ToxinDB,Maurotoxin,
+ToxinDB,Noxiustoxin,
+ToxinDB,Scyllatoxin,
+ToxinDB,Slotoxin,
+ToxinDB,Tamapin,
+ToxinDB,Tityustoxin (Tityus serrulatus ),
+ToxinDB,Batrachotoxin,
+ToxinDB,Histrionicotoxin,
+ToxinDB,Pumiliotoxin,
+ToxinDB,Epibatidine,
+ToxinDB,Allopumiliotoxin,
+ToxinDB,Arenobufagin,
+ToxinDB,Bufotenin,
+ToxinDB,Cinobufagin,
+ToxinDB,Marinobufagenin,
+ToxinDB,alpha-Bungarotoxin,
+ToxinDB,beta-Bungarotoxin,
+ToxinDB,Calciseptine ,
+ToxinDB,Calcicludine,
+ToxinDB,Cardiotoxin (Naja atra),
+ToxinDB,Crotamine ,
+ToxinDB,Crotoxin ,
+ToxinDB,Convulxin,
+ToxinDB,Dendrotoxin (Dendroaspis polylepis polylepis),
+ToxinDB,Dendrotoxin (Dendroaspis angusticeps),
+ToxinDB,Taicatoxin ,
+ToxinDB,Eledoisin (Eledone cirrhosa),
+ToxinDB,Onchidal,
+ToxinDB,Saxitoxin,
+ToxinDB,Sticholysin,
+ToxinDB,4-Aminopyridine ,
+ToxinDB,Baclofen,NC[C@@H](CC(O)=O)C1=CC=C(Cl)C=C1
+ToxinDB,Quetiapine,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12
+ToxinDB,Flecainide,FC(F)(F)COC1=CC(C(=O)NC[C@H]2CCCCN2)=C(OCC(F)(F)F)C=C1
+ToxinDB,Disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC
+ToxinDB,Valproic acid,CCCC(CCC)C(O)=O
+ToxinDB,Amantadine,N[C@]12C[C@H]3C[C@H](C[C@H](C3)C1)C2
+ToxinDB,Chloroquine,CCN(CC)CCC[C@@H](C)NC1=C2C=CC(Cl)=CC2=NC=C1
+ToxinDB,"Butyrolactone, gamma-",
+ToxinDB,Carbon dioxide,
+ToxinDB,Triazolam,CC1=NN=C2CN=C(C3=CC=CC=C3Cl)C3=C(C=CC(Cl)=C3)N12
+ToxinDB,Promazine,CN(C)CCCN1C2=CC=CC=C2SC2=CC=CC=C12
+ToxinDB,Heparin,CC(=O)N[C@H]1[C@H](O)O[C@@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@@H]([C@@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@H]4O[C@H]([C@H](O)[C@@H](O)[C@@H]4OS(O)(=O)=O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@@H]1O
+ToxinDB,Warfarin,CC(=O)C[C@@H](C1=CC=CC=C1)C1=C(O)OC2=CC=CC=C2C1=O
+ToxinDB,Ceftriaxone,CO\N=C(C(=O)N[C@H]1[C@H]2SCC(CSC3=NC(=O)C(=O)NN3C)=C(N2C1=O)C(O)=O)/C1=CSC(N)=N1
+ToxinDB,Enoxaparin,CC(=O)N[C@H]1[C@H](O)O[C@@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@@H]([C@@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@H]4O[C@H]([C@H](O)[C@@H](O)[C@@H]4OS(O)(=O)=O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@@H]1O
+ToxinDB,Lamotrigine,NC1=NC(N)=C(N=N1)C1=C(Cl)C(Cl)=CC=C1
+ToxinDB,Paracetamol ,CC(=O)NC1=CC=C(O)C=C1
+ToxinDB,Acrylamide,
+ToxinDB,Tramadol,COC1=CC=CC(=C1)[C@@]1(O)CCCC[C@@H]1CN(C)C
+ToxinDB,Haloperidol,OC1(CCN(CCCC(=O)C2=CC=C(F)C=C2)CC1)C1=CC=C(Cl)C=C1
+ToxinDB,Varenicline,C1NC[C@@H]2C[C@H]1C1=CC3=NC=CN=C3C=C21
+ToxinDB,Fluoroacetamide,
+ToxinDB,Mastoparan (Vespa tropica),
+ToxinDB,Hongotoxin,
+ToxinDB,Maurocalcin ,
+ToxinDB,Myotoxin (Crotalus viridis viridis),
+ToxinDB,Taipoxin,
+ToxinDB,Maitotoxin,
+ToxinDB,Anthopleurin (Anthopleura xanthogrammica),
+ToxinDB,Calitoxin,
+ToxinDB,Edema factor,
+ToxinDB,Protective antigen,
+ToxinDB,Lethal factor,
+ToxinDB,Pertussis toxin,
+ToxinDB,Bifunctional hemolysin/adenylate cyclase (Bordetella pertussis),
+ToxinDB,Toxin A (Clostridium difficile),
+ToxinDB,Toxin B (Clostridium difficile),
+ToxinDB,Alpha-toxin (Clostridium perfringens),
+ToxinDB,Heat-labile enterotoxin (Escherichia coli),
+ToxinDB,Perfringolysin O,
+ToxinDB,Tetanus toxin,
+ToxinDB,Listeriolysin O,
+ToxinDB,Dermonecrotic toxin (Pasteurella multocida),
+ToxinDB,Exotoxin A (Pseudomonas aeruginosa),
+ToxinDB,Shiga toxin subunit A,
+ToxinDB,Alpha-hemolysin,
+ToxinDB,Beta-hemolysin,
+ToxinDB,Delta-hemolysin,
+ToxinDB,Leukocidin S,
+ToxinDB,Leukocidin F,
+ToxinDB,Enterotoxin type A,
+ToxinDB,Enterotoxin type B,
+ToxinDB,Pneumolysin,
+ToxinDB,Streptolysin O (Streptococcus pyogenes),
+ToxinDB,Cholera toxin,
+ToxinDB,Melittin (Apis mellifera),
+ToxinDB,Lopap ,
+ToxinDB,"Agatoxin, alpha-",
+ToxinDB,"Agatoxin, mu-",
+ToxinDB,"Atracotoxin, kappa- (Hadronyche versuta)",
+ToxinDB,Hanatoxin,
+ToxinDB,Sphingomyelinase D (Loxosceles intermedia),
+ToxinDB,Heteroscodratoxin,
+ToxinDB,Acanthophin,
+ToxinDB,Erabutoxin,
+ToxinDB,Disintegrin echistatin (Echis carinatus),
+ToxinDB,Nigroxin,
+ToxinDB,Notexin,
+ToxinDB,Ohanin,
+ToxinDB,Pseudechetoxin,
+ToxinDB,Viperotoxin,
+ToxinDB,Vipoxin,
+ToxinDB,Brevetoxin,
+ToxinDB,Hydralysin (Chlorohydra viridissima),
+ToxinDB,Stonustoxin,
+ToxinDB,Neoverrucotoxin,
+ToxinDB,Box jellyfish toxin (Chironex fleckeri),
+ToxinDB,"Conotoxin, omega- (Conus striatus)",
+ToxinDB,"Conotoxin, alpha- (Conus geographus)",
+ToxinDB,"Conotoxin, delta- (Conus striatus)",
+ToxinDB,"Conotoxin, kappa- (Conus purpurascens)",
+ToxinDB,"Conotoxin, mu- (Conus purpurascens)",
+ToxinDB,Contryphan (Conus ventricosus),
+ToxinDB,Clodronic acid,OP(O)(=O)C(Cl)(Cl)P(O)(O)=O
+ToxinDB,Pamidronic acid,NCCC(O)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Alendronic acid,NCCCC(O)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Ibandronic acid,CCCCCN(C)CCC(O)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Risedronic acid,OC(CC1=CN=CC=C1)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Zoledronic Acid,OC(CN1C=CN=C1)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Digoxin,C[C@H]1O[C@H](C[C@H](O)[C@@H]1O)O[C@H]1[C@@H](O)C[C@@H](O[C@@H]1C)O[C@H]1[C@@H](O)C[C@H](O[C@H]2CC[C@@]3(C)[C@H](CC[C@@H]4[C@@H]3C[C@@H](O)[C@]3(C)[C@H](CC[C@]43O)C3=CC(=O)OC3)C2)O[C@@H]1C
+ToxinDB,Rituximab,
+ToxinDB,Azaspiracid,
+ToxinDB,Zaleplon,CCN(C(C)=O)C1=CC=CC(=C1)C1=CC=NC2=C(C=NN12)C#N
+ToxinDB,Oxaliplatin,[Pt++].[O-]C(=O)C([O-])=O.N[C@@H]1CCCC[C@H]1N
+ToxinDB,Linezolid,CC(=O)NC[C@H]1CN(C(=O)O1)C1=CC(F)=C(C=C1)N1CCOCC1
+ToxinDB,Methadone,CCC(=O)C(C[C@H](C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Aripiprazole,ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl
+ToxinDB,Nitrofurantoin,[O-][N+](=O)C1=CC=C(O1)/C=N\N1CC(=O)NC1=O
+ToxinDB,Rosuvastatin,CC(C)C1=NC(=NC(C2=CC=C(F)C=C2)=C1\C=C\[C@H](O)C[C@@H](O)CC(O)=O)N(C)S(C)(=O)=O
+ToxinDB,Biotin,OC(=O)CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@H]12
+ToxinDB,Calcitriol,C[C@H](CCCC(C)(C)O)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1\C[C@@H](O)C[C@H](O)C1=C
+ToxinDB,Calcidiol,C[C@H](CCCC(C)(C)O)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1/C[C@H](O)CCC1=C
+ToxinDB,Thiamine,CC1=NC=C(C[N+]2=CSC(CCO)=C2C)C(N)=N1
+ToxinDB,Ergocalciferol,CC(C)[C@@H](C)\C=C\[C@@H](C)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1/C[C@@H](O)CCC1=C
+ToxinDB,Folic Acid,NC1=NC(=O)C2=NC(CNC3=CC=C(C=C3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)=CN=C2N1
+ToxinDB,Vitamin A,CC(\C=C\C=C(C)\C=C\C1=C(C)CCCC1(C)C)=C/CO
+ToxinDB,Vitamin E,CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCC2=C(O1)C(C)=C(C)C(O)=C2C
+ToxinDB,Pyridoxine,CC1=NC=C(CO)C(CO)=C1O
+ToxinDB,Lipoic Acid,OC(=O)CCCC[C@@H]1CCSS1
+ToxinDB,Cholecalciferol,CC(C)CCC[C@@H](C)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1\C[C@@H](O)CCC1=C
+ToxinDB,Menadione,CC1=CC(=O)C2=CC=CC=C2C1=O
+ToxinDB,Fluvoxamine,COCCCC\C(C1=CC=C(C=C1)C(F)(F)F)=N/OCCN
+ToxinDB,Amphetamine,C[C@H](N)CC1=CC=CC=C1
+ToxinDB,Lorazepam,O[C@@H]1N=C(C2=CC=CC=C2Cl)C2=C(NC1=O)C=CC(Cl)=C2
+ToxinDB,Ethchlorvynol,CC[C@@](O)(\C=C\Cl)C#C
+ToxinDB,Phentermine,CC(C)(N)CC1=CC=CC=C1
+ToxinDB,Fluconazole,OC(CN1C=NC=N1)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1
+ToxinDB,Caffeine,CN1C=NC2=C1C(=O)N(C)C(=O)N2C
+ToxinDB,Reserpine,CO[C@H]1[C@@H](C[C@@H]2C[N@]3CCC4=C(NC5=C4C=CC(OC)=C5)[C@H]3C[C@@H]2[C@@H]1C(=O)OC)OC(=O)C1=CC(OC)=C(OC)C(OC)=C1
+ToxinDB,Citalopram,CN(C)CCC[C@@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1
+ToxinDB,Enflurane,FC(F)OC(F)(F)[C@@H](F)Cl
+ToxinDB,Temazepam,CN1C(=O)[C@@H](O)N=C(C2=CC=CC=C2)C2=C1C=CC(Cl)=C2
+ToxinDB,Reboxetine,CCOC1=CC=CC=C1O[C@H]([C@@H]1CNCCO1)C1=CC=CC=C1
+ToxinDB,Butabarbital,CC[C@H](C)C1(CC)C(=O)NC(=O)NC1=O
+ToxinDB,Oxiconazole,ClC1=CC(Cl)=C(CO\N=C(\CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1
+ToxinDB,Benztropine,CN1[C@@H]2CC[C@@H]1CC(C2)OC(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Methysergide,CC[C@@H](CO)NC(=O)[C@H]1CN(C)[C@@H]2CC3=CN(C)C4=CC=CC(C2=C1)=C34
+ToxinDB,Cabergoline,CCNC(=O)N(CCCN(C)C)C(=O)[C@@H]1C[C@H]2[C@@H](CC3=CNC4=CC=CC2=C34)N(CC=C)C1
+ToxinDB,Phenytoin,O=C1NC(=O)C(N1)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Ropinirole,CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1
+ToxinDB,Topiramate,CC1(C)O[C@@H]2CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@H]3[C@@H]2O1
+ToxinDB,Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C
+ToxinDB,Venlafaxine,COC1=CC=C(C=C1)[C@H](CN(C)C)C1(O)CCCCC1
+ToxinDB,Atomoxetine,CNCC[C@@H](OC1=CC=CC=C1C)C1=CC=CC=C1
+ToxinDB,Bleomycin,C[C@@H](O)[C@H](NC(=O)[C@@H](C)[C@H](O)[C@@H](C)NC(=O)[C@@H](NC(=O)C1=C(C)C(N)=NC(=N1)[C@H](CC(N)=O)NC[C@H](N)C(N)=O)[C@@H](O[C@@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@@H](CO)[C@H](O)[C@@H](OC(N)=O)[C@@H]1O)C1=CN=CN1)C(=O)NCCC1=NC(=CS1)C1=NC(=C
+ToxinDB,Morphine,CN1CC[C@]23[C@H]4OC5=C(O)C=CC(C[C@@H]1[C@@H]2C=C[C@@H]4O)=C35
+ToxinDB,Ropivacaine,CCCN1CCCC[C@@H]1C(=O)NC1=C(C)C=CC=C1C
+ToxinDB,Bupivacaine,CCCCN1CCCC[C@@H]1C(=O)NC1=C(C)C=CC=C1C
+ToxinDB,Mitomycin,CO[C@]12[C@H]3N[C@H]3C[N@]1C1=C([C@H]2COC(N)=O)C(=O)C(N)=C(C)C1=O
+ToxinDB,Pentobarbital,CCC[C@H](C)C1(CC)C(=O)NC(=O)NC1=O
+ToxinDB,Zolmitriptan,CN(C)CCC1=CNC2=C1C=C(C[C@@H]1COC(=O)N1)C=C2
+ToxinDB,Codeine,COC1=C2O[C@H]3[C@@H](O)C=C[C@H]4[C@H]5CC(C=C1)=C2[C@@]34CCN5C
+ToxinDB,Dihydroergotamine,CN1C[C@@H](C[C@H]2[C@H]1CC1=CNC3=CC=CC2=C13)C(=O)N[C@]1(C)O[C@@]2(O)[C@@H]3CCCN3C(=O)[C@H](CC3=CC=CC=C3)N2C1=O
+ToxinDB,Tolcapone,CC1=CC=C(C=C1)C(=O)C1=CC(=C(O)C(O)=C1)[N+]([O-])=O
+ToxinDB,Hydromorphone,CN1CC[C@@]23[C@H]4CCC(=O)[C@@H]2OC2=C(O)C=CC(C[C@@H]14)=C32
+ToxinDB,Indometacin  ,COC1=CC2=C(C=C1)N(C(=O)C1=CC=C(Cl)C=C1)C(C)=C2CC(O)=O
+ToxinDB,Olanzapine,CN1CCN(CC1)C1=C2C=C(C)SC2=NC2=CC=CC=C2N1
+ToxinDB,Metixene,CN1CCC[C@H](CC2C3=CC=CC=C3SC3=CC=CC=C23)C1
+ToxinDB,Cetirizine,OC(=O)COCCN1CCN(CC1)[C@H](C1=CC=CC=C1)C1=CC=C(Cl)C=C1
+ToxinDB,Terfenadine,CC(C)(C)C1=CC=C(C=C1)[C@H](O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Diltiazem,COC1=CC=C(C=C1)[C@@H]1SC2=CC=CC=C2N(CCN(C)C)C(=O)[C@@H]1OC(C)=O
+ToxinDB,Protriptyline,CNCCCC1C2=CC=CC=C2C=CC2=CC=CC=C12
+ToxinDB,Trimethadione,CN1C(=O)OC(C)(C)C1=O
+ToxinDB,Anidulafungin,CCCCCOC1=CC=C(C=C1)C1=CC=C(C=C1)C1=CC=C(C=C1)C(=O)N[C@H]1C[C@@H](O)[C@@H](O)NC(=O)[C@@H]2[C@@H](O)[C@@H](C)CN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@@H](NC1=O)[C@@H](C)O)[C@H](O)[C@@H](O)C1=CC=C(O)C=C1)[C@@H](C)O
+ToxinDB,Clozapine,CN1CCN(CC1)C1=C2C=CC=CC2=NC2=C(N1)C=C(Cl)C=C2
+ToxinDB,Mirtazapine,CN1CC[N@]2[C@H](C1)C1=CC=CC=C1CC1=C2N=CC=C1
+ToxinDB,Trihexyphenidyl,O[C@@](CCN1CCCCC1)(C1CCCCC1)C1=CC=CC=C1
+ToxinDB,Dexrazoxane,C[C@@H](CN1CC(=O)NC(=O)C1)N1CC(=O)NC(=O)C1
+ToxinDB,Tacrine,NC1=C2CCCCC2=NC2=CC=CC=C12
+ToxinDB,Procyclidine,O[C@@](CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1
+ToxinDB,Alprazolam,CC1=NN=C2CN=C(C3=CC=CC=C3)C3=C(C=CC(Cl)=C3)N12
+ToxinDB,Loxapine,CN1CCN(CC1)C1=NC2=CC=CC=C2OC2=C1C=C(Cl)C=C2
+ToxinDB,Pramipexole,CCCN[C@@H]1CCC2=C(C1)SC(N)=N2
+ToxinDB,Secobarbital,CCC[C@@H](C)C1(CC=C)C(=O)NC(=O)NC1=O
+ToxinDB,Methylphenidate,COC(=O)[C@@H]([C@H]1CCCCN1)C1=CC=CC=C1
+ToxinDB,Zolpidem,CN(C)C(=O)CC1=C(N=C2C=CC(C)=CN12)C1=CC=C(C)C=C1
+ToxinDB,Streptozocin,CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O
+ToxinDB,Prochlorperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1
+ToxinDB,Cyproheptadine,CN1CC\C(CC1)=C1\C2=CC=CC=C2C=CC2=CC=CC=C12
+ToxinDB,Epirubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O
+ToxinDB,Meperidine,CCOC(=O)C1(CCN(C)CC1)C1=CC=CC=C1
+ToxinDB,Loratadine,CCOC(=O)N1CC\C(CC1)=C1/C2=C(CCC3=C1N=CC=C3)C=C(Cl)C=C2
+ToxinDB,Imipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=CC=CC=C12
+ToxinDB,Metharbital,CCC1(CC)C(=O)NC(=O)N(C)C1=O
+ToxinDB,Picrotoxin,CC(=C)[C@@H]1[C@@H]2OC(=O)[C@H]1[C@]1(O)C[C@H]3O[C@]33C(=O)O[C@H]2[C@]13C.CC(C)(O)[C@@H]1[C@@H]2OC(=O)[C@H]1[C@]1(O)C[C@H]3O[C@]33C(=O)O[C@H]2[C@]13C
+ToxinDB,Quinine,COC1=CC2=C(C=CN=C2C=C1)[C@@H](O)[C@@H]1C[C@H]2CC[N@@]1C[C@@H]2C=C
+ToxinDB,Marinol,CCCCCC1=CC(O)=C2[C@@H]3C=C(C)CC[C@H]3C(C)(C)OC2=C1
+ToxinDB,Fluoxetine,CNCC[C@H](OC1=CC=C(C=C1)C(F)(F)F)C1=CC=CC=C1
+ToxinDB,Methohexital,CCC#C[C@@H](C)[C@]1(CC=C)C(=O)NC(=O)N(C)C1=O
+ToxinDB,Chlordiazepoxide,C\N=C1CN(O)C(C2=CC=CC=C2)=C2C=C(Cl)C=CC2=N\1
+ToxinDB,Duloxetine,CNCC[C@H](OC1=CC=CC2=CC=CC=C12)C1=CC=CS1
+ToxinDB,Chlorpromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(Cl)C=C2
+ToxinDB,Buspirone,O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)C1=NC=CC=N1
+ToxinDB,Entacapone,CCN(CC)C(=O)C(\C#N)=C\C1=CC(=C(O)C(O)=C1)[N+]([O-])=O
+ToxinDB,Oxycodone,COC1=C2O[C@H]3C(=O)CC[C@@]4(O)[C@H]5CC(C=C1)=C2[C@@]34CCN5C
+ToxinDB,Cimetidine,C\N=C(\NCCSCC1=C(C)NC=N1)NC#N
+ToxinDB,Triflupromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F
+ToxinDB,Divalproex sodium,[Na+].CCCC(CCC)C(O)=O.CCCC(CCC)C([O-])=O
+ToxinDB,Dextromethorphan,COC1=CC2=C(C[C@H]3[C@H]4CCCC[C@@]24CCN3C)C=C1
+ToxinDB,Nortriptyline,CNCC\C=C1/C2=CC=CC=C2CCC2=CC=CC=C12
+ToxinDB,Amoxapine,ClC1=CC2=C(OC3=CC=CC=C3N=C2N2CCNCC2)C=C1
+ToxinDB,Pyridostigmine,CN(C)C(=O)OC1=C[N+](C)=CC=C1
+ToxinDB,Pentostatin,OC[C@@H]1O[C@@H](C[C@H]1O)N1C=NC2=C1NC=NC[C@H]2O
+ToxinDB,Hydroxyzine,OCCOCCN1CCN(CC1)[C@H](C1=CC=CC=C1)C1=CC=C(Cl)C=C1
+ToxinDB,Benzthiazide,NS(=O)(=O)C1=C(Cl)C=C2NC(CSCC3=CC=CC=C3)=NS(=O)(=O)C2=C1
+ToxinDB,Carbamazepine,NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12
+ToxinDB,Clonidine,ClC1=CC=CC(Cl)=C1NC1=NCCN1
+ToxinDB,Mazindol,O[C@@]1([N@]2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1
+ToxinDB,L-Carnitine,C[N+](C)(C)C[C@H](O)CC([O-])=O
+ToxinDB,Ethosuximide,CC[C@@]1(C)CC(=O)NC1=O
+ToxinDB,Thiopental,CCC[C@H](C)C1(CC)C(=O)NC(=S)NC1=O
+ToxinDB,Cisapride,CO[C@H]1CN(CCCOC2=CC=C(F)C=C2)CC[C@@H]1NC(=O)C1=CC(Cl)=C(N)C=C1OC
+ToxinDB,Butorphanol,OC1=CC2=C(C[C@H]3N(CC[C@@]22CCCC[C@@]32O)CC2CCC2)C=C1
+ToxinDB,Rifabutin,CO[C@@H]1\C=C/O[C@@]2(C)OC3=C(C2=O)C2=C(C(=O)C(NC(=O)\C(C)=C/C=C\[C@@H](C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@H](OC(C)=O)[C@@H]1C)=C1N[C@]4(CCN(CC4)CC(C)C)N=C21)C(O)=C3C
+ToxinDB,Paramethadione,CC[C@@]1(C)OC(=O)N(C)C1=O
+ToxinDB,Fluphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1
+ToxinDB,Niacin,OC(=O)C1=CN=CC=C1
+ToxinDB,Clorazepate,OC(=O)[C@H]1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2
+ToxinDB,Astemizole,COC1=CC=C(CCN2CCC(CC2)NC2=NC3=CC=CC=C3N2CC2=CC=C(F)C=C2)C=C1
+ToxinDB,Nystatin,C[C@H]1OC(=O)C[C@H](O)C[C@H](O)C[C@H](O)CC[C@H](O)[C@@H](O)CC(=O)C[C@@H](O)[C@@H]([C@@H](O)C[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)\C=C\C=C\C=C\C=C\CC\C=C\C=C\[C@H](C)[C@H](O)[C@H]1C)C(O)=O
+ToxinDB,Propoxyphene,CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1
+ToxinDB,Leucovorin,NC1=NC(=O)C2=C(NC[C@@H](CNC3=CC=C(C=C3)C(=O)N[C@H](CCC(O)=O)C(O)=O)N2C=O)N1
+ToxinDB,Pentazocine,C[C@H]1[C@H]2CC3=C(C=C(O)C=C3)[C@]1(C)CCN2C\C=C(\C)C
+ToxinDB,Magnesium Sulfate,O.O.O.O.O.O.O.[Mg++].[O-]S([O-])(=O)=O
+ToxinDB,Trazodone,ClC1=CC=CC(=C1)N1CCN(CCCN2N=C3C=CC=CN3C2=O)CC1
+ToxinDB,Acamprosate,CC(=O)NCCCS(O)(=O)=O
+ToxinDB,Nafarelin,[H]\N=C(/N)NCCC[C@@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC1=CC2=CC=CC=C2C=C1)NC(=O)[C@@H](CC1=CC=C(O)C=C1)NC(=O)[C@@H](CO)NC(=O)[C@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@H]1CCC(=O)N1)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O
+ToxinDB,Sumatriptan,CNS(=O)(=O)CC1=CC2=C(NC=C2CCN(C)C)C=C1
+ToxinDB,Galantamine,COC1=C2O[C@H]3C[C@@H](O)C=C[C@]33CCN(C)CC(C=C1)=C23
+ToxinDB,Thioridazine,CSC1=CC2=C(SC3=CC=CC=C3N2CC[C@H]2CCCCN2C)C=C1
+ToxinDB,Midazolam,CC1=NC=C2CN=C(C3=CC=CC=C3F)C3=C(C=CC(Cl)=C3)N12
+ToxinDB,Flurazepam,CCN(CC)CCN1C(=O)CN=C(C2=CC=CC=C2F)C2=C1C=CC(Cl)=C2
+ToxinDB,Daunorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(C)=O)C(O)=C1C2=O
+ToxinDB,Tizanidine,ClC1=C(NC2=NCCN2)C2=NSN=C2C=C1
+ToxinDB,Amprenavir,CC(C)CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)C1=CC=C(N)C=C1
+ToxinDB,Naltrexone,OC1=C2O[C@H]3C(=O)CC[C@@]4(O)[C@H]5CC(C=C1)=C2[C@@]34CCN5CC1CC1
+ToxinDB,Sufentanil,CCC(=O)N(C1=CC=CC=C1)C1(CCN(CCC2=CC=CS2)CC1)COC
+ToxinDB,Flurbiprofen,C[C@@H](C(O)=O)C1=CC(F)=C(C=C1)C1=CC=CC=C1
+ToxinDB,Apomorphine,CN1CCC2=C3[C@H]1CC1=C(C3=CC=C2)C(O)=C(O)C=C1
+ToxinDB,Paroxetine,FC1=CC=C(C=C1)[C@@H]1CCNC[C@H]1COC1=CC2=C(OCO2)C=C1
+ToxinDB,Procaine,CCN(CC)CCOC(=O)C1=CC=C(N)C=C1
+ToxinDB,Trimipramine,C[C@H](CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12
+ToxinDB,Risperidone,CC1=C(CCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C(=O)N2CCCCC2=N1
+ToxinDB,Esomeprazole,COC1=CC2=C(C=C1)N=C(N2)[S@@](=O)CC1=NC=C(C)C(OC)=C1C
+ToxinDB,Meclizine,CC1=CC(CN2CCN(CC2)[C@H](C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1
+ToxinDB,Riluzole,NC1=NC2=C(S1)C=C(OC(F)(F)F)C=C2
+ToxinDB,Modafinil,NC(=O)C[S@@](=O)C(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Scopolamine,CN1[C@H]2C[C@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@@H](CO)C1=CC=CC=C1
+ToxinDB,Tranylcypromine,N[C@@H]1C[C@H]1C1=CC=CC=C1
+ToxinDB,Isoflurane,FC(F)O[C@H](Cl)C(F)(F)F
+ToxinDB,Ethotoin,CCN1C(=O)N[C@H](C1=O)C1=CC=CC=C1
+ToxinDB,Tretinoin,CC(\C=C\C1=C(C)CCCC1(C)C)=C/C=C/C(C)=C/C(O)=O
+ToxinDB,Olopatadine,CN(C)CC\C=C1\C2=CC=CC=C2COC2=C1C=C(CC(O)=O)C=C2
+ToxinDB,Oxcarbazepine,NC(=O)N1C2=CC=CC=C2CC(=O)C2=CC=CC=C12
+ToxinDB,Propiomazine,CCC(=O)C1=CC2=C(SC3=CC=CC=C3N2C[C@@H](C)N(C)C)C=C1
+ToxinDB,Phenelzine,NNCCC1=CC=CC=C1
+ToxinDB,Sulfasalazine,OC(=O)C1=C/C(/C=CC1=O)=N/NC1=CC=C(C=C1)S(=O)(=O)NC1=CC=CC=N1
+ToxinDB,Halazepam,FC(F)(F)CN1C(=O)CN=C(C2=CC=CC=C2)C2=C1C=CC(Cl)=C2
+ToxinDB,Alfentanil,CCN1N=NN(CCN2CCC(CC2)(COC)N(C(=O)CC)C2=CC=CC=C2)C1=O
+ToxinDB,Proparacaine,CCCOC1=C(N)C=C(C=C1)C(=O)OCCN(CC)CC
+ToxinDB,Biperiden,O[C@@](CCN1CCCCC1)([C@@H]1C[C@H]2C[C@@H]1C=C2)C1=CC=CC=C1
+ToxinDB,Fentanyl,CCC(=O)N(C1CCN(CC1)CCC1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Meloxicam,CN1S(=O)(=O)C2=CC=CC=C2C(=O)\C1=C(/O)NC1=NC=C(C)S1
+ToxinDB,Propofol,CC(C)C1=CC=CC(C(C)C)=C1O
+ToxinDB,Diazepam,CN1C(=O)CN=C(C2=CC=CC=C2)C2=C1C=CC(Cl)=C2
+ToxinDB,Phenmetrazine,C[C@H]1NCCO[C@@H]1C1=CC=CC=C1
+ToxinDB,Trifluoperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1
+ToxinDB,Mifepristone,CC#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@H](C[C@]12C)C1=CC=C(C=C1)N(C)C
+ToxinDB,Progabide,NC(=O)CCCN\C(C1=CC=C(Cl)C=C1)=C1/C=C(F)C=CC1=O
+ToxinDB,Oxazepam,O[C@@H]1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2
+ToxinDB,Donepezil,COC1=C(OC)C=C2C(=O)[C@@H](CC3CCN(CC3)CC3=CC=CC=C3)CC2=C1
+ToxinDB,Nalbuphine,O[C@H]1CC[C@@]2(O)[C@H]3CC4=C5C(O[C@@H]1[C@@]25CCN3CC1CCC1)=C(O)C=C4
+ToxinDB,Perphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1
+ToxinDB,Levorphanol,CN1CC[C@]23CCCC[C@H]2[C@H]1CC1=C3C=C(O)C=C1
+ToxinDB,Dromostanolone,CCC(=O)O[C@H]1CC[C@H]2[C@@H]3CC[C@H]4CC(=O)[C@H](C)C[C@]4(C)[C@H]3CC[C@]12C
+ToxinDB,Diflunisal,OC(=O)C1=C(O)C=CC(=C1)C1=C(F)C=C(F)C=C1
+ToxinDB,Benzphetamine,C[C@@H](CC1=CC=CC=C1)N(C)CC1=CC=CC=C1
+ToxinDB,Flupenthixol,OCCN1CCN(CC\C=C2/C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1
+ToxinDB,Sirolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C[C@@H](C)[C@@H]1CC(=O)[C@H](C)\C=C(C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C/C=C/C=C(C)/[C@H](C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O1)OC
+ToxinDB,Methdilazine,CN1CC[C@@H](C1)CN1C2=CC=CC=C2SC2=CC=CC=C12
+ToxinDB,Ondansetron,CN1C2=CC=CC=C2C2=C1CC[C@@H](CN1C=CN=C1C)C2=O
+ToxinDB,Tiagabine,CC1=C(SC=C1)/C(=C/CCN1CCC[C@H](C1)C(O)=O)/C1=C(C)C=CS1
+ToxinDB,Cocaine,COC(=O)[C@H]1[C@H](C[C@@H]2CC[C@H]1N2C)OC(=O)C1=CC=CC=C1
+ToxinDB,Zonisamide,NS(=O)(=O)CC1=NOC2=CC=CC=C12
+ToxinDB,Anileridine,CCOC(=O)C1(CCN(CCC2=CC=C(N)C=C2)CC1)C1=CC=CC=C1
+ToxinDB,Almotriptan,CN(C)CCC1=CNC2=C1C=C(CS(=O)(=O)N1CCCC1)C=C2
+ToxinDB,Buprenorphine,CO[C@@]12CC[C@@]3(C[C@@H]1C(C)(O)C(C)(C)C)[C@H]1CC4=C5C(OC2[C@@]35CCN1CC1CC1)=C(O)C=C4
+ToxinDB,Mesoridazine,CN1CCCC[C@@H]1CCN1C2=CC=CC=C2SC2=C1C=C(C=C2)[S@@](C)=O
+ToxinDB,Maprotiline,CNCCC[C@@]12CC[C@@H](C3=CC=CC=C13)C1=CC=CC=C21
+ToxinDB,Diethylpropion,CCN(CC)[C@H](C)C(=O)C1=CC=CC=C1
+ToxinDB,Aspirin,CC(=O)OC1=CC=CC=C1C(O)=O
+ToxinDB,Felbamate,NC(=O)OCC(COC(N)=O)C1=CC=CC=C1
+ToxinDB,Fexofenadine,CC(C)(C(O)=O)C1=CC=C(C=C1)[C@H](O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Naratriptan,CNS(=O)(=O)CCC1=CC2=C(NC=C2C2CCN(C)CC2)C=C1
+ToxinDB,Rizatriptan,CN(C)CCC1=CNC2=C1C=C(CN1C=NC=N1)C=C2
+ToxinDB,Hydrocodone,COC1=C2O[C@H]3C(=O)CC[C@H]4[C@H]5CC(C=C1)=C2[C@@]34CCN5C
+ToxinDB,Mepivacaine,CN1CCCC[C@@H]1C(=O)NC1=C(C)C=CC=C1C
+ToxinDB,Neomycin,NC[C@H]1O[C@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O)[C@H]2O[C@@H]2O[C@H](CO)[C@@H](O[C@H]3O[C@@H](CN)[C@@H](O)[C@H](O)[C@H]3N)[C@H]2O)[C@H](N)[C@@H](O)[C@@H]1O
+ToxinDB,Gabapentin,NCC1(CCCCC1)CC(O)=O
+ToxinDB,Doxorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O
+ToxinDB,Frovatriptan,CN[C@@H]1CCC2=C(C1)C1=C(N2)C=CC(=C1)C(N)=O
+ToxinDB,Levobupivacaine,CCCCN1CCCC[C@H]1C(=O)NC1=C(C)C=CC=C1C
+ToxinDB,Tioconazole,ClC1=CC(Cl)=C(C=C1)[C@@H](CN1C=CN=C1)OCC1=C(Cl)SC=C1
+ToxinDB,Balsalazide,OC(=O)CCNC(=O)C1=CC=C(N\N=C2\C=CC(=O)C(=C\2)C(O)=O)C=C1
+ToxinDB,Bethanechol,C[C@H](C[N+](C)(C)C)OC(N)=O
+ToxinDB,Phytonadione,CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC\C(C)=C\CC1=C(C)C(=O)C2=CC=CC=C2C1=O
+ToxinDB,Mycophenolic acid,COC1=C(C\C=C(/C)CCC(O)=O)C(O)=C2C(=O)OCC2=C1C
+ToxinDB,Ketoconazole,CC(=O)N1CCN(CC1)C1=CC=C(OC[C@@H]2CO[C@](CN3C=CN=C3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1
+ToxinDB,Methoxyflurane,COC(F)(F)C(Cl)Cl
+ToxinDB,Ethinamate,NC(=O)OC1(CCCCC1)C#C
+ToxinDB,Cerulenin,C\C=C\C\C=C\CCC(=O)[C@H]1O[C@H]1C(N)=O
+ToxinDB,Selegiline,C[C@H](CC1=CC=CC=C1)N(C)CC#C
+ToxinDB,Carphenazine,CCC(=O)C1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(CCO)CC2)C=C1
+ToxinDB,Memantine,C[C@@]12C[C@H]3C[C@@](C)(C1)C[C@](N)(C3)C2
+ToxinDB,Gatifloxacin,COC1=C2N(C=C(C(O)=O)C(=O)C2=CC(F)=C1N1CCN[C@@H](C)C1)C1CC1
+ToxinDB,Rifampin,CO[C@H]1\C=C\O[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(O)=C(NC(=O)\C(C)=C\C=C\[C@H](C)[C@@H](O)[C@H](C)[C@@H](O)[C@H](C)[C@@H](OC(C)=O)[C@H]1C)/C(=C\NN1CCN(C)CC1)C2=O
+ToxinDB,Ibuprofen,CC(C)CC1=CC=C(C=C1)[C@@H](C)C(O)=O
+ToxinDB,Melatonin,COC1=CC2=C(NC=C2CCNC(C)=O)C=C1
+ToxinDB,Clonazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1
+ToxinDB,Dihydrotachysterol,CC(C)[C@H](C)\C=C\[C@H](C)[C@H]1CC[C@@H]2[C@@]1(C)CCC\C2=C/C=C1/C[C@H](O)CC[C@H]1C
+ToxinDB,Perhexiline,C1CCC(CC1)C(C[C@H]1CCCCN1)C1CCCCC1
+ToxinDB,Diphenylhydramine  ,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Vigabatrin,N[C@@H](CCC(O)=O)C=C
+ToxinDB,Diphenoxylate,CCOC(=O)C1(CCN(CC1)CCC(C#N)(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Pilocarpine,CC[C@H]1[C@H](COC1=O)CC1=CN=CN1C
+ToxinDB,Benzocaine,CCOC(=O)C1=CC=C(N)C=C1
+ToxinDB,Dimethyl sulfoxide,CS(C)=O
+ToxinDB,Flucytosine,NC1=C(F)C=NC(=O)N1
+ToxinDB,Pimozide,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1
+ToxinDB,Sertraline,CN[C@H]1CC[C@@H](C2=CC(Cl)=C(Cl)C=C2)C2=CC=CC=C12
+ToxinDB,Sibutramine,CC(C)C[C@@H](N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1
+ToxinDB,Methyprylon,CCC1(CC)C(=O)NC[C@H](C)C1=O
+ToxinDB,Miconazole,ClC1=CC(Cl)=C(CO[C@@H](CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1
+ToxinDB,Chlorpheniramine,CN(C)CC[C@H](C1=CC=C(Cl)C=C1)C1=CC=CC=N1
+ToxinDB,Phenacemide,NC(=O)NC(=O)CC1=CC=CC=C1
+ToxinDB,Ambenonium,CC[N+](CC)(CCNC(=O)C(=O)NCC[N+](CC)(CC)CC1=CC=CC=C1Cl)CC1=CC=CC=C1Cl
+ToxinDB,Econazole,ClC1=CC=C(CO[C@@H](CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1
+ToxinDB,Doxepin,CN(C)CC\C=C1/C2=CC=CC=C2COC2=CC=CC=C12
+ToxinDB,Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1
+ToxinDB,Desipramine,CNCCCN1C2=CC=CC=C2CCC2=CC=CC=C12
+ToxinDB,Sertaconazole,ClC1=CC(Cl)=C(C=C1)[C@@H](CN1C=CN=C1)OCC1=CSC2=C1C=CC=C2Cl
+ToxinDB,Bupropion,C[C@H](NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1
+ToxinDB,Trimetrexate,COC1=CC(NCC2=C(C)C3=C(C=C2)N=C(N)N=C3N)=CC(OC)=C1OC
+ToxinDB,Halothane,FC(F)(F)[C@H](Cl)Br
+ToxinDB,Chloroprocaine,CCN(CC)CCOC(=O)C1=C(Cl)C=C(N)C=C1
+ToxinDB,Moclobemide,ClC1=CC=C(C=C1)C(=O)NCCN1CCOCC1
+ToxinDB,Orphenadrine,CN(C)CCO[C@@H](C1=CC=CC=C1)C1=CC=CC=C1C
+ToxinDB,Phenobarbital,CCC1(C(=O)NC(=O)NC1=O)C1=CC=CC=C1
+ToxinDB,Escitalopram,CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1
+ToxinDB,Chlormezanone,CN1[C@@H](C2=CC=C(Cl)C=C2)S(=O)(=O)CCC1=O
+ToxinDB,Fluoxymesterone,C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]12C
+ToxinDB,Pergolide,CCCN1C[C@H](CSC)C[C@H]2[C@H]1CC1=CNC3=CC=CC2=C13
+ToxinDB,Ciclopirox,CC1=CC(=O)N(O)C(=C1)C1CCCCC1
+ToxinDB,Desflurane,FC(F)O[C@H](F)C(F)(F)F
+ToxinDB,Dexfenfluramine,CCN[C@H](C)CC1=CC(=CC=C1)C(F)(F)F
+ToxinDB,Oxymorphone,CN1CC[C@]23[C@H]4OC5=C(O)C=CC(C[C@@H]1[C@]2(O)CCC4=O)=C35
+ToxinDB,Zopiclone,CN1CCN(CC1)C(=O)O[C@@H]1N(C(=O)C2=NC=CN=C12)C1=NC=C(Cl)C=C1
+ToxinDB,Bromocriptine,CC(C)C[C@@H]1N2C(=O)[C@](NC(=O)[C@H]3CN(C)[C@@H]4CC5=C(Br)NC6=CC=CC(C4=C3)=C56)(O[C@@]2(O)[C@@H]2CCCN2C1=O)C(C)C
+ToxinDB,Rifapentine,CO[C@H]1\C=C\O[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(O)=C(NC(=O)\C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)[C@H](OC(C)=O)[C@H]1C)/C(=C\NN1CCN(CC1)C1CCCC1)C2=O
+ToxinDB,Levetiracetam,CC[C@@H](N1CCCC1=O)C(N)=O
+ToxinDB,Mitoxantrone,OCCNCCNC1=C2C(=O)C3=C(O)C=CC(O)=C3C(=O)C2=C(NCCNCCO)C=C1
+ToxinDB,Ridogrel,OC(=O)CCCCO\N=C(\C1=CN=CC=C1)C1=CC(=CC=C1)C(F)(F)F
+ToxinDB,Estazolam,ClC1=CC2=C(C=C1)N1C=NN=C1CN=C2C1=CC=CC=C1
+ToxinDB,Ketamine,CN[C@]1(CCCCC1=O)C1=CC=CC=C1Cl
+ToxinDB,Levomethadyl Acetate,CC[C@H](OC(C)=O)C(C[C@H](C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Levodopa,N[C@@H](CC1=CC(O)=C(O)C=C1)C(O)=O
+ToxinDB,Sevoflurane,FCOC(C(F)(F)F)C(F)(F)F
+ToxinDB,Bromodiphenhydramine,CN(C)CCO[C@H](C1=CC=CC=C1)C1=CC=C(Br)C=C1
+ToxinDB,Chlorprothixene,CN(C)CC\C=C1/C2=CC=CC=C2SC2=C1C=C(Cl)C=C2
+ToxinDB,Clomipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2
+ToxinDB,Isocarboxazid,CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1
+ToxinDB,Posaconazole,CC[C@@H]([C@H](C)O)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](C2)(CN2C=NC=N2)C2=C(F)C=C(F)C=C2)C=C1
+ToxinDB,Fosphenytoin,OP(O)(=O)OCN1C(=O)NC(C1=O)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Butethal,CCCCC1(CC)C(=O)NC(=O)NC1=O
+ToxinDB,Hexobarbital,CN1C(=O)NC(=O)[C@@](C)(C1=O)C1=CCCCC1
+ToxinDB,Ephedrine,CN[C@@H](C)[C@H](O)C1=CC=CC=C1
+ToxinDB,Methotrimeprazine,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1
+ToxinDB,Fencamfamine,CCN[C@@H]1[C@H]2CC[C@H](C2)[C@H]1C1=CC=CC=C1
+ToxinDB,Flunitrazepam,CN1C(=O)CN=C(C2=CC=CC=C2F)C2=C1C=CC(=C2)[N+]([O-])=O
+ToxinDB,Bromazepam,BrC1=CC2=C(NC(=O)CN=C2C2=CC=CC=N2)C=C1
+ToxinDB,Clotiazepam,CCC1=CC2=C(S1)N(C)C(=O)CN=C2C1=CC=CC=C1Cl
+ToxinDB,Dextroamphetamine,C[C@H](N)CC1=CC=CC=C1
+ToxinDB,Methamphetamine,CN[C@@H](C)CC1=CC=CC=C1
+ToxinDB,Prazepam,ClC1=CC2=C(C=C1)N(CC1CC1)C(=O)CN=C2C1=CC=CC=C1
+ToxinDB,Quazepam,FC1=CC=CC=C1C1=NCC(=S)N(CC(F)(F)F)C2=C1C=C(Cl)C=C2
+ToxinDB,Cinolazepam,O[C@H]1N=C(C2=CC=CC=C2F)C2=C(C=CC(Cl)=C2)N(CCC#N)C1=O
+ToxinDB,Nitrazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2)C=C1
+ToxinDB,Phenindamine,CN1CCC2=C(C1)[C@H](C1=CC=CC=C1)C1=CC=CC=C21
+ToxinDB,Calcipotriol,C[C@H](\C=C\[C@@H](O)C1CC1)[C@H]1CC[C@H]2[C@@]1(C)CCC\C2=C\C=C1\C[C@H](O)C[C@@H](O)C1=C
+ToxinDB,Quinestrol,C[C@]12CC[C@H]3[C@@H](CCC4=C3C=CC(OC3CCCC3)=C4)[C@@H]1CC[C@@]2(O)C#C
+ToxinDB,Chlophedianol,CN(C)CC[C@@](O)(C1=CC=CC=C1)C1=CC=CC=C1Cl
+ToxinDB,Bepotastine,OC(=O)CCCN1CCC(CC1)O[C@@H](C1=CC=C(Cl)C=C1)C1=CC=CC=N1
+ToxinDB,Vapreotide,CC(C)[C@H]1NC(=O)[C@@H](CCCCN)NC(=O)[C@H](CC2=CNC3=CC=CC=C23)NC(=O)[C@@H](CC2=CC=C(O)C=C2)NC(=O)[C@@H](CSSC[C@H](NC1=O)C(=O)N[C@@H](CC1=CNC2=CC=CC=C12)C(N)=O)NC(=O)[C@@H](N)CC1=CC=CC=C1
+ToxinDB,Silver sulfadiazine,[Ag+].NC1=CC=C(C=C1)S(=O)(=O)[N-]C1=NC=CC=N1
+ToxinDB,Methsuximide,CN1C(=O)C[C@](C)(C1=O)C1=CC=CC=C1
+ToxinDB,Abrin-a,
+ToxinDB,Abrin-b,
+ToxinDB,Abrin-c,
+ToxinDB,Abrin-d,
+ToxinDB,Anisatin,
+ToxinDB,Brucine,
+ToxinDB,Cicutoxin,
+ToxinDB,Delphinine,
+ToxinDB,Aconitine,
+ToxinDB,Djenkolic acid,
+ToxinDB,Gossypol,
+ToxinDB,"Methylamino-L-alanine, beta-",
+ToxinDB,Oenanthotoxin,
+ToxinDB,Resiniferatoxin,
+ToxinDB,Capsaicin,
+ToxinDB,Strychnine,
+ToxinDB,Swainsonine,
+ToxinDB,Thionin (Pyrularia pubera),
+ToxinDB,Tutin,
+ToxinDB,Grayanotoxin I,
+ToxinDB,Grayanotoxin II,
+ToxinDB,Grayanotoxin III,
+ToxinDB,Oleandrin,
+ToxinDB,L-Hyoscyamine,CN1[C@H]2CC[C@@H]1C[C@H](C2)OC(=O)[C@H](CO)C1=CC=CC=C1
+ToxinDB,D-Hyoscyamine,
+ToxinDB,Tubocurarine,
+ToxinDB,Alcuronium ,
+ToxinDB,Toxiferine,
+ToxinDB,Curare,
+ToxinDB,Brodifacoum,
+ToxinDB,Bromadiolone,
+ToxinDB,Fumarin,
+ToxinDB,Difenacoum,
+ToxinDB,Phenprocoumon,CC[C@@H](C1=CC=CC=C1)C1=C(O)OC2=CC=CC=C2C1=O
+ToxinDB,Acenocoumarol,CC(=O)C[C@@H](C1=CC=C(C=C1)[N+]([O-])=O)C1=C(O)OC2=CC=CC=C2C1=O
+ToxinDB,Phenindione,O=C1C(C(=O)C2=CC=CC=C12)C1=CC=CC=C1
+ToxinDB,Anabasine,
+ToxinDB,Myristicin,
+ToxinDB,Diphtheria toxin (Corynephage omega),
+ToxinDB,Botulinum neurotoxin type E,
+ToxinDB,Botulinum neurotoxin type F,
+ToxinDB,Botulinum neurotoxin type B,
+ToxinDB,Botulinum neurotoxin type D,
+ToxinDB,Botulinum neurotoxin type A ,
+ToxinDB,Botulinum neurotoxin type C1,
+ToxinDB,Shiga toxin subunit B,
+ToxinDB,"Ethylphenol, para-",
+ToxinDB,Myrcene,
+ToxinDB,Azodicarbonamide,
+ToxinDB,Benzyl acetate,
+ToxinDB,Ethyl acrylate,
+ToxinDB,1-Menthol,
+ToxinDB,Dihydroeugenol,
+ToxinDB,Allyl isovalerate,
+ToxinDB,Decanoic acid,
+ToxinDB,Diacetyl,
+ToxinDB,n-Butane,
+ToxinDB,Isobutane,
+ToxinDB,n-Pentane,
+ToxinDB,Isopentane,
+ToxinDB,Neopentane,
+ToxinDB,n-Heptane,
+ToxinDB,2-Methylhexane,
+ToxinDB,3-Methylhexane,
+ToxinDB,"2,2-Dimethylpentane",
+ToxinDB,"2,3-Dimethylpentane",
+ToxinDB,"2,4-Dimethylpentane",
+ToxinDB,"3,3-Dimethylpentane",
+ToxinDB,3-Ethylpentane,
+ToxinDB,"2,2,3-Trimethylbutane",
+ToxinDB,n-Octane,
+ToxinDB,2-Methylheptane,
+ToxinDB,3-Methylheptane,
+ToxinDB,4-Methylheptane,
+ToxinDB,3-Ethylhexane,
+ToxinDB,"2,2-Dimethylhexane",
+ToxinDB,"2,3-Dimethylhexane",
+ToxinDB,"2,4-Dimethylhexane",
+ToxinDB,"2,5-Dimethylhexane",
+ToxinDB,"3,3-Dimethylhexane",
+ToxinDB,"3,4-Dimethylhexane",
+ToxinDB,3-Ethyl-2-methylpentane,
+ToxinDB,3-Ethyl-3-methylpentane,
+ToxinDB,"2,2,3-Trimethylpentane",
+ToxinDB,"2,2,4-Trimethylpentane",
+ToxinDB,"2,3,3-Trimethylpentane",
+ToxinDB,"2,3,4-Trimethylpentane",
+ToxinDB,"2,2,3,3-Tetramethylbutane",
+ToxinDB,1-Pentene,
+ToxinDB,2-Pentene,
+ToxinDB,2-Methyl-2-butene,
+ToxinDB,3-Methyl-1-butene,
+ToxinDB,2-Methyl-1-butene,
+ToxinDB,3-Methyl-2-pentene,
+ToxinDB,"2,4,4,-Trimethyl-1-pentene",
+ToxinDB,Cyclopentane,
+ToxinDB,Methylcyclopentane,
+ToxinDB,Cyclohexane,
+ToxinDB,Isopropylbenzene,
+ToxinDB,Polyvinyl acetate,
+ToxinDB,Vinyl acetate,
+ToxinDB,Acetaldehyde,
+ToxinDB,"1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine",
+ToxinDB,Albendazole  ,CCCSC1=CC2=C(C=C1)N=C(NC(=O)OC)N2
+ToxinDB,Allopurinol  ,O=C1N=CN=C2NNC=C12
+ToxinDB,"Methyldopa, alpha-",C[C@](N)(CC1=CC(O)=C(O)C=C1)C(O)=O
+ToxinDB,Amatoxin (Amanita phalloides),
+ToxinDB,Atenolol  ,CC(C)NC[C@@H](O)COC1=CC=C(CC(N)=O)C=C1
+ToxinDB,Etidronic acid,CC(O)(P(O)(O)=O)P(O)(O)=O
+ToxinDB,Brimonidine  ,BrC1=C(NC2=NCCN2)C=CC2=NC=CN=C12
+ToxinDB,Carisoprodol  ,CCC[C@](C)(COC(N)=O)COC(=O)NC(C)C
+ToxinDB,Cephalosporin ,O.O.NC1=NC(=CS1)\C(=C\CC(O)=O)C(=O)N[C@H]1[C@H]2SCC=C(N2C1=O)C(O)=O
+ToxinDB,Ciprofloxacin  ,OC(=O)C1=CN(C2CC2)C2=CC(N3CCNCC3)=C(F)C=C2C1=O
+ToxinDB,Clindamycin  ,CCC[C@@H]1C[C@H](N(C)C1)C(=O)N[C@H]([C@H](C)Cl)[C@H]1O[C@H](SC)[C@H](O)[C@@H](O)[C@H]1O
+ToxinDB,Cyclosporin  ,CC[C@@H]1NC(=O)[C@@H]([C@H](O)[C@H](C)C\C=C\C)N(C)C(=O)[C@@H](C(C)C)N(C)C(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@@H](C)NC(=O)[C@@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C
+ToxinDB,Darifenacin  ,NC(=O)C([C@@H]1CCN(CCC2=CC3=C(OCC3)C=C2)C1)(C1=CC=CC=C1)C1=CC=CC=C1
+ToxinDB,Docetaxel  ,CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@]1(C)[C@@H]2[C@H](OC(=O)C2=CC=CC=C2)[C@]2(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C3=CC=CC=C3)C(C)=C([C@@H](O)C1=O)C2(C)C
+ToxinDB,Fenthion,
+ToxinDB,Fluoroacetic acid,
+ToxinDB,Capecitabine,CCCCCOC(=O)NC1=NC(=O)N(C=C1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O
+ToxinDB,Hydroxychloroquine ,CCN(CCO)CCC[C@@H](C)NC1=C2C=CC(Cl)=CC2=NC=C1
+ToxinDB,Ifosfamide  ,ClCCN[P@@]1(=O)OCCCN1CCCl
+ToxinDB,Infliximab  ,
+ToxinDB,Itraconazole  ,CC[C@@H](C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1
+ToxinDB,Labetalol  ,C[C@H](CCC1=CC=CC=C1)NC[C@@H](O)C1=CC(C(N)=O)=C(O)C=C1
+ToxinDB,Melamine,
+ToxinDB,Metaldehyde,
+ToxinDB,Metformin  ,[H]\N=C(\N=C(\N)N)N(C)C
+ToxinDB,Methyl ethyl ketone peroxide  ,
+ToxinDB,Omeprazole  ,COC1=CC2=C(C=C1)N=C(N2)[S@@](=O)CC1=NC=C(C)C(OC)=C1C
+ToxinDB,Pentamidine ,[H]\N=C(/N)C1=CC=C(OCCCCCOC2=CC=C(C=C2)C(\N)=N\[H])C=C1
+ToxinDB,Polymyxin ,OS(O)(=O)=O.CC[C@@H](C)CCCCC(=O)N[C@H](CCN)C(=O)N[C@H]([C@@H](C)O)C(=O)N[C@H](CCN)C(=O)N[C@@H]1CCNC(=O)[C@H](NC(=O)[C@@H](CCN)NC(=O)[C@@H](CCN)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](CCN)NC1=O)[C@@H](C)O
+ToxinDB,Salvinorin A ,
+ToxinDB,Sorafenib  ,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1
+ToxinDB,Telithromycin  ,CC[C@@H]1OC(=O)[C@H](C)C(=O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(C[C@@H](C)C(=O)[C@@H](C)[C@H]2N(CCCCN3C=NC(=C3)C3=CN=CC=C3)C(=O)O[C@]12C)OC
+ToxinDB,Terazosin hydrochloride  ,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N1CCN(CC1)C(=O)[C@H]1CCCO1
+ToxinDB,Thalidomide  ,O=C1CC[C@@H](N2C(=O)C3=CC=CC=C3C2=O)C(=O)N1
+ToxinDB,Valaciclovir,CC(C)[C@H](N)C(=O)OCCOCN1C=NC2=C1NC(N)=NC2=O
+ToxinDB,Vancomycin  ,CN[C@H](CC(C)C)C(=O)N[C@@H]1[C@H](O)C2=CC(Cl)=C(OC3=CC4=CC(OC5=C(Cl)C=C(C=C5)[C@@H](O)[C@@H]5NC(=O)[C@H](NC(=O)[C@@H]4NC(=O)[C@H](CC(N)=O)NC1=O)C1=CC(=C(O)C=C1)C1=C(C=C(O)C=C1O)[C@@H](NC5=O)C(O)=O)=C3O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O[C@H]1C[C@](C
+ToxinDB,Verapamil ,COC1=C(OC)C=C(CCN(C)CCC[C@@](C#N)(C(C)C)C2=CC(OC)=C(OC)C=C2)C=C1
+ToxinDB,Ammonium nitrite,
+ToxinDB,Nitrous acid,
+ToxinDB,Potassium nitrite,
+ToxinDB,Sodium nitrite,
+ToxinDB,Ammonium nitrate,
+ToxinDB,Caesium nitrate,
+ToxinDB,Calcium nitrate,
+ToxinDB,Calcium nitrate tetrahydrate,
+ToxinDB,Ceric ammonium nitrate,
+ToxinDB,Chlorine nitrate,
+ToxinDB,Cellulose nitrate,
+ToxinDB,Dinitrogen tetroxide,
+ToxinDB,Gadolinium nitrate,
+ToxinDB,Guanidine nitrate,
+ToxinDB,Hydroxylammonium nitrate,
+ToxinDB,Iron(III) nitrate,
+ToxinDB,Lithium nitrate,
+ToxinDB,Magnesium nitrate,
+ToxinDB,Methylammonium nitrate,
+ToxinDB,Nitric acid,
+ToxinDB,Potassium nitrate,
+ToxinDB,Rubidium nitrate,
+ToxinDB,Sodium nitrate,
+ToxinDB,Strontium nitrate,
+ToxinDB,Alpha-methyldopa,
+ToxinDB,2-Nitrophenol,
+ToxinDB,Sodium fluoroacetate,
+ToxinDB,Lysergic Acid Diethylamide,
+ToxinDB,Botulinum toxin,
+ToxinDB,Botulinum neurotoxin type G,
+ToxinDB,"Amanitin, beta-",
+ToxinDB,"Amanitin, gamma-",
+ToxinDB,"Amanitin, epsilon-",
+ToxinDB,Amanullin,
+ToxinDB,Amanullinic acid,
+ToxinDB,Amaninamide,
+ToxinDB,Amanin,
+ToxinDB,Proamanullin,
+ToxinDB,Iodine,
