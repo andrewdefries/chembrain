@@ -1,0 +1,5 @@
+Sugars	OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O	glucose
+Sugars	OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O	dextrose
+Sugars	O1[C@H](CO)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O[C@@]2(O[C@@H]([C@@H](O)[C@@H]2O)CO)CO	sucrose	
+Sugars	O1[C@H](CO)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O[C@@]2(O[C@@H]([C@@H](O)[C@@H]2O)CO)CO	α-D-glucopyranosyl-(1→2)-β-D-fructofuranoside
+
