@@ -7,8 +7,10 @@ $(function () {
 
   initButtons()
 
-  goalFormula = {1: 4, 5: 6, 7: 3}
+  window.goalFormula = {6: 4, 1:4}
   liveFormula = {}
+
+  initAutocomplete()
 
   $('#formula-goal').html(formulaString(goalFormula))
   graph.updateLiveFormula()
@@ -74,6 +76,10 @@ function myGraph(el) {
     })
     liveFormula = formulob
     $('#formula-current').html(formulaString(liveFormula))
+
+    if (_.isEqual(liveFormula, window.goalFormula)) {
+      alert('you win')
+    }
   }
 
   this.saveToLocal = function() {
@@ -117,7 +123,7 @@ function myGraph(el) {
     var next = function() {
       if (i < ob.length){
 
-        var step = ob[i] 
+        var step = ob[i]
         var f_name = step.shift();
         // that[f_name](step); // need to unpack args
         // that[f_name].apply(undefined, step);  // can't push undefined
@@ -458,11 +464,11 @@ var pairs_to_links = function(tups){
 
 function initAutocomplete() {
   $('#molecule-search input').autocomplete({
-    lookup: _.map(molecules, function(l){ return {value: l[0], data: l[0]}}),
+    lookup: _.map(molecules, function(ob, name){ return {value: name, data: name}}),
     onSelect: function (suggestion) {
       $(this).attr('disabled', 'disabled')
-      var moleculeData = _.find(molecules, function(m) { return m[0] == suggestion.data })[0]
-      graph.updateToMolecule(moleculeData.nodes, moleculeData.links)
+      var moleculeData = molecules[suggestion.data]
+      graph.updateToMolecule(moleculeData.nodes, moleculeData.linkPairs)
     },
     width: 350,
   });
