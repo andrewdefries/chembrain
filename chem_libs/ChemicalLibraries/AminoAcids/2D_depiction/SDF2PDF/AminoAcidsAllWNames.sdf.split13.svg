@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="223.925" height="174.64" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+<rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+<line x1="80.0" y1="121.6" x2="80.0" y2="94.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="76.6" y1="90.4" x2="78.0" y2="89.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="73.9" y1="87.0" x2="76.4" y2="85.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="71.2" y1="83.6" x2="74.8" y2="81.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="68.5" y1="80.2" x2="73.2" y2="77.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="65.8" y1="76.8" x2="71.7" y2="73.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="63.1" y1="73.4" x2="70.1" y2="69.4" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="80.0" y1="94.6" x2="114.6" y2="74.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="80.0" y1="94.6" x2="53.0" y2="94.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<polygon points="114.640377 74.640175 124.576368 49.431214 131.504520 53.431302 " stroke-width="1.000000" fill="rgb(0,0,0)"  stroke="rgb(0,0,0)" />
+<line x1="114.6" y1="74.6" x2="149.3" y2="94.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="114.6" y1="74.6" x2="101.1" y2="51.3" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="152.3" y1="94.6" x2="152.3" y2="121.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="146.3" y1="94.6" x2="146.3" y2="121.6" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="149.3" y1="94.6" x2="172.7" y2="81.1" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<text x="76.000202" y="142.640477" fill="rgb(102,102,102)"  stroke="rgb(102,102,102)" stroke-width="1" font-size="16" >CH</text>
+<text x="100.000202" y="146.320477" fill="rgb(102,102,102)"  stroke="rgb(102,102,102)" stroke-width="1" font-size="13" >3</text>
+<text x="54.000101" y="68.000101" fill="rgb(191,191,191)"  stroke="rgb(191,191,191)" stroke-width="1" font-size="16" >H</text>
+<text x="128.640477" y="48.000000" fill="rgb(191,191,191)"  stroke="rgb(191,191,191)" stroke-width="1" font-size="16" >H</text>
+<text x="143.284551" y="142.640477" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+<text x="177.924726" y="82.640175" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >OH</text>
+<text x="68.640276" y="48.000000" fill="rgb(12,12,255)"  stroke="rgb(12,12,255)" stroke-width="1" font-size="16" >H</text>
+<text x="80.640276" y="51.680000" fill="rgb(12,12,255)"  stroke="rgb(12,12,255)" stroke-width="1" font-size="13" >2</text>
+<text x="87.140276" y="48.000000" fill="rgb(12,12,255)"  stroke="rgb(12,12,255)" stroke-width="1" font-size="16" >N</text>
+<text x="22.000000" y="102.640276" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >HO</text>
+<text font-size="18.000000" fill ="black" font-family="sans-serif"
+x="10.000000" y="20.000000" >threonine</text>
+<title>threonine - OBDepict</title>
+</svg>

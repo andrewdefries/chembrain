@@ -1,0 +1,80 @@
+
+R version 3.0.2 (2013-09-25) -- "Frisbee Sailing"
+Copyright (C) 2013 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ####################
+> library(rgl)
+> library(ChemmineR)
+> ####################
+> #files <- list.files(recursive=TRUE, pattern = "_coord.rda")
+> #files <- list.files(recursive=TRUE, pattern = "_sdfset.rda")
+> files <- list.files(recursive=TRUE, pattern = ".sdf")
+> ####################
+> #par(mfrow=c(3,3))
+> ####################
+> DoThis<-function(a){
++         mo_name<-gsub("_sdfset.rda","",files[a])
++         coord_name<-paste(mo_name,"_coord.rda", sep="")
++         sdfset_name<-paste(mo_name,"_sdfset.rda",sep="")
++         fpset_name<-paste(mo_name,"_fpset.rda",sep="")
++ 	png_name<-paste(mo_name, ".png",sep="")
++         ################
++         sdfset<-read.SDFset(files[a])
++         ################
++         valid <- validSDF(sdfset)
++         sdfset <- sdfset[valid]
++        	apset <-sdf2ap(sdfset)
++ 	sdfset<-sdfset[!sapply(as(apset, "list"), length)==1]
++ 	
++ 	fpset<-desc2fp(apset)
++ 	clusters <- cmp.cluster(fpset, cutoff = c(0.7))
++ 	coord <- cluster.visualize(db=apset, clusters,size.cutoff=1, dimensions=3, quiet=TRUE)
++ 	#load(coord_name[a])
++ 	save(sdfset,file=sdfset_name, compress=T)
++ 	save(fpset,file=fpset_name, compress=T)
++ 	save(coord,file=coord_name, compress=T)
++         ########
++         #rgl.open(); offset <- 50; par3d(windowRect=c(offset, offset, 640+offset, 640+offset))
++         #rm(offset); rgl.clear(); rgl.viewpoint(theta=45, phi=30, fov=60, zoom=1)
++         #spheres3d(coord[,1], coord[,2], coord[,3], radius=0.005, color="black", alpha=1, shininess=20); aspect3d(1, 1, 1)
++         #axes3d(col='black'); title3d("", "", "", "", "", col='black'); bg3d("white") # To save a snapshot of the graph, one can use the command
++         ################
++         #rgl.snapshot(png_name[a])
++         #rgl.close()
++         ################        
++         #sdfset<-sdfset[-which(sapply(as(apset, "list"), length)==1)]
++         #write.SDF(sdfset,file=sdfset_name,sig=TRUE)
++         #################
++         
++         #################
++ }
+> a<-1:length(files)
+> lapply(a,DoThis)
+ | / -                                           \ 3 % | /                                           - 5 % \                                           | 6 % / -                                           \ 8 % |                                           / 9 % -                                           \ 10 % |                                           / 11 % -                                           \ 12 % |                                           / 13 % -                                           \ 14 % |                                           / 15 % -                                           \ 16 % | /                                           - 18 % \ | / - \ |                                           / 24 % - \                                           | 26 % /                                           - 27 % \ | / - \ |                                           / 33 % -                                           \ 34 % |                                           / 35 % - \                                           | 37 %
+sorting result...
+[[1]]
+NULL
+
+Warning message:
+In read.SDFset(files[a]) :
+  1 invalid SDFs detected. To fix, run: valid <- validSDF(sdfset); sdfset <- sdfset[valid]
+> ####################
+> 
+> proc.time()
+   user  system elapsed 
+  1.776   0.052   1.829 

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cml="http://www.xml-cml.org/schema" width="236.562" height="219.59" x="0" y="0" font-family="sans-serif" stroke="rgb(0,0,0)" stroke-width="1"  stroke-linecap="round">
+<rect x="0%" y="0%" width="100%" height="100%" stroke-width="0" fill="rgb(255,255,255)"  />
+<line x1="139.1" y1="40.0" x2="160.9" y2="73.5" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="139.1" y1="40.0" x2="112.2" y2="41.4" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<polygon points="160.922108 73.547475 186.616538 82.150480 182.984532 89.278490 " stroke-width="1.000000" fill="rgb(0,0,0)"  stroke="rgb(0,0,0)" />
+<line x1="160.9" y1="73.5" x2="142.8" y2="109.2" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="160.9" y1="73.5" x2="183.6" y2="58.8" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<polygon points="142.762392 109.186918 166.232503 122.730119 161.255065 128.993115 " stroke-width="1.000000" fill="rgb(0,0,0)"  stroke="rgb(0,0,0)" />
+<line x1="130.4" y1="147.2" x2="146.3" y2="169.1" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="90.4" y1="147.2" x2="74.5" y2="169.1" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="77.1" y1="112.0" x2="51.4" y2="103.7" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="79.0" y1="106.3" x2="53.3" y2="98.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="142.8" y1="109.2" x2="130.4" y2="147.2" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="130.4" y1="147.2" x2="90.4" y2="147.2" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="124.4" y1="140.0" x2="96.4" y2="140.0" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="90.4" y1="147.2" x2="78.0" y2="109.2" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="78.0" y1="109.2" x2="99.9" y2="93.3" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<line x1="120.9" y1="93.3" x2="142.8" y2="109.2" stroke="rgb(0,0,0)"  stroke-width="1.0"/>
+<text x="190.561551" y="99.707191" fill="rgb(191,191,191)"  stroke="rgb(191,191,191)" stroke-width="1" font-size="16" >H</text>
+<text x="168.077903" y="142.074528" fill="rgb(191,191,191)"  stroke="rgb(191,191,191)" stroke-width="1" font-size="16" >H</text>
+<text x="34.000000" y="104.827111" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+<text x="104.402899" y="93.675285" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >O</text>
+<text x="48.891579" y="187.589816" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >HO</text>
+<text x="147.914218" y="187.589816" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >OH</text>
+<text x="188.469584" y="59.759816" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >OH</text>
+<text x="81.191074" y="50.091967" fill="rgb(255,12,12)"  stroke="rgb(255,12,12)" stroke-width="1" font-size="16" >HO</text>
+<text font-size="18.000000" fill ="black" font-family="sans-serif"
+x="10.000000" y="20.000000" >vitamin c</text>
+<title>vitamin c - OBDepict</title>
+</svg>
