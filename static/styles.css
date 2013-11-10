@@ -1,6 +1,6 @@
 #ipad {
   position: relative;
-  background-image: url('static/ipad_landscape.png');
+  background-image: url('ipad_landscape.png');
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
