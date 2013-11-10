@@ -14,6 +14,8 @@ $(function () {
   $('#formula-goal').html(formulaString(goalFormula))
   graph.updateLiveFormula()
 
+  tutorial = new Tutorial()
+  tutorial.init()
 });
 
 function initButtons() {
@@ -72,6 +74,62 @@ function formulaString(formulob) {
     output += symbol + "<sub>" + key +"</sub>"
   })
   return output
+}
+
+function Tutorial() {
+  this.init = function() {
+    this.state = window.localStorage['tutorialState'] || 1
+    window.localStorage['tutorialState'] = this.state
+    if (this.state !== 'done') {
+      this.loadSlide(this.state)
+    }
+  }
+
+  this.restart = function() {
+    window.localStorage['tutorialState'] = 1
+    this.init()
+  }
+
+  this.nextSlide = function() {
+    this.state = parseInt(this.state) + 1
+    this.loadSlide(this.state)
+  }
+
+  this.finish = function() {
+    console.log('ending tutorial')
+    window.localStorage['tutorialState'] = 'done';
+    $('#lightbox').empty()
+    $('#overlay').hide()
+  }
+
+  this.addButton = function() {
+    if (this.state < this.slideImages.length) {
+      $('#lightbox').append("<a id='next'><i class='fa fa-chevron-circle-right fa-4x'></i></a>")
+      $('#lightbox a#next').click(function(e) { tutorial.nextSlide() })
+    } else {
+      $('#lightbox').append("<a id='finish'><i class='fa fa-chevron-circle-right fa-4x'></i></a>")
+      $('#lightbox a#finish').click(function(e) {
+        tutorial.finish();
+      })
+    }
+  }
+
+  this.loadSlide = function(num) {
+    console.log('loading slide #' + num)
+    var src = 'static/tutorial/' + this.slideImages[num - 1]
+    if (src == undefined) {return null}
+    var html = "<img src='" + src + "'/>"
+    console.log(html)
+    $('#overlay').show()
+    $('#lightbox').html(html)
+    // $('#lightbox').modal()
+    this.addButton()
+  }
+
+  this.slideImages = [
+    "AminoAcidsFinal.svg",
+    "HandOnChemistryHandSomeWater.svg"
+  ]
 }
 
 
