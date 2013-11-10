@@ -1,6 +1,46 @@
-.main {
-  height: 100%;
+#ipad {
+  position: relative;
+  background-image: url('static/ipad_landscape.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  height: 700px;
   width: 100%;
+  margin: auto;
+}
+
+#screen {
+  margin: 0 auto;
+  position: relative;
+  /*border: 3px solid green;*/
+  /*background-color: blue;*/
+  padding: 114px 34px;
+  height: 100%;
+  width: 840px;
+  height: 552px;
+}
+
+#menu-expansion {
+  display: none;
+  width: 40%;
+  height: 100%;
+}
+
+#menu {
+  background-color: rgb(50, 174, 193);
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+#canvas {
+  float: right;
+  width: 90%;
+  height: 100%
+}
+
+svg {
+  border: 1px solid gray;
 }
 
 .link {

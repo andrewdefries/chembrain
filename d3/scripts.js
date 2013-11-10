@@ -1,6 +1,54 @@
 var graph;
 var selectedNode;
 
+$(function () {
+  graph = new myGraph("#canvas");
+  graph.addNode('6');
+
+  initButtons()
+});
+
+function initButtons() {
+  $('.add-atom').click(function(e) {
+    var element = $(this).attr('data-element')
+    if (selectedNode) {
+      graph.addLinkedNode(element, selectedNode.id);
+    } else if (graph._nodes.length == 0) {
+      graph.addNode(element)
+    }
+  });
+
+  $('#expand-menu').click(function(e) {
+    if ($('#menu').width() < 200) {
+      $('#menu').animate({width: '60%'}, { duration: 500, queue: false });
+      $('#canvas').animate({width: '40%'}, { duration: 500, queue: false });
+      $('svg').animate({width: '100%'}, { duration: 500, queue: false });
+    } else {
+      $('#menu').animate({width: '10%'}, { duration: 500, queue: false });
+      $('#canvas').animate({width: '90%'}, { duration: 500, queue: false });
+      $('svg').animate({width: '100%'}, { duration: 500, queue: false });
+    }
+
+    // $('#menu-expansion').toggle(500)
+  })
+
+  $('.kill-selected').click(function(e) {
+    if (selectedNode) { graph.removeNode(selectedNode.id); }
+  })
+
+  $('.clear').click(function(e) {
+    graph.removeAllNodes()
+  })
+
+  $('.save-to-local').click(function(e) {
+    graph.saveToLocal()
+  })
+
+  $('.load-from-local').click(function(e) {
+    graph.loadFromLocal()
+  })
+}
+
 function myGraph(el) {
   this.saveToLocal = function() {
     var ob = {
@@ -24,7 +72,7 @@ function myGraph(el) {
     }
   }
 
-  // {nodes: {atomicNumber: 6, id: 4}, linkPairs: [[4,5]]}
+  // {nodes: [{atomicNumber: 6, id: 4}], linkPairs: [[4,5]]}
   this.updateToMolecule = function(oldNodes, linkPairs) {
     var that = this
     this.removeAllNodes()
@@ -148,8 +196,8 @@ function myGraph(el) {
   };
 
   // set up the D3 visualisation in the specified element
-  var w = '500';
-  var h = '500';
+  var w = $('#canvas').width();
+  var h = $('#canvas').height();
 
   var vis = d3.select(el)
       .append("svg:svg")
@@ -220,7 +268,7 @@ function myGraph(el) {
       .attr("dx", 12)
       .attr("dy", ".35em")
       .text(function (d) {
-        return d.atom;
+        return d.symbol;
       });
 
     node.exit().remove();
@@ -255,59 +303,14 @@ function myGraph(el) {
 }
 
 function getAtom(atomicNumber) {
-  switch(parseInt(atomicNumber))
-  {
-    case 6:
-      return {atom:"C", size:22, electrons: 4, atomicNumber: atomicNumber, free: 4};
-    case 1:
-      return {atom:"H", size:10, electrons: 1, atomicNumber: atomicNumber, free: 1};
-    case 7:
-      return {atom:"N", size:24, electrons: 3, atomicNumber: atomicNumber, free: 3};
-    case 8:
-      return {atom:"O", size:26, electrons: 2, atomicNumber: atomicNumber, free: 2};
-    default:
-      console.log('WARNING: unknown element created')
-      return {}; //Not sure what to do here...
+  var raw = elementsData[atomicNumber]
+  return {
+    free: raw['free_electrons'] || 8,
+    atomicNumber: atomicNumber,
+    symbol: raw['symbol'],
+    size: atomicNumber / 20 + 10
   }
 }
-
-function initButtons() {
-  $('.add-atom').click(function(e) {
-    var element = $(this).attr('data-element')
-    if (selectedNode) {
-      graph.addLinkedNode(element, selectedNode.id);
-    } else if (graph._nodes.length == 0) {
-      graph.addNode(element)
-    }
-  });
-
-  $('.kill-selected').click(function(e) {
-    if (selectedNode) { graph.removeNode(selectedNode.id); }
-  })
-
-  $('.clear').click(function(e) {
-    graph.removeAllNodes()
-  })
-
-  $('.save-to-local').click(function(e) {
-    graph.saveToLocal()
-  })
-
-  $('.load-from-local').click(function(e) {
-    graph.loadFromLocal()
-  })
-}
-
-
-$(function () {
-  graph = new myGraph("#main");
-  graph.addNode('6');
-
-  initButtons()
-});
-
-
-
 
 //   force = d3.layout.force()
 //     .size([500, 500])
@@ -327,16 +330,6 @@ $(function () {
 // //        .gravity(0.1)
 // //        .size([500,500])
 // //        .start()
-
-
-// var free_electrons = function(atomSize){
-//   if (atomSize <= 2){
-//     return 2 - atomSize;
-//   } if (atomSize < 18){
-//     return ((2 - atomSize) % 8) + 8;
-//   }
-// }
-
 
 // ============ SECTION ===============
 

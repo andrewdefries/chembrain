@@ -10,6 +10,7 @@
   <!-- // <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="underscore.js"></script>
+  <script type="text/javascript" src="periodic_table.json"></script>
   <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script> -->
   <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script> -->
   <script type="text/javascript" src="d3.min.js"></script>
@@ -19,13 +20,25 @@
 </head>
 
 <body>
-  <div id='menu'>
-    <button class='add-atom' data-element='1'>Add Hydrogen</button>
-    <button class='add-atom' data-element='6'>Add Carbon</button>
-    <button class='kill-selected'>Kill Selected</button>
-    <button class='clear'>Clear</button>
-    <button class='save-to-local'>Save to Local</button>
-    <button class='load-from-local'>Load from Local</button>
+  <div id='ipad'>
+    <div id='screen'>
+      <div id='menu'>
+        <div id='menu-expansion'></div>
+        <button id='expand-menu'>
+          <img src='static/expand_menu.png'/>
+        </button>
+        <div id='controls'>
+          <div id='add-elements'>
+            <button class='add-atom' data-element='1'>Add Hydrogen</button>
+            <button class='add-atom' data-element='6'>Add Carbon</button>
+          </div>
+          <button class='kill-selected'>Kill Selected</button>
+          <button class='clear'>Clear</button>
+        </div>
+        <button class='save-to-local'>Save to Local</button>
+        <button class='load-from-local'>Load from Local</button>
+      </div>
+      <div id='canvas'></div>
+    </div>
   </div>
-  <div id='main'></div>
 </body>
