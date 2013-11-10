@@ -6,7 +6,6 @@ $(function () {
   graph.addNode('6');
 
   initButtons()
-
   window.goalFormula = {6: 4, 1:4}
   liveFormula = {}
 
@@ -14,6 +13,7 @@ $(function () {
 
   $('#formula-goal').html(formulaString(goalFormula))
   graph.updateLiveFormula()
+
 });
 
 function initButtons() {
@@ -36,6 +36,8 @@ function initButtons() {
       $('#canvas').animate({width: '90%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
     }
+
+    // $('#expand-menu').toggle(500)
   })
 
   $('.kill-selected').click(function(e) {
@@ -64,7 +66,9 @@ function formulaString(formulob) {
   return output
 }
 
+
 function myGraph(el) {
+
   this.updateLiveFormula = function() {
     var formulob = {}
     _.each(nodes, function(node) {
@@ -97,6 +101,27 @@ function myGraph(el) {
     window.localStorage.setItem("savedMolecule", stringed)
   }
 
+  this.undo = function() {
+    // WIP
+    step = this._recording.pop();
+    var f_name = step.shift();
+
+    var reverse_function_dict = {
+      "addNode": "removeNode",
+      "addLink": "removeLink",
+      "removeNode": "addNode",
+      "removeLink": "addLink"
+    }
+    var f_name = reverse_function_dict[reverse_function_dict]
+
+
+    // oh dear
+    args = JSON.stringify(step).slice(1, -1);
+
+    eval("this." + f_name +"(" + args + ")");
+
+  }
+
   this.loadFromLocal = function() {
     var get = window.localStorage["savedMolecule"]
     if (get) {
@@ -107,23 +132,23 @@ function myGraph(el) {
   // {nodes: [{atomicNumber: 6, id: 4}], linkPairs: [[4,5]]}
   this.loadJSON = function(json) {
     var ob = JSON.parse(json)
-    graph.updateToMolecule(ob.nodes, ob.linkPairs)
     if (ob.recording){
-      graph._recording = ob.recording;
+      this.fromRecording(ob.recording);
+    } else {
+      graph.updateToMolecule(ob.nodes, ob.linkPairs);
     }
   }
 
   this.fromRecording = function(recording){
-    var ob = JSON.parse(recording)
     var that = this
 
     this.removeAllNodes();
 
     var i = 0;
     var next = function() {
-      if (i < ob.length){
+      if (i < recording.length){
 
-        var step = ob[i]
+        var step = recording[i]
         var f_name = step.shift();
         // that[f_name](step); // need to unpack args
         // that[f_name].apply(undefined, step);  // can't push undefined
@@ -151,8 +176,7 @@ function myGraph(el) {
     _.each(linkPairs, function(linkPair) {
       that.addLink(linkPair[0], linkPair[1], 1)
     })
-
-    graph.updateLiveFormula()
+    this.updateLiveFormula()
   }
 
   this.addLinkedNode = function(letter, linkedId) {
@@ -169,8 +193,7 @@ function myGraph(el) {
 
     var newNode = this.addNode(letter)
     this.addLink(newNode.id, linkedId, 1)
-
-    graph.updateLiveFormula()
+    this.updateLiveFormula()
   }
 
   this.addNode = function(atomicNumber, id) {
@@ -248,17 +271,18 @@ function myGraph(el) {
 
     this._recording = [];;
 
-
     this.removeAllLinks()
     nodes.splice(0, nodes.length);
     update();
     selectedNode = null;
-    graph.updateLiveFormula()
+    graph.updateLiveFormula();
   };
 
   this.addLink = function (sourceId, targetId, value) {
     // Awful HACK
     this._recording.push(["addLink", sourceId, targetId, value]);
+
+    if (!value) {var value = 1;}
 
     var source = findNode(sourceId)
     var target = findNode(targetId)
@@ -420,6 +444,7 @@ var free_electrons = function(atomSize){
     return ((2 - atomSize) % 8) + 8;
   }
 }
+
 
 //   force = d3.layout.force()
 //     .size([500, 500])
