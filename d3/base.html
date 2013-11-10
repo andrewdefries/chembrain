@@ -11,6 +11,7 @@
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="underscore.js"></script>
   <script type="text/javascript" src="periodic_table.json"></script>
+  <script type="text/javascript" src="jquery.autocomplete.js"></script>
   <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script> -->
   <!-- // <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script> -->
   <script type="text/javascript" src="d3.min.js"></script>
@@ -37,6 +38,9 @@
         </div>
         <button class='save-to-local'>Save to Local</button>
         <button class='load-from-local'>Load from Local</button>
+        <form id='molecule-search'>
+          <input class="search-text" type="text" name="q" placeholder="Molecule Name" value="">
+        </form>
       </div>
       <div id='canvas'></div>
     </div>

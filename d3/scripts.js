@@ -360,6 +360,18 @@ var pairs_to_links = function(tups){
 // ================= END SECTION ===============
 
 
+function initAutocomplete() {
+  $('#molecule-search input').autocomplete({
+    lookup: _.map(molecules, function(l){ return {value: l[0], data: l[0]}}),
+    onSelect: function (suggestion) {
+      $(this).attr('disabled', 'disabled')
+      var moleculeData = _.find(molecules, function(m) { return m[0] == suggestion.data })[0]
+      graph.updateToMolecule(moleculeData.nodes, moleculeData.links)
+    },
+    width: 350,
+  });
+}
+
 
 // ================= OLD ===============
 
