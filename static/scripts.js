@@ -373,6 +373,16 @@ function Graph(el) {
     clearTimeout(timer)
   }
 
+  this.isConnected = function(node_id, other_id){
+    var connected = false;
+    _.each(this._links, function(link){
+      if (((link.source.id == node_id) && (link.target.id == other_id)) ||
+          ((link.source.id == other_id) && (link.target.id == node_id))){
+            connected = true;
+      }
+    })
+    return connected;
+  }
 
   this.updateToMolecule = function(oldNodes, linkPairs) {
     var that = this
@@ -596,8 +606,10 @@ function Graph(el) {
       .attr("stroke", "black")
       .attr("opacity", 0)
       .on('click', function(d,i) {
-        if (graph.onClickCreateLink){
-          graph.addLink(selectedNode.id, d.id, 1)
+        if((graph.onClickCreateLink) && (!(graph.isConnected(selectedNode.id, d.id)))){
+            graph.addLink(selectedNode.id, d.id, 1);
+        } else {
+            console.log("WARNING: tried to make a double link, NotImplementedError")
         }
         selectedNode = d;
         $('circle').attr('stroke-width', 0);
