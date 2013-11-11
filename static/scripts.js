@@ -5,18 +5,28 @@ $(function () {
   graph = new Graph("#canvas");
   graph.addNode('6');
 
-  game = new Game("makeFormula", {3: 4, 40:4}, graph);
+  goals = [
+    ['Water', {1:2, 8:1}],
+  ]
+
+  var newGoal = goals.splice(0,1)[0]
+  game = new Game("makeFormula", newGoal[0], newGoal[1], graph);
   game.update();
 
   initAutocomplete()
   initMenu()
   initButtons()
 
-  //graph.updateLiveFormula()
-
   tutorial = new Tutorial()
   tutorial.init()
 });
+
+function nextGame() {
+  var newGoal = goals.splice(0,1)[0]
+  game.goal = newGoal[1];
+  game.goalText = newGoal[0];
+  game.update();
+}
 
 function initButtons() {
   $('.add-atom').click(function(e) {
@@ -168,10 +178,11 @@ function Tutorial() {
   ]
 }
 
-function Game(gameType, goal, graph) {
+function Game(gameType, goalText, goal, graph) {
   this.gameType = gameType;
   this.goal = goal;
   this.graph = graph;
+  this.goalText = goalText;
 
   this.currentFormula = function(){
     var formulob = {}
@@ -190,16 +201,30 @@ function Game(gameType, goal, graph) {
   }
 
   this.updateMakeFormula = function () {
+    var html = "<div>Your Goal: Make <span id='goal-text'></span></div><div>Formula: <span id='formula-goal'></span></div><div>Your Formula: <span id='formula-current'></span></div>"
+    var legend = document.getElementById('legend')
+    console.log(html)
+    legend.innerHTML = html
     var current = this.currentFormula()
     $('#formula-goal').html(formulaString(this.goal)) // should be done only init?
+    $('#goal-text').html(this.goalText)
     $('#formula-current').html(formulaString(current))
-    if (this.compareFormula(current, this.goal)){alert('you win');}
+    console.log('update formulas')
+
+    if (this.compareFormula(current, this.goal)){ this.win() }
   }
 
   this.update = function(){
-    if (this.gameType == 'makeFormula'){
-      this.updateMakeFormula();
-    }
+    console.log('game update')
+    this.updateMakeFormula();
+  }
+
+  this.win = function() {
+    var legend = document.getElementById('legend')
+    $('#legend').html("<div style='font-size:1.5em;'>GREAT JOB!</div><button id='next-game'>Next Game</buttom>")
+    $('#next-game').click(function(e) {
+      nextGame()
+    })
   }
 }
 
