@@ -19,7 +19,7 @@ Run `python app.py`, then open `http://localhost:8005` in a browser.
 
 
 
-This project is protect protected by the MIT license below
+This project is protected by the MIT license below
 ===
 The MIT License (MIT)
 
