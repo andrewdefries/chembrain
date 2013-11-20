@@ -16,24 +16,14 @@ html, body, div, span, button, applet, object, input, iframe, h1, h2, h3, h4, h5
   margin: 4px;
 }
 
-#ipad {
-  position: relative;
-  background-image: url('ipad_landscape.png');
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
-  height: 700px;
-  width: 100%;
-  margin: auto;
-}
 
 #screen {
   margin: 0 auto;
   position: relative;
   padding: 114px 34px;
   height: 100%;
-  width: 840px;
-  height: 552px;
+  width: 1800px;
+  height: 1200px;
 }
 
 #menu-expansion {

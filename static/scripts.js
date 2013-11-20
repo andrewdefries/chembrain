@@ -6,7 +6,7 @@ $(function () {
   graph.addNode('6');
 
   goals = [
-    ['Water', {1:2, 8:1}],
+    ['Working on this feature', {1:2, 8:1}],
   ]
 
   var newGoal = goals.splice(0,1)[0]
@@ -38,8 +38,8 @@ function initButtons() {
     }
   });
 
-  $('#expand-menu').click(function(e) {
-    if ($('#menu').width() < 200) {
+  $('#expand-menu').click(function(e) {  
+    if ($('#menu').width() < 500) { 
       $('#menu').animate({width: '30%'}, { duration: 500, queue: false });
       $('#canvas').animate({width: '70%'}, { duration: 500, queue: false });
       $('svg').animate({width: '100%'}, { duration: 500, queue: false });
@@ -72,7 +72,10 @@ function initButtons() {
   })
 
   $('.start-generation').click(function(e) {
-    graph.startGenerate(250)
+    //graph.startGenerate(250)
+    graph.saveToLocal()
+    graph.removeAllNodes()
+    graph.loadFromLocal()
   })
 
   $('.toggle-link-creation').click(function(e) {
@@ -174,7 +177,10 @@ function Tutorial() {
     "ValenceCO2.svg",
     "NucleotidesAllWNames.svg",
     "NucleotidesOfLifeFinal.svg",
-    "AminoAcidsFinal.svg"
+    "AminoAcidsFinal.svg",
+    "Shot1.png",
+    "Shot2.png",
+    "Shot3.png"
   ]
 }
 
@@ -651,7 +657,7 @@ function Graph(el) {
     // })
 
     // Restart the force layout.
-    force.gravity(.05)
+    force.gravity(.15)
         .distance(50)
         .linkDistance(50)
         .size([w, h])
