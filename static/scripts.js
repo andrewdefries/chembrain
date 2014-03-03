@@ -177,10 +177,7 @@ function Tutorial() {
     "ValenceCO2.svg",
     "NucleotidesAllWNames.svg",
     "NucleotidesOfLifeFinal.svg",
-    "AminoAcidsFinal.svg",
-    "Shot1.png",
-    "Shot2.png",
-    "Shot3.png"
+    "AminoAcidsFinal.svg"
   ]
 }
 
