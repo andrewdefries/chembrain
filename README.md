@@ -1,23 +1,42 @@
-This repo is documentation of a d3-js hack to use force directed graphs as a visualization for small organic molecules supplied by file input.
-
-Project details are here:
-
-http://hackathon.launch.co/project/launch-hackathon-2013-andrew-defries-phds-project
-
-The online app is featured here:
-
-www.handsonchem.com
-
-
+Contributors
+===
 Contributors were: Jon Parker, Andy Hayden, and Andrew Defries
 
+Background
+===
+This repo is documentation of a simple d3-js hack to utilize force directed graphs as a visualization for small organic molecules as flexible atomic graphs. The d3 canvas enables the user to build a custom molecule atom by atom, search for a molecule in the daily diet, or interact with the nodes and edges 
+
+Screencast Tutorial
+===
+![Play through](https://github.com/andrewdefries/chembrain/blob/master/static/tutorial/out.gif)
+
+UNIX Working Environment
 ===
 
-To launch the app locally you can type the following 
+Install nginx 
+Install python (ex. pip install flask)
 
-Run `python app.py`, then open `http://localhost:8005` in a browser.
 
 
+Python launching instructions
+===
+
+To launch the app locally you can type the following: 
+
+```
+python app.py
+```
+
+open http://localhost:8005 in a browser
+
+History
+===
+
+Project details was here:
+http://hackathon.launch.co/project/launch-hackathon-2013-andrew-defries-phds-project
+
+The online app was featured here:
+www.handsonchem.com
 
 This project is protected by the MIT license below
 ===
